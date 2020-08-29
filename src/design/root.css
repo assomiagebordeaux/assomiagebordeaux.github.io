@@ -7,10 +7,12 @@
     --navbar-link-color: var(--white-AMB);
     --navbar-link-color-hover: #BCBCBC;
     --navbar-limit-responsive: 870px;
+    --navbar-font-family: GothamBook;
 }
 
 body {
     min-width: 320px;
+    min-height: 100vh;
 }
 
 @font-face {

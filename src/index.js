@@ -6,6 +6,7 @@ import './design/root.css';
 
 import Accueil from './pages/Accueil';
 import Navbar from './modules/Navbar';
+import Footer from './modules/Footer';
 
 const routing = (
   <Router>
@@ -15,7 +16,7 @@ const routing = (
       <Route exact path="/wordpress" component={Accueil} />
       {/* <Route component={Notfound} /> */}
     </Switch>
-    {/* <Footer /> */}
+    <Footer />
   </Router>
 )
 
