@@ -1,0 +1,128 @@
+@media screen and (min-width: 700px) {
+
+.module-tuileEvent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.module-tuileEvent-illustration {
+    min-width: 300px;
+    height: auto;
+}
+
+.module-tuileEvent-illustration img {
+    width: 250px;
+    border-radius: 50%;
+    align-content: center;
+    margin: auto;
+}
+
+.module-tuileEvent-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.module-tuileEvent-info-titre {
+    font-family: var(--tuile-event-title-font-family);
+    font-size: var(--tuile-event-title-font-size);
+}
+
+.module-tuileEvent-info-lieu {
+    font-family: var(--tuile-event-include-font-family);
+    font-size: var(--tuile-event-include-font-size);
+    color: var(--tuile-event-include-color);
+}
+
+.module-tuileEvent-info-date {
+    font-family: var(--tuile-event-date-font-family);
+    font-size: var(--tuile-event-date-font-size);
+    margin-top: 2%;
+}
+
+.module-tuileEvent-info-description {
+    font-family: var(--tuile-event-description-font-family);
+    font-size: var(--tuile-event-description-font-size);
+    margin-top: 2%;
+    font-style: italic;
+}
+
+.module-tuileEvent-info-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.module-tuileEvent-info-buttons-margin {
+    padding-left: 30px;
+}
+
+}
+
+@media screen and (max-width: 699px) {
+
+    .module-tuileEvent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .module-tuileEvent-illustration {
+        display: none;
+    }
+    
+    .module-tuileEvent-infos {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+    
+    .module-tuileEvent-info-titre {
+        font-family: var(--tuile-event-title-font-family);
+        font-size: var(--tuile-event-title-font-size);
+        text-align: center;
+        width: 100%;
+    }
+    
+    .module-tuileEvent-info-lieu {
+        font-family: var(--tuile-event-include-font-family);
+        font-size: var(--tuile-event-include-font-size);
+        color: var(--tuile-event-include-color);
+        margin-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .module-tuileEvent-info-date {
+        font-family: var(--tuile-event-date-font-family);
+        font-size: var(--tuile-event-date-font-size);
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .module-tuileEvent-info-description {
+        font-family: var(--tuile-event-description-font-family);
+        font-size: var(--tuile-event-description-font-size);
+        margin-top: 10px;
+        font-style: italic;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .module-tuileEvent-info-buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .module-tuileEvent-info-buttons-margin {
+        padding-left: 10px;
+    }
+    
+    }

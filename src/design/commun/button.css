@@ -1,0 +1,39 @@
+.module-button {
+    width: fit-content;
+    text-decoration: none;
+    padding: 13px 25px 13px 25px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-family: var(--button-font-family);
+}
+
+.button-white {
+    background-color: white;
+    color: var(--bleu-AMB);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button-white:hover {
+    background-color: var(--navbar-link-color-hover);
+    color: var(--bleu-AMB);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button-bleuAMB {
+    background-color: var(--button-bleuAMB-backgroundcolor);
+    color: white;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button-bleuAMB:hover {
+    background-color: var(--button-bleuAMB-backgroundcolor-hover);
+    color: white;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
