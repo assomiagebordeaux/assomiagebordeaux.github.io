@@ -1,7 +1,7 @@
 .module-navbar {
     background-color: var(--bleu-AMB);
     color: var(--white-AMB);
-    font-family: GothamBook;
+    font-family: var(--navbar-font-family);
 }
 
 @media screen and (min-width: 500px) {

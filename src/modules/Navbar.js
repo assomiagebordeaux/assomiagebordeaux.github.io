@@ -5,8 +5,6 @@ import '../design/commun/navbar.css'
 
 import logo from '../images/LogoAMB.png';
 
-// import '../public/css/home.css';
-
 class Navbar extends Component {
     render() {
         const data = {
