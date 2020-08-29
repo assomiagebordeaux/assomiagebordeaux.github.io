@@ -1,8 +1,39 @@
 :root {
-    --bleu-AMB: blue;
+    /* Theme AMB standard */
+    --bleu-AMB: rgb(28,31,61);
+    --white-AMB: white;
 
-    padding: 0;
+    /* Navbar specs */
+    --navbar-link-color: var(--white-AMB);
+    --navbar-link-color-hover: #BCBCBC;
+    --navbar-limit-responsive: 870px;
 }
+
+body {
+    min-width: 320px;
+}
+
+@font-face {
+    font-family: GothamThin;
+    src: url(../fonts/Gotham-Thin.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/Gotham-Book.ttf);
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/Gotham-Medium.ttf);
+}
+
+@font-face {
+    font-family: GothamUltra;
+    src: url(../fonts/Gotham-Ultra.ttf);
+}
+
+
 
 body {
     margin: 0;
