@@ -5,7 +5,21 @@ import '../design/commun/navbar.css'
 
 import logo from '../images/LogoAMB.png';
 
+// Fonction qui s'occupe de rendre invisible le menu de la navbar 
+// quand celle-ci est en mode smartphone
+function hideMenu() {
+    var x = document.getElementById("module-navbar-column-menu");
+    if (x.style.display === "flex") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
 class Navbar extends Component {
+    componentDidMount(){
+        hideMenu();
+    }
     render() {
         const data = {
             linkLogo: "/",
@@ -20,14 +34,6 @@ class Navbar extends Component {
                 x.style.display = "none";
             }
         };
-        function hideMenu() {
-            var x = document.getElementById("module-navbar-column-menu");
-            if (x.style.display === "flex") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "none";
-            }
-        }
         return(
             <div class="module-navbar">
 

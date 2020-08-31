@@ -15,12 +15,12 @@ class Events extends Component {
                 type="event"
                 typeEvent="afterwork"
                 title="Afterwork AMC x JMC"
-                lieu="HMS Victory"
+                lieu="Lieu à venir"
                 date="mercredi 9 septembre 2020"
                 description="Venez découvrir les deux assos de la formation MIAGE : 
                 l'AMB, le Bureau des Elèves et JMC, la Junior-Entreprise."
-                button1Color="bleuAMB"
-                button1Label="En savoir plus"
+                button1Color="grey"
+                button1Label="Infos à venir"
                 button1Link="/events/aw-09092020"
                 />
                 <div class="page-events-subtitle">Events à suivre</div>
@@ -33,8 +33,8 @@ class Events extends Component {
                 date="mercredi 16 septembre 2020"
                 description="Une soirée placée sous le signe des parrains. 
                 A vous de le débusquer !"
-                button1Color="bleuAMB"
-                button1Label="En savoir plus"
+                button1Color="grey"
+                button1Label="Infos à venir"
                 button1Link="/events/aw-16092020"
                 />
                 <Tuile 

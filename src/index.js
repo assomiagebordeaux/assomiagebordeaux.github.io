@@ -18,6 +18,8 @@ import Navbar from './modules/Navbar';
 import Footer from './modules/Footer';
 import Events from './pages/Events';
 import Page404 from './pages/Page404';
+import Contact from './pages/Contact';
+import Adhesion from './pages/association/Adhesion';
 
 // Routing du site
 const routing = (
@@ -27,6 +29,8 @@ const routing = (
       <Route exact path="/" component={Accueil} />
       <Redirect from="/wordpress" to="/" />
       <Route exact path="/events" component={Events} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/association/adhesion" component={Adhesion} /> 
       <Route component={Page404} />
     </Switch>
     <Footer />

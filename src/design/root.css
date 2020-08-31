@@ -15,6 +15,9 @@
     --navbar-limit-responsive: 870px;
     --navbar-font-family: GothamBook;
 
+    /* Footer specs */
+    --footer-color: #BCBCBC;
+
     /* Tuile specs */
     --tuile-mix-font-family: GothamMedium;
 

@@ -114,7 +114,7 @@
     }
 
     .module-navbar-column-menu {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 2rem;
