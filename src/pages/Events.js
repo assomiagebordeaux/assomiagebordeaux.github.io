@@ -46,8 +46,8 @@ class Events extends Component {
                 date="mercredi 23 septembre 2020"
                 description="Rencontrez les diplômés de MIAGE Bordeaux, 
                 que ce soit des M3 ou des M10 !"
-                button1Color="bleuAMB"
-                button1Label="En savoir plus"
+                button1Color="grey"
+                button1Label="Infos à venir"
                 button1Link="/events/aw-16092020"
                 isLast="true"
                 />

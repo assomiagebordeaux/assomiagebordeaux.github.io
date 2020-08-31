@@ -7,6 +7,7 @@
     --button-bleuAMB-backgroundcolor:var(--bleu-AMB);
     --button-bleuAMB-backgroundcolor-hover:#454EA1;
     --button-font-family: GothamBook;
+    --button-grey-color: #BCBCBC;
 
     /* Navbar specs */
     --navbar-link-color: var(--white-AMB);

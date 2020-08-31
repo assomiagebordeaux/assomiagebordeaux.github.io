@@ -17,7 +17,12 @@ export function Button(props) {
             return(
                 <Link to={props.link} style={{ textDecoration: 'none' }}>
                     <div class="module-button button-bleuAMB">{props.label}</div>
-                </Link>            );
+                </Link>
+            );            
+        } else if (color==="grey"){
+            return(
+                <div class="module-button button-grey">{props.label}</div>
+            );
         } else {
             return(null);
         }
