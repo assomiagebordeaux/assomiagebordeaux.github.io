@@ -4,6 +4,19 @@
     font-family: var(--navbar-font-family);
 }
 
+@media screen and (min-width: 1921px) {
+    .module-navbar-row {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .module-navbar-row {
+        margin-left: 8%;
+    }
+}
+
 @media screen and (min-width: 500px) {
 
     .module-navbar {
@@ -17,11 +30,11 @@
     .module-navbar-row {
         display: flex;
         flex-direction: row;
+        max-width: 1920px;
+        padding: 1rem 0 1rem 0;
     }
     
     .module-navbar-row-logo {
-        padding: 1rem;
-        margin-left: 6%;
         margin-right: 40px;
     }
     
@@ -101,7 +114,7 @@
     }
 
     .module-navbar-column-menu {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         padding-bottom: 2rem;

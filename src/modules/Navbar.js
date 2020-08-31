@@ -19,10 +19,15 @@ class Navbar extends Component {
             } else {
                 x.style.display = "none";
             }
-          };
-        //   var styleColumn = {
-        //       display: 'none'
-        //   };
+        };
+        function hideMenu() {
+            var x = document.getElementById("module-navbar-column-menu");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "none";
+            }
+        }
         return(
             <div class="module-navbar">
 
@@ -43,21 +48,18 @@ class Navbar extends Component {
                 <div class="module-navbar-column">
                     <div class="module-navbar-column-first-row">
                         <div class="module-navbabr-column-first-row-logo">
-                            <Link class="module-navbabr-column-first-row-logo-img" to={data.linkLogo}><img src={logo} alt="Logo"/></Link>
+                            <Link class="module-navbabr-column-first-row-logo-img" to={data.linkLogo} onClick={hideMenu}><img src={logo} alt="Logo"/></Link>
                         </div>
                         <div className="module-navbabr-column-first-row-icon" onClick={displayMenu}>
                             <i class="fa fa-bars"></i>
                         </div>
-                        {/* <div className="module-navbabr-column-first-row-icon">
-                            <i class="fa fa-bars"></i>
-                        </div> */}
                     </div>
                     <div id="module-navbar-column-menu" class="module-navbar-column-menu">
                         <div class="module-navbar-column-menu-lien">
-                            <Link to={data.linkFirst} onClick={displayMenu}>{data.nameFirst}</Link>  
+                            <Link to={data.linkFirst} onClick={hideMenu}>{data.nameFirst}</Link>  
                         </div>
                         <div class="module-navbar-column-menu-lien module-navbar-column-menu-lien-marginTop">
-                            <Link to={data.linkSecond} onClick={displayMenu}>{data.nameSecond}</Link>
+                            <Link to={data.linkSecond} onClick={hideMenu}>{data.nameSecond}</Link>
                         </div>
                     </div>
                 </div>

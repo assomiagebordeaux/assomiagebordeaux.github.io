@@ -3,11 +3,37 @@
     --bleu-AMB: rgb(28,31,61);
     --white-AMB: white;
 
+    /* Buttons specs */
+    --button-bleuAMB-backgroundcolor:var(--bleu-AMB);
+    --button-bleuAMB-backgroundcolor-hover:#454EA1;
+    --button-font-family: GothamBook;
+    --button-grey-color: #BCBCBC;
+
     /* Navbar specs */
     --navbar-link-color: var(--white-AMB);
     --navbar-link-color-hover: #BCBCBC;
     --navbar-limit-responsive: 870px;
     --navbar-font-family: GothamBook;
+
+    /* Tuile specs */
+    --tuile-mix-font-family: GothamMedium;
+
+    --tuile-event-title-font-family: GothamMedium;
+    --tuile-event-title-font-size: 2rem;
+    --tuile-event-include-font-family: GothamBook;
+    --tuile-event-include-font-size: 1rem;
+    --tuile-event-include-color: #BCBCBC;
+    --tuile-event-date-font-family: GothamBook;
+    --tuile-event-date-font-size: 1rem;
+    --tuile-event-description-font-family: GothamBook;
+    --tuile-event-description-font-size: 1rem;
+
+    /* Pages specs */
+    --page-title-font-family: GothamMedium;
+    --page-title-font-size: 3rem;
+    --page-subtitle-font-family: GothamBook;
+    --page-subtitle-font-size: 1rem;
+    --page-subtitle-color: #BCBCBC;
 }
 
 body {
