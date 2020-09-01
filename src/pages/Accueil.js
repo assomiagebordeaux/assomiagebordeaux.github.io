@@ -16,22 +16,6 @@ class Accueil extends Component {
                 type="mix"
                 typeMix="large"
                 status="online"
-                imgurl={MoisIntegration}
-                linkGlobal="/events"
-                title="Mois d'Intégration"
-                description="Le mois à ne pas manquer !"
-                date="Tout le mois de Septembre"
-                numberButtons="1"
-                buttonColor="white"
-                buttonLabel="En savoir plus"
-                buttonLink="/events"
-                last="fast"
-                />
-                <Tuile 
-                display="true"
-                type="mix"
-                typeMix="large"
-                status="online"
                 imgurl={Adhesion}
                 linkGlobal=""
                 title="Adhérer à l'AMB"
@@ -42,6 +26,22 @@ class Accueil extends Component {
                 buttonLabel="En savoir plus"
                 buttonLink="/association/adhesion"
                 last=""
+                />
+                <Tuile 
+                display="true"
+                type="mix"
+                typeMix="large"
+                status="online"
+                imgurl={MoisIntegration}
+                linkGlobal="/events"
+                title="Mois d'Intégration"
+                description="Le mois à ne pas manquer !"
+                date="Tout le mois de Septembre"
+                numberButtons="1"
+                buttonColor="white"
+                buttonLabel="En savoir plus"
+                buttonLink="/events"
+                last="fast"
                 />
             </div>
         );

@@ -25,6 +25,43 @@
     .page-paragraphe {
         font-family: var(--page-subtitle-font-family);
     }
+
+    .page-column {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .page-column-section {
+        width: inherit;
+        border: 3px solid var(--orange-AMB);
+        padding: 20px;
+    }
+
+    .page-column-section-margin {
+        margin-right: 20px;
+    }
+
+    .page-column-section-title {
+        font-family: var(--page-title-font-family);
+        font-size: var(--page-subtitle-font-size);
+    }
+
+    .page-column-section-paragraphe {
+        font-family: var(--page-subtitle-font-family);
+        font-size: var(--tuile-event-description-font-size);
+    }
+
+    .page-column-section-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-column-section-link a {
+        font-family: var(--page-subtitle-font-family);
+        font-size: var(--tuile-event-description-font-size);
+        text-align: center;
+    }
     
     }
     
@@ -52,10 +89,53 @@
             margin-bottom: 30px;
             text-align: center;
         }
-
+    
         .page-paragraphe {
             font-family: var(--page-subtitle-font-family);
             text-align: center;
+        }
+    
+        .page-column {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+    
+        .page-column-section {
+            width: inherit;
+            border: 3px solid var(--orange-AMB);
+            padding: 20px;
+        }
+    
+        .page-column-section-margin {
+            margin-bottom: 20px;
+        }
+    
+        .page-column-section-title {
+            font-family: var(--page-title-font-family);
+            font-size: var(--page-subtitle-font-size);
+            text-align: center;
+        }
+    
+        .page-column-section-paragraphe {
+            font-family: var(--page-subtitle-font-family);
+            font-size: var(--tuile-event-description-font-size);
+            text-align: center;
+        }
+    
+        .page-column-section-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .page-column-section-link a {
+            font-family: var(--page-subtitle-font-family);
+            font-size: var(--tuile-event-description-font-size);
+            text-align: center;
+        }
+
+        .page-section-final {
+            margin-bottom: 50px;
         }
     
     }

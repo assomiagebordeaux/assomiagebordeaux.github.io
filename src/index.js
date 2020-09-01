@@ -29,7 +29,7 @@ const routing = (
       <Route exact path="/" component={Accueil} />
       <Redirect from="/wordpress" to="/" />
       <Route exact path="/events" component={Events} />
-      <Route exact path="/contact" component={Contact} />
+      {/* <Route exact path="/contact" component={Contact} /> */}
       <Route exact path="/association/adhesion" component={Adhesion} /> 
       <Route component={Page404} />
     </Switch>
