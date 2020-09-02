@@ -1,0 +1,72 @@
+:root {
+    /* Theme AMB standard */
+    --bleu-AMB: rgb(28,31,61);
+    --orange-AMB: rgb(216,160,73);
+    --white-AMB: white;
+
+    /* Buttons specs */
+    --button-bleuAMB-backgroundcolor:var(--bleu-AMB);
+    --button-bleuAMB-backgroundcolor-hover:#454EA1;
+    --button-font-family: GothamBook;
+    --button-grey-color: #BCBCBC;
+
+    /* Navbar specs */
+    --navbar-link-color: var(--white-AMB);
+    --navbar-link-color-hover: #BCBCBC;
+    --navbar-limit-responsive: 870px;
+    --navbar-font-family: GothamBook;
+
+    /* Footer specs */
+    --footer-color: #BCBCBC;
+
+    /* Tuile specs */
+    --tuile-mix-font-family: GothamMedium;
+
+    --tuile-event-title-font-family: GothamMedium;
+    --tuile-event-title-font-size: 2rem;
+    --tuile-event-include-font-family: GothamBook;
+    --tuile-event-include-font-size: 1rem;
+    --tuile-event-include-color: #BCBCBC;
+    --tuile-event-date-font-family: GothamBook;
+    --tuile-event-date-font-size: 1rem;
+    --tuile-event-description-font-family: GothamBook;
+    --tuile-event-description-font-size: 1rem;
+
+    /* Pages specs */
+    --page-title-font-family: GothamMedium;
+    --page-title-font-size: 3rem;
+    --page-subtitle-font-family: GothamBook;
+    --page-subtitle-font-size: 1rem;
+    --page-subtitle-color: #BCBCBC;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: GothamThin;
+    src: url(../fonts/Gotham-Thin.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/Gotham-Book.ttf);
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/Gotham-Medium.ttf);
+}
+
+@font-face {
+    font-family: GothamUltra;
+    src: url(../fonts/Gotham-Ultra.ttf);
+}
+
+
+
+body {
+    margin: 0;
+}
