@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d0e6472.chunk.css",
-    "main.js": "/static/js/main.3044e099.chunk.js",
-    "main.js.map": "/static/js/main.3044e099.chunk.js.map",
+    "main.css": "/static/css/main.09c4a573.chunk.css",
+    "main.js": "/static/js/main.71728a6c.chunk.js",
+    "main.js.map": "/static/js/main.71728a6c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "runtime-main.js.map": "/static/js/runtime-main.62c936a4.js.map",
-    "static/js/2.0ea2e912.chunk.js": "/static/js/2.0ea2e912.chunk.js",
-    "static/js/2.0ea2e912.chunk.js.map": "/static/js/2.0ea2e912.chunk.js.map",
+    "static/js/2.0d42187a.chunk.js": "/static/js/2.0d42187a.chunk.js",
+    "static/js/2.0d42187a.chunk.js.map": "/static/js/2.0d42187a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7fc02cf3ddf39bcdd79d17c345252d9d.js": "/precache-manifest.7fc02cf3ddf39bcdd79d17c345252d9d.js",
+    "precache-manifest.4b7ea1f345b503e810f903f9b6eb2bf0.js": "/precache-manifest.4b7ea1f345b503e810f903f9b6eb2bf0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4d0e6472.chunk.css.map": "/static/css/main.4d0e6472.chunk.css.map",
-    "static/js/2.0ea2e912.chunk.js.LICENSE.txt": "/static/js/2.0ea2e912.chunk.js.LICENSE.txt",
+    "static/css/main.09c4a573.chunk.css.map": "/static/css/main.09c4a573.chunk.css.map",
+    "static/js/2.0d42187a.chunk.js.LICENSE.txt": "/static/js/2.0d42187a.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
+    "static/media/CarnavalCafe.jpg": "/static/media/CarnavalCafe.0be9f13b.jpg",
     "static/media/root.css": "/static/media/Gotham-Ultra.49437ce9.ttf",
     "static/media/LogoAMB.png": "/static/media/LogoAMB.6f542d24.png",
     "static/media/adhesion.jpg": "/static/media/adhesion.92d371a6.jpg",
+    "static/media/calendar.svg": "/static/media/calendar.7572c376.svg",
+    "static/media/euro.svg": "/static/media/euro.12a8b42c.svg",
     "static/media/event-notype.jpg": "/static/media/event-notype.61f9cf13.jpg",
+    "static/media/location.svg": "/static/media/location.60d29047.svg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.0ea2e912.chunk.js",
-    "static/css/main.4d0e6472.chunk.css",
-    "static/js/main.3044e099.chunk.js"
+    "static/js/2.0d42187a.chunk.js",
+    "static/css/main.09c4a573.chunk.css",
+    "static/js/main.71728a6c.chunk.js"
   ]
 }
