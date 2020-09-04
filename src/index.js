@@ -28,7 +28,7 @@ import Adhesion from './pages/association/Adhesion';
 
 // Routing du site
 const routing = (
-  <Router>
+  <Router basename={`${process.env.PUBLIC_URL}/`}>
     <ScrollToTop>
     <Navbar />
     <Switch>
