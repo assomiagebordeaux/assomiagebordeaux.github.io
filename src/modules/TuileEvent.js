@@ -8,9 +8,14 @@ export function TuileEvent(props) {
 
     const typeEvent = props.typeEvent;
 
+    var marginbottom = "0%";
+    if(props.islast==="false"){
+        marginbottom = "2%";
+    }
+
     if(typeEvent === "afterwork") {
         return(
-            <div class="module-tuileEvent">
+            <div class="module-tuileEvent" style ={{ marginBottom:marginbottom }}>
                 <div class="module-tuileEvent-illustration">
                     <img src={require("../images/Afterwork.jpg")} alt={props.title} />
                 </div>

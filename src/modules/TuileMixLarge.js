@@ -13,7 +13,6 @@ export function TuileMixLarge(props) {
     if(props.last==="false"){
         marginbottom = "2%";
     }
-    var filter = "blur(5px)";
 
     if(status==="online") {
         return (

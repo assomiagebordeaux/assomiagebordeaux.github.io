@@ -38,6 +38,26 @@
     --page-subtitle-font-family: GothamBook;
     --page-subtitle-font-size: 1rem;
     --page-subtitle-color: #BCBCBC;
+
+    /* Module Event specs */
+    --module-event-font-family: GothamMedium;
+    --module-event-font-size: 3rem;
+    --module-event-color: var(--white-AMB);
+    --module-event-blocInfos-paragraphe-font-family: GothamBook;
+    --module-event-blocInfos-paragraphe-font-size: 1rem;
+    --module-event-blocInfos-paragraphe-color: black;
+    --module-event-blocInfos-express-title-font-family: GothamMedium;
+    --module-event-blocInfos-express-title-font-size: 0.9rem;
+    --module-event-blocInfos-express-title-color: #BCBCBC;
+    --module-event-blocInfos-express-textPrincipal-font-family: GothamMedium;
+    --module-event-blocInfos-express-textPrincipal-font-size: 2rem;
+    --module-event-blocInfos-express-textPrincipal-color: var(--bleu-AMB);
+    --module-event-blocInfos-express-textSecondaire-font-family: GothamBook;
+    --module-event-blocInfos-express-textSecondaire-font-size: 0.7rem;
+    --module-event-blocInfos-express-textSecondaire-color: var(--bleu-AMB);
+    --module-event-blocInfos-reduction-nom-font-family: GothamBook;
+    --module-event-blocInfos-reduction-nom-font-size: 1.3rem;
+    --module-event-blocInfos-reduction-nom-color: var(--bleu-AMB);
 }
 
 body {

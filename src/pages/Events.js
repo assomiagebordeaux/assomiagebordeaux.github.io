@@ -14,21 +14,21 @@ class Events extends Component {
                 display="true"
                 type="event"
                 typeEvent="afterwork"
-                title="Afterwork AMC x JMC"
-                lieu="Lieu à venir..."
+                title="Afterwork AMB x JMC"
+                lieu="Carnaval Café"
                 date="mercredi 9 septembre 2020"
                 description="Venez découvrir les deux assos de la formation MIAGE : 
                 l'AMB, le Bureau des Elèves et JMC, la Junior-Entreprise."
-                button1Color="grey"
-                button1Label="Infos à venir"
-                button1Link="/events/aw-09092020"
+                button1Color="bleuAMB"
+                button1Label="En savoir plus"
+                button1Link="/events/aw-amc-jmc"
                 />
                 <div class="page-events-subtitle">Events à suivre</div>
                 <Tuile 
                 display="true"
                 type="event"
                 typeEvent="afterwork"
-                title="Afterwork Parainnage"
+                title="Afterwork Parrainnage"
                 lieu="Lieu à venir..."
                 date="mercredi 16 septembre 2020"
                 description="Une soirée placée sous le signe des parrains. 
@@ -36,16 +36,16 @@ class Events extends Component {
                 button1Color="grey"
                 button1Label="Infos à venir"
                 button1Link="/events/aw-16092020"
+                isLast="false"
                 />
                 <Tuile 
                 display="true"
                 type="event"
                 typeEvent="afterwork"
-                title="Afterwork Alumnis"
+                title="Afterwork"
                 lieu="Lieu à venir..."
                 date="mercredi 23 septembre 2020"
-                description="Rencontrez les diplômés de MIAGE Bordeaux, 
-                que ce soit des M3 ou des M10 !"
+                description="Description à venir..."
                 button1Color="grey"
                 button1Label="Infos à venir"
                 button1Link="/events/aw-16092020"
