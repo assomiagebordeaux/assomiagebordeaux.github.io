@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9141013f1d221ddee639d1e3e5abeef",
+    "revision": "2183ea246b3af45761270a70c28ab442",
     "url": "/index.html"
   },
   {
-    "revision": "50e4e509cd108ae3a020",
+    "revision": "f724bca2b311b168c2f7",
     "url": "/static/css/main.bf59dd06.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.6f15a298.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50e4e509cd108ae3a020",
-    "url": "/static/js/main.a15bbdcd.chunk.js"
+    "revision": "f724bca2b311b168c2f7",
+    "url": "/static/js/main.7472a347.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
-    "revision": "f7639a43cb2dac683208036cfe0d73b8",
-    "url": "/static/media/WEI.f7639a43.jpg"
-  },
-  {
     "revision": "12f910bcbd58e9122d7f38c7b37b9c8a",
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
@@ -78,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa9f56a0e938f4f6ba34122b4fdd9a63",
     "url": "/static/media/moisAfterwork.aa9f56a0.jpg"
+  },
+  {
+    "revision": "7e6b81dd8f8bd91e65523e2ef499cb51",
+    "url": "/static/media/wei-2020-460x460.7e6b81dd.jpg"
   },
   {
     "revision": "c37489225c3162f406461c028003ada2",
