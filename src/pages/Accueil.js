@@ -6,7 +6,7 @@ import {Tuile} from '../modules/Tuile';
 
 import MoisIntegration from '../images/moisAfterwork.jpg'
 import Adhesion from '../images/adhesion.jpg'
-import WEI from '../images/wei.png'
+import WEI from '../images/wei-2020.jpg'
 
 class Accueil extends Component {
     render() {

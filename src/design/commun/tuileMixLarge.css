@@ -16,7 +16,7 @@
         color: var(--white-AMB);
         font-family: var(--navbar-font-family);
         text-decoration: none;
-        background-color: rgba(78, 78, 78, 0.4);
+        background-color: rgba(78, 78, 78, 0.6);
         border-radius: 4px;
     }
     

@@ -9,13 +9,13 @@ export function TuileEvent(props) {
     const typeEvent = props.typeEvent;
 
     var marginbottom = "0%";
-    if(props.islast==="false"){
-        marginbottom = "2%";
+    if(props.isLast==="false"){
+        marginbottom = "";
     }
 
     if(typeEvent === "afterwork") {
         return(
-            <div class="module-tuileEvent" style ={{ marginBottom:marginbottom }}>
+            <div class="module-tuileEvent module-tuileEvent-margin">
                 <div class="module-tuileEvent-illustration">
                     <img src={require("../images/Afterwork.jpg")} alt={props.title} />
                 </div>
@@ -93,7 +93,7 @@ export function TuileEvent(props) {
         return(
             <div class="module-tuileEvent">
                 <div class="module-tuileEvent-illustration">
-                    <img src={require("../images/WEI.jpg")} alt={props.title} />
+                    <img src={require("../images/wei-2020-460x460.jpg")} alt={props.title} />
                 </div>
                 <div class="module-tuileEvent-infos">
                     <div class="module-tuileEvent-info-titre">

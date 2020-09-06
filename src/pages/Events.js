@@ -22,6 +22,7 @@ class Events extends Component {
                 button1Color="bleuAMB"
                 button1Label="En savoir plus"
                 button1Link="/events/aw-amc-jmc"
+                isLast="true"
                 />
                 <div class="page-events-subtitle">Events à suivre</div>
                 <Tuile 
@@ -49,7 +50,7 @@ class Events extends Component {
                 button1Color="grey"
                 button1Label="Infos à venir"
                 button1Link="/events/aw-16092020"
-                isLast="true"
+                isLast="false"
                 />
                 <Tuile 
                 display="true"
