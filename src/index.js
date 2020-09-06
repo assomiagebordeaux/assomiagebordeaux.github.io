@@ -28,14 +28,14 @@ import Adhesion from './pages/association/Adhesion';
 
 // Routing du site
 const routing = (
-  <Router basename={`${process.env.PUBLIC_URL}/`}>
+  <Router>
     <ScrollToTop>
     <Navbar />
     <Switch>
-      <Route exact path="/" component={Accueil} />
-      <Route exact path="/events" component={Events} />
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={Accueil} />
+      <Route exact path={process.env.PUBLIC_URL + '/events'} component={Events} />
       <Route exact path="/wordpress" component={Wordpress} />
-      <Route exact path="/events/aw-amc-jmc" component={AWAMCJMC} />
+      <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} />
       {/* <Route exact path="/contact" component={Contact} /> */}
       <Route exact path="/association/adhesion" component={Adhesion} /> 
       <Route component={Page404} />
