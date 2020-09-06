@@ -54,12 +54,11 @@ class Events extends Component {
                 <Tuile 
                 display="true"
                 type="event"
-                typeEvent="unspecified"
-                title="WEI 2020"
+                typeEvent="wei"
+                title="WEI'cingétorix"
                 lieu="Lieu à venir..."
                 date="du 3 au 4 octobre 2020"
-                description="Le WEI est bien maintenu, 
-                mais la vraie question est : quel sera le thème cette année ?"
+                description="Ils sont fous ces miagistes !"
                 button1Color="grey"
                 button1Label="Infos à venir"
                 button1Link="/events/wei-2020"
