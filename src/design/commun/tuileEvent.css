@@ -19,6 +19,14 @@
     margin: auto;
 }
 
+.module-tuileEvent-illustration-over img {
+    width: 250px;
+    border-radius: 50%;
+    align-content: center;
+    margin: auto;
+    filter: grayscale(100%);
+}
+
 .module-tuileEvent-infos {
     display: flex;
     flex-direction: column;

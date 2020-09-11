@@ -38,7 +38,7 @@ const planAcces = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.26
             lieu2="14 rue Duffour Dubergier, 33000 Bordeaux"
             lieu3="Tram B (arrêt Musée d'Aquitaine)"
             prix1="Gratuit"
-            prix2="Adhésion possible sur place (espèces ou Lydia)"
+            prix2="Gratuit pour les adhérents AMB, les L3, M1, M2 et anciens miagistes bordelais."
             prix3=""
             siInscription="false"
             nombreDeroulements="2"
