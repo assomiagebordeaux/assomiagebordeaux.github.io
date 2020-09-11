@@ -4,7 +4,7 @@ import '../../design/commun/event.css'
 
 import {Event} from '../../modules/Event';
 
-import CarnavalCafe from '../../images/lieux/CarnavalCafe.jpg';
+import WEI from '../../images/wei.png';
 
 class AW09092020 extends Component {
 
@@ -28,26 +28,26 @@ const planAcces = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.26
 
         return(
             <Event 
-            couvertureUrl={CarnavalCafe}
-            title="Afterwork AMB x JMC"
+            couvertureUrl={WEI}
+            title="WEI'cingétorix"
             resume={resume}
-            calendar1="9 septembre"
-            calendar2="A partir de 19h, jusqu'à la fermeture du bar"
-            calendar3="Modalités à venir..."
-            lieu1="Carnaval Café"
-            lieu2="14 rue Duffour Dubergier, 33000 Bordeaux"
-            lieu3="Tram B (arrêt Musée d'Aquitaine)"
-            prix1="Gratuit"
-            prix2="Gratuit pour les adhérents AMB, les L3, M1, M2 et anciens miagistes bordelais."
+            calendar1="3 - 4 octobre"
+            calendar2="Modalités à venir..."
+            calendar3=""
+            lieu1="Lieu à venir"
+            lieu2=""
+            lieu3=""
+            prix1="Prix à venir"
+            prix2=""
             prix3=""
             siInscription="false"
-            nombreDeroulements="2"
+            nombreDeroulements="0"
             deroulement1={deroulement1}
             deroulement2={deroulement2}
             deroulement3={deroulement3}
             deroulement4={deroulement4}
             deroulement5={deroulement5}
-            nombreReductions="1"
+            nombreReductions="0"
             reduction1={reduction1}
             reduction2={reduction2}
             reduction3={reduction1}

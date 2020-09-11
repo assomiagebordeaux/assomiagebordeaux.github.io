@@ -45,7 +45,26 @@ export function TuileMixLarge(props) {
     } else if(status==="new") {
 
     } else if(status==="soon") {
-
+        return(
+            <div style ={{ backgroundImage: "url("+props.imgurl+")",marginBottom:marginbottom }} class="module-tuileMixLarge">
+                    <div class="module-tuileMixLarge-bloc-infos">
+                        <div class="module-tuileMixLarge-bloc-infos-titre">
+                            {props.title}
+                        </div>
+                        <div class="module-tuileMixLarge-bloc-infos-description">
+                            {props.description}
+                        </div>
+                        <div class="module-tuileMixLarge-bloc-infos-date">
+                            {props.date}
+                        </div>
+                        <div class="module-tuileMixLarge-bloc-infos-buttons">
+                            <div class="module-tuileMixLarge-bloc-infos-button1-soon">
+                                Infos à venir
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        );
     } else if(status==="offline") {
 
     } else {

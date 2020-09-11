@@ -35,6 +35,7 @@ export function Tuile(props) {
                 title={props.title}
                 lieu={props.lieu}
                 date={props.date}
+                status={props.status}
                 description={props.description}
                 button1Color={props.button1Color}
                 button1Label={props.button1Label}
