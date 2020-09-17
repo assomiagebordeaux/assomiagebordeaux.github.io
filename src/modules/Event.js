@@ -71,12 +71,25 @@ export function Event(props) {
                 </div>
                 { props.siInscription === "true" ? 
                 <div class="module-event-blocInfos-inscription">
-                <Button 
+                <Button
+                typeBouton="externe"  
                 color="bleuAMB"
-                link=""
+                link={props.linkInscription}
                 label="S'inscrire"
                 />
-        </div>
+                </div>
+                :
+                <div></div> 
+                }
+                { props.siInscriptionMiagiste === "true" ? 
+                <div class="module-event-blocInfos-inscription">
+                <Button
+                typeBouton="info" 
+                color="bleuAMB"
+                link=""
+                label="Inscription réservée aux miagistes pour l'instant"
+                />
+                </div>
                 :
                 <div></div> 
                 }

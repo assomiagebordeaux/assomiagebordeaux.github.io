@@ -30,7 +30,8 @@ export function TuileMixLarge(props) {
                         </div>
                         <div class="module-tuileMixLarge-bloc-infos-buttons">
                             <div class="module-tuileMixLarge-bloc-infos-button1">
-                                <Button 
+                                <Button
+                                typeBouton={props.typeBouton} 
                                 color={props.buttonColor}
                                 link={props.buttonLink}
                                 label={props.buttonLabel}

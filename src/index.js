@@ -19,7 +19,7 @@ import Footer from './modules/Footer';
 import Page404 from './pages/Page404';
 
 import Events from './pages/Events';
-import AWAMCJMC from './pages/events/AW-09092020'
+import WEI from './pages/events/WEI-2020';
 import Wordpress from './pages/Wordpress'
 import ScrollToTop from './pages/ScrollToTop'
 
@@ -34,8 +34,8 @@ const routing = (
     <Switch>
       <Route exact path={process.env.PUBLIC_URL + '/'} component={Accueil} />
       <Route exact path={process.env.PUBLIC_URL + '/events'} component={Events} />
-      <Route exact path="/wordpress" component={Wordpress} />
-      <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} />
+      <Route exact path="/wordpress" component={Wordpress} />      {/* <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} /> */}
+      <Route exact path={process.env.PUBLIC_URL + '/communiques/weicingetorix'} component={WEI} />
       {/* <Route exact path="/contact" component={Contact} /> */}
       <Route exact path="/association/adhesion" component={Adhesion} /> 
       <Route component={Page404} />

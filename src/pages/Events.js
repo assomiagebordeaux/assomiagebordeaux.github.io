@@ -14,29 +14,17 @@ class Events extends Component {
                 display="true"
                 type="event"
                 typeEvent="afterwork"
-                title="Afterwork Parrainage"
-                lieu="Lieu à venir..."
-                date="mercredi 23 septembre 2020"
-                description="Description à venir..."
+                title="Event Parrainage"
+                lieu="Lieu à venir"
+                date="Suspendu"
+                description=""
+                typeBouton="desactive"
                 button1Color="grey"
                 button1Label="Infos à venir"
                 button1Link="/events/aw-parrainage"
                 isLast="false"
                 />
-                <div class="page-events-subtitle">Events à suivre</div>
-                <Tuile 
-                display="true"
-                type="event"
-                typeEvent="wei"
-                title="WEI'cingétorix"
-                lieu="Lieu à venir..."
-                date="du 3 au 4 octobre 2020"
-                description="Ils sont fous ces miagistes !"
-                button1Color="grey"
-                button1Label="Infos à venir"
-                button1Link="/events/wei-2020"
-                isLast="false"
-                />
+                {/* <div class="page-events-subtitle">Events à suivre</div> */}
                 <div class="page-events-subtitle">Events passés</div>
                 <Tuile 
                 display="true"
