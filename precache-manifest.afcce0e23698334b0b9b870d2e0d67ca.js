@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb940f3fc0075e59d0c1d323c6559690",
+    "revision": "895a66809b37de9cf45338b9272aec59",
     "url": "/index.html"
   },
   {
-    "revision": "f1a4c17527c756b63617",
-    "url": "/static/css/main.4b229fc4.chunk.css"
+    "revision": "4f2c65e3a60586fd4aca",
+    "url": "/static/css/main.690a850d.chunk.css"
   },
   {
-    "revision": "c92cad82ee1c21dc01b7",
-    "url": "/static/js/2.ae21187f.chunk.js"
+    "revision": "eab708e0260b3bfdf8e3",
+    "url": "/static/js/2.9f4b5743.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.ae21187f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9f4b5743.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1a4c17527c756b63617",
-    "url": "/static/js/main.167c1128.chunk.js"
+    "revision": "4f2c65e3a60586fd4aca",
+    "url": "/static/js/main.69386ca1.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf82c30452f8fdb180ca50ef8f6382e5",
     "url": "/static/media/Afterwork.bf82c304.jpg"
-  },
-  {
-    "revision": "0be9f13b307070f7d92c6745ccc8c0d7",
-    "url": "/static/media/CarnavalCafe.0be9f13b.jpg"
   },
   {
     "revision": "35955f9befef412927e2aa3b6bb5fa7a",
@@ -56,20 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
   {
-    "revision": "7572c376d05b2b2c5b66b7b10098b2d6",
-    "url": "/static/media/calendar.7572c376.svg"
-  },
-  {
-    "revision": "12a8b42cd90c6dd17cc7f644662c51bd",
-    "url": "/static/media/euro.12a8b42c.svg"
-  },
-  {
     "revision": "61f9cf135c7260733c22ef7fdf9fe8d5",
     "url": "/static/media/event-notype.61f9cf13.jpg"
-  },
-  {
-    "revision": "60d290478d4500b5d19ec4bb8251f0fb",
-    "url": "/static/media/location.60d29047.svg"
   },
   {
     "revision": "aa9f56a0e938f4f6ba34122b4fdd9a63",
