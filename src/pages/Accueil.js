@@ -38,7 +38,6 @@ class Accueil extends Component {
                 buttonColor="white"
                 buttonLabel="Lire le communiqué"
                 buttonLink="/communiques/weicingetorix"
-                last=""
                 />
                 <Tuile 
                 display="true"

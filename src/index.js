@@ -22,22 +22,25 @@ import Events from './pages/Events';
 import WEI from './pages/events/WEI-2020';
 import Wordpress from './pages/Wordpress'
 import ScrollToTop from './pages/ScrollToTop'
+import Parrainage from './pages/events/Parrainage';
 
 // import Contact from './pages/Contact';
 import Adhesion from './pages/association/Adhesion';
 
 // Routing du site
 const routing = (
-  <Router>
+  <Router basename={`${process.env.PUBLIC_URL}/`}>
     <ScrollToTop>
     <Navbar />
     <Switch>
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={Accueil} />
-      <Route exact path={process.env.PUBLIC_URL + '/events'} component={Events} />
-      <Route exact path="/wordpress" component={Wordpress} />      {/* <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} /> */}
-      <Route exact path={process.env.PUBLIC_URL + '/communiques/weicingetorix'} component={WEI} />
+      <Route exact path='/' component={Accueil} />
+      <Route exact path='/events' component={Events} />
+      <Route exact path='/wordpress' component={Wordpress} />      
+      {/* <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} /> */}
+      <Route exact path='/communiques/weicingetorix' component={WEI} />
+      <Route exact path='/events/parrainage' component={Parrainage} />
       {/* <Route exact path="/contact" component={Contact} /> */}
-      <Route exact path="/association/adhesion" component={Adhesion} /> 
+      <Route exact path='/association/adhesion' component={Adhesion} /> 
       <Route component={Page404} />
     </Switch>
     <Footer />
