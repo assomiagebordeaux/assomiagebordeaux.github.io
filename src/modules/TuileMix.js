@@ -15,6 +15,7 @@ export function TuileMix(props) {
             title={props.title}
             description={props.description}
             date={props.date}
+            typeBouton={props.typeBouton}
             numberButtons={props.numberButtons}
             buttonColor={props.buttonColor}
             buttonLabel={props.buttonLabel}

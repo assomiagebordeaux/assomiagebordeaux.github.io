@@ -24,6 +24,7 @@
 
     .page-paragraphe {
         font-family: var(--page-subtitle-font-family);
+        line-height: 25px;
     }
 
     .page-column {
@@ -45,11 +46,13 @@
     .page-column-section-title {
         font-family: var(--page-title-font-family);
         font-size: var(--page-subtitle-font-size);
+        margin-bottom: 10px;
     }
 
     .page-column-section-paragraphe {
         font-family: var(--page-subtitle-font-family);
         font-size: var(--tuile-event-description-font-size);
+        line-height: 25px;
     }
 
     .page-column-section-link {
@@ -93,6 +96,11 @@
         .page-paragraphe {
             font-family: var(--page-subtitle-font-family);
             text-align: center;
+            line-height: 25px;
+        }
+
+        .page-paragraphe li {
+            text-align: left;
         }
     
         .page-column {

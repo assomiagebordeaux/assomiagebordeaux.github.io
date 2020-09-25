@@ -1,0 +1,68 @@
+@media screen and (min-width: 700px) {
+
+.page-communique {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 8%;
+}
+
+.page-communique-titre {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-family: var(--page-title-font-family);
+    font-size: var(--page-title-font-size);
+}
+
+.page-communique-paragraphe {
+    font-family: var(--navbar-font-family);
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+
+.page-communique-signatures {
+    padding-top: 2%;
+}
+
+.page-communique-signature {
+    font-family: var(--navbar-font-family);
+    text-align: right;
+    padding-bottom: 2%;
+}
+    
+}
+    
+@media screen and (max-width: 699px) {
+    
+    .page-communique {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .page-communique-titre {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: var(--page-title-font-family);
+        font-size: var(--page-title-font-size);
+        text-align: center;
+    }
+    
+    .page-communique-paragraphe {
+        font-family: var(--navbar-font-family);
+        line-height: 25px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    .page-communique-signatures {
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .page-communique-signature {
+        font-family: var(--navbar-font-family);
+        text-align: right;
+        padding-bottom: 20px;
+    }
+    
+}
