@@ -45,7 +45,8 @@ export function TuileEvent(props) {
                     <div></div> 
                     :  
                     <div class="module-tuileEvent-info-buttons-button1">
-                        <Button 
+                        <Button
+                        typeBouton={props.typeBouton} 
                         color={props.button1Color}
                         label={props.button1Label}
                         link={props.button1Link}

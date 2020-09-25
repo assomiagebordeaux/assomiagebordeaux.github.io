@@ -5,6 +5,7 @@
         display: flex;
         flex-direction: column;
         background-position: center;
+        margin-bottom: 12px;
     }
     
     .module-tuileMixLarge-bloc-infos {
@@ -58,6 +59,7 @@
         display: flex;
         flex-direction: column;
         background-position: center;
+        margin-bottom: 12px;
     }
     
     .module-tuileMixLarge-bloc-infos {

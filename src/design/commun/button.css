@@ -45,3 +45,8 @@
     color: var(--button-grey-color);
     border: 2px solid var(--button-grey-color);
 }
+
+.button-orange {
+    color: var(--orange-AMB);
+    border: 2px solid var(--orange-AMB);
+}
