@@ -1,22 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../design/commun/tuileMixLarge.css';
+import '../design/commun/tuileMixFine.css';
 import '../design/commun/button.css'
 
 import {Button} from './Button'
 
-export function TuileMixLarge(props) {
+export function TuileMixFine(props) {
 
     const status = props.status;
-    var marginbottom = "0%";
-    if(props.last==="false"){
-        marginbottom = "2%";
-    }
 
     if(status==="online") {
         return (
-        <Link to={props.linkGlobal} style={{ textDecoration: 'none' }}>
+            <div class="module-tuileMixFine">
+                <Link to={props.linkGlobal} style={{ textDecoration: 'none' }}>
             <div style ={{ backgroundImage: "url("+props.imgurl+")" }} class="module-tuileMixLarge">
                     <div class="module-tuileMixLarge-bloc-infos">
                         <div class="module-tuileMixLarge-bloc-infos-titre">
@@ -42,6 +39,7 @@ export function TuileMixLarge(props) {
                     </div>
             </div>
         </Link>
+            </div>
         );
     } else if(status==="new") {
 
@@ -73,4 +71,4 @@ export function TuileMixLarge(props) {
     }
 }
 
-export default TuileMixLarge;
+export default TuileMixFine;
