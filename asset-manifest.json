@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b42923b3.chunk.css",
-    "main.js": "/static/js/main.76e43498.chunk.js",
-    "main.js.map": "/static/js/main.76e43498.chunk.js.map",
+    "main.css": "/static/css/main.42abf6ff.chunk.css",
+    "main.js": "/static/js/main.39e44f99.chunk.js",
+    "main.js.map": "/static/js/main.39e44f99.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "runtime-main.js.map": "/static/js/runtime-main.62c936a4.js.map",
     "static/js/2.e791a811.chunk.js": "/static/js/2.e791a811.chunk.js",
     "static/js/2.e791a811.chunk.js.map": "/static/js/2.e791a811.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.74c8ef6b7acb65e3a85d6f77753f890a.js": "/precache-manifest.74c8ef6b7acb65e3a85d6f77753f890a.js",
+    "precache-manifest.3b2c3cffba4773343cf83d6f894f63ed.js": "/precache-manifest.3b2c3cffba4773343cf83d6f894f63ed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b42923b3.chunk.css.map": "/static/css/main.b42923b3.chunk.css.map",
+    "static/css/main.42abf6ff.chunk.css.map": "/static/css/main.42abf6ff.chunk.css.map",
     "static/js/2.e791a811.chunk.js.LICENSE.txt": "/static/js/2.e791a811.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/root.css": "/static/media/Gotham-Ultra.49437ce9.ttf",
     "static/media/LogoAMB.png": "/static/media/LogoAMB.6f542d24.png",
     "static/media/adhesion.jpg": "/static/media/adhesion.12f910bc.jpg",
-    "static/media/amphi.jpg": "/static/media/amphi.e18dff51.jpg",
     "static/media/calendar.svg": "/static/media/calendar.7572c376.svg",
+    "static/media/campus.jpg": "/static/media/campus.caf55edf.jpg",
     "static/media/euro.svg": "/static/media/euro.12a8b42c.svg",
     "static/media/event-notype.jpg": "/static/media/event-notype.61f9cf13.jpg",
     "static/media/location.svg": "/static/media/location.60d29047.svg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg",
-    "static/media/wei-2020-460x460.jpg": "/static/media/wei-2020-460x460.7e6b81dd.jpg",
-    "static/media/wei-2020.jpg": "/static/media/wei-2020.c3748922.jpg"
+    "static/media/parrainage.jpg": "/static/media/parrainage.ebcd8dd4.jpg",
+    "static/media/wei-2020-460x460.jpg": "/static/media/wei-2020-460x460.7e6b81dd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
     "static/js/2.e791a811.chunk.js",
-    "static/css/main.b42923b3.chunk.css",
-    "static/js/main.76e43498.chunk.js"
+    "static/css/main.42abf6ff.chunk.css",
+    "static/js/main.39e44f99.chunk.js"
   ]
 }
