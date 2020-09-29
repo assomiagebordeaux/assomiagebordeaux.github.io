@@ -13,7 +13,7 @@ class Events extends Component {
                 <Tuile 
                 display="true"
                 type="event"
-                typeEvent="afterwork"
+                typeEvent="unspecified"
                 title="L'enquête des parrains"
                 lieu="A22 - Amphi Darwin"
                 date="mercredi 7 octobre 2020"
