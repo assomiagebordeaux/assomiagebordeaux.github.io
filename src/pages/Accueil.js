@@ -6,9 +6,9 @@ import {Tuile} from '../modules/Tuile';
 
 import MoisIntegration from '../images/moisAfterwork.jpg'
 import Adhesion from '../images/adhesion.jpg'
-import WEI from '../images/wei-2020.jpg'
+import Parrainage from '../images/parrainage.jpg'
 
-const WEIannulation = "Suite aux récentes mesures annoncées par la préfète de Gironde, c'est avec grand regret que l'Asso MIAGE Bordeaux vous annonce l'annulation du Week-end d'Intégration 2020 : le Wei'cingétorix, initialement prévu les 3 et 4 octobre 2020.";
+const WEIannulation = "Le Week-end d'Intégration 2020 : le Wei'cingétorix, initialement prévu les 3 et 4 octobre 2020, est annulé.";
 
 class Accueil extends Component {
     render() {
@@ -28,16 +28,16 @@ class Accueil extends Component {
                 type="mix"
                 typeMix="large"
                 status="online"
-                imgurl={WEI}
+                imgurl={Parrainage}
                 linkGlobal=""
-                title="WEI'cingétorix"
-                description="Annulé"
-                date=""
+                title="L'enquête des parrains"
+                description="Un meurtre a été commis, qui est le coupable ?"
+                date="Début des investigations le 07 octobre !"
                 typeBouton="interne"
                 numberButtons="1"
                 buttonColor="white"
-                buttonLabel="Lire le communiqué"
-                buttonLink="/communiques/weicingetorix"
+                buttonLabel="En savoir plus"
+                buttonLink="/events/parrainage"
                 />
                 <Tuile 
                 display="true"
