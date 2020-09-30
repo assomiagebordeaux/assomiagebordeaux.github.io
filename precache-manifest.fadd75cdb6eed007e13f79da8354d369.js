@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ed18de12a3c232c5d326afccd0c26d1",
+    "revision": "d2e0072fe42442c13fd90926a57eaad7",
     "url": "/index.html"
   },
   {
-    "revision": "c7b2fb4fba9bf4be5fd6",
-    "url": "/static/css/main.679d8889.chunk.css"
+    "revision": "802d4be224bcf7723ffb",
+    "url": "/static/css/main.6d99b9b6.chunk.css"
   },
   {
-    "revision": "26c96447d1f2bebe2191",
-    "url": "/static/js/2.e791a811.chunk.js"
+    "revision": "86f82322bf6a2b7ae9b5",
+    "url": "/static/js/2.fff2c50e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.e791a811.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fff2c50e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7b2fb4fba9bf4be5fd6",
-    "url": "/static/js/main.39e44f99.chunk.js"
+    "revision": "802d4be224bcf7723ffb",
+    "url": "/static/js/main.a734a30b.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
+    "revision": "c6dbc533bc1d6621e6c4298ef1768597",
+    "url": "/static/media/WEI20192020_1.c6dbc533.jpg"
+  },
+  {
     "revision": "12f910bcbd58e9122d7f38c7b37b9c8a",
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60d290478d4500b5d19ec4bb8251f0fb",
     "url": "/static/media/location.60d29047.svg"
+  },
+  {
+    "revision": "f9095dca422df1df0925bac6315b9bbb",
+    "url": "/static/media/memories.f9095dca.jpg"
   },
   {
     "revision": "aa9f56a0e938f4f6ba34122b4fdd9a63",

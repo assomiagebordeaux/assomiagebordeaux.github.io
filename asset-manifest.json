@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.679d8889.chunk.css",
-    "main.js": "/static/js/main.39e44f99.chunk.js",
-    "main.js.map": "/static/js/main.39e44f99.chunk.js.map",
+    "main.css": "/static/css/main.6d99b9b6.chunk.css",
+    "main.js": "/static/js/main.a734a30b.chunk.js",
+    "main.js.map": "/static/js/main.a734a30b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "runtime-main.js.map": "/static/js/runtime-main.62c936a4.js.map",
-    "static/js/2.e791a811.chunk.js": "/static/js/2.e791a811.chunk.js",
-    "static/js/2.e791a811.chunk.js.map": "/static/js/2.e791a811.chunk.js.map",
+    "static/js/2.fff2c50e.chunk.js": "/static/js/2.fff2c50e.chunk.js",
+    "static/js/2.fff2c50e.chunk.js.map": "/static/js/2.fff2c50e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e998f488dd518dfd6b5caf264cbb5beb.js": "/precache-manifest.e998f488dd518dfd6b5caf264cbb5beb.js",
+    "precache-manifest.fadd75cdb6eed007e13f79da8354d369.js": "/precache-manifest.fadd75cdb6eed007e13f79da8354d369.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.679d8889.chunk.css.map": "/static/css/main.679d8889.chunk.css.map",
-    "static/js/2.e791a811.chunk.js.LICENSE.txt": "/static/js/2.e791a811.chunk.js.LICENSE.txt",
+    "static/css/main.6d99b9b6.chunk.css.map": "/static/css/main.6d99b9b6.chunk.css.map",
+    "static/js/2.fff2c50e.chunk.js.LICENSE.txt": "/static/js/2.fff2c50e.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/root.css": "/static/media/Gotham-Ultra.49437ce9.ttf",
     "static/media/LogoAMB.png": "/static/media/LogoAMB.6f542d24.png",
+    "static/media/WEI20192020_1.jpg": "/static/media/WEI20192020_1.c6dbc533.jpg",
     "static/media/adhesion.jpg": "/static/media/adhesion.12f910bc.jpg",
     "static/media/calendar.svg": "/static/media/calendar.7572c376.svg",
     "static/media/campus.jpg": "/static/media/campus.caf55edf.jpg",
     "static/media/euro.svg": "/static/media/euro.12a8b42c.svg",
     "static/media/event-notype.jpg": "/static/media/event-notype.61f9cf13.jpg",
     "static/media/location.svg": "/static/media/location.60d29047.svg",
+    "static/media/memories.jpg": "/static/media/memories.f9095dca.jpg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg",
     "static/media/parrainage.jpg": "/static/media/parrainage.ebcd8dd4.jpg",
     "static/media/wei-2020-460x460.jpg": "/static/media/wei-2020-460x460.7e6b81dd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.e791a811.chunk.js",
-    "static/css/main.679d8889.chunk.css",
-    "static/js/main.39e44f99.chunk.js"
+    "static/js/2.fff2c50e.chunk.js",
+    "static/css/main.6d99b9b6.chunk.css",
+    "static/js/main.a734a30b.chunk.js"
   ]
 }
