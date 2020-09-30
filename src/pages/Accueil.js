@@ -17,7 +17,9 @@ class Accueil extends Component {
                 <Tuile 
                 display="true"
                 type="info"
+                typeInfo="alerte"
                 texte={WEIannulation}
+                siBouton="true"
                 typeBouton="interne"
                 buttonColor="white"
                 buttonLink="/communiques/weicingetorix"

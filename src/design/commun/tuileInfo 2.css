@@ -1,11 +1,7 @@
 @media screen and (min-width: 700px) {
 
-.module-tuileInfo-alerte {
+.module-tuileInfo {
     background-color: #8B2C2C;
-}
-
-.module-tuileInfo-info {
-    background-color: #0071E3;
 }
 
 .module-tuileInfo-contenu {
@@ -32,13 +28,9 @@
 
 @media screen and (max-width: 699px) {
 
-    .module-tuileInfo-alerte {
-        background-color: #8B2C2C;
-    }
-    
-    .module-tuileInfo-info {
-        background-color: rgb(51,111, 60);
-    }
+.module-tuileInfo {
+    background-color: #8B2C2C;
+}
 
 .module-tuileInfo-contenu {
     display: flex;

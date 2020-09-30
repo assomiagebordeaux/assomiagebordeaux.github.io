@@ -1,0 +1,132 @@
+@media screen and (min-width: 600px) {
+
+.page-memories {
+    min-height: calc(100vh - 206px);;
+}
+
+.page-memories-illustration {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.page-memories-illustration-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-memories-illustration-infos-titre {
+    font-size: 4rem;
+    font-family: var(--page-title-font-family);
+    color: white;
+}
+
+.page-memories-illustration-infos-subtitle {
+    font-family: var(--page-subtitle-font-family);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.page-memories-content {
+    background-color: rgb(20, 20, 20);
+    min-height: calc(70vh - 206px);;
+}
+
+.page-memories-content-margin {
+    padding: 6% 8% 6% 8%;
+    color: white;
+}
+
+.page-memories-content-title {
+    font-size: 1.3rem;
+    font-family: var(--page-title-font-family);
+    color: white;
+    margin-bottom: 1%;
+}
+
+.page-memories-conditions {
+    padding: 0 8% 1% 8%;
+    color: rgb(88, 88, 88);
+    font-family: var(--navbar-font-family);
+    font-size: 0.5rem; 
+}
+
+.page-memories-conditions a {
+    text-decoration: underline;
+    color: rgb(88, 88, 88);
+    font-family: var(--navbar-font-family);
+    font-size: 0.5rem;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .page-memories {
+        min-height: calc(100vh - 206px);;
+    }
+    
+    .page-memories-illustration {
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+    
+    .page-memories-illustration-infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page-memories-illustration-infos-titre {
+        font-size: 3rem;
+        font-family: var(--page-title-font-family);
+        color: white;
+    }
+    
+    .page-memories-illustration-infos-subtitle {
+        font-family: var(--page-subtitle-font-family);
+        color: white;
+        font-size: 0.9rem;
+    }
+    
+    .page-memories-content {
+        background-color: rgb(20, 20, 20);
+        min-height: calc(70vh - 103px);
+    }
+    
+    .page-memories-content-margin {
+        padding: 50px 20px 50px 20px;
+        color: white;
+    }
+    
+    .page-memories-content-title {
+        font-size: 1.1rem;
+        font-family: var(--page-title-font-family);
+        color: white;
+        margin-bottom: 15px;
+        font-weight: 120;
+    }
+
+    .page-memories-conditions {
+        padding: 0 20px 20px 20px;
+        color: rgb(88, 88, 88);
+        font-family: var(--navbar-font-family);
+        font-size: 0.4rem; 
+    }
+    
+    .page-memories-conditions a {
+        text-decoration: underline;
+        color: rgb(88, 88, 88);
+        font-family: var(--navbar-font-family);
+        font-size: 0.4rem;
+    }
+
+}
