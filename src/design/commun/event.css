@@ -200,7 +200,7 @@
         font-family: var(--module-event-blocInfos-paragraphe-font-family);
         font-size: var(--module-event-blocInfos-paragraphe-font-size);
         color: var(--module-event-blocInfos-paragraphe-color);
-        text-align: justify;
+        text-align: left;
         line-height: 25px;
     }
     

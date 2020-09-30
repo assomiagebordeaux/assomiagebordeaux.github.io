@@ -16,32 +16,34 @@ export function TuileMixLarge(props) {
 
     if(status==="online") {
         return (
-        <Link to={props.linkGlobal} style={{ textDecoration: 'none' }}>
+        // <Link to={props.linkGlobal} style={{ textDecoration: 'none' }}>
             <div style ={{ backgroundImage: "url("+props.imgurl+")" }} class="module-tuileMixLarge">
                     <div class="module-tuileMixLarge-bloc-infos">
-                        <div class="module-tuileMixLarge-bloc-infos-titre">
-                            {props.title}
-                        </div>
-                        <div class="module-tuileMixLarge-bloc-infos-description">
-                            {props.description}
-                        </div>
-                        <div class="module-tuileMixLarge-bloc-infos-date">
-                            {props.date}
-                        </div>
-                        <div class="module-tuileMixLarge-bloc-infos-buttons">
-                            <div class="module-tuileMixLarge-bloc-infos-button1">
-                                <Button
-                                typeBouton={props.typeBouton} 
-                                color={props.buttonColor}
-                                link={props.buttonLink}
-                                label={props.buttonLabel}
-                                />
-                                {/* <div class="module-button" to={props.button1Link} style={{ textDecoration: 'none' }}>{props.button1Label}</div> */}
+                        <div class="module-tuileMixLarge-bloc-infos-margin">
+                            <div class="module-tuileMixLarge-bloc-infos-titre">
+                                {props.title}
                             </div>
-                        </div>
+                            <div class="module-tuileMixLarge-bloc-infos-description">
+                                {props.description}
+                            </div>
+                            <div class="module-tuileMixLarge-bloc-infos-date">
+                                {props.date}
+                            </div>
+                            <div class="module-tuileMixLarge-bloc-infos-buttons">
+                                <div class="module-tuileMixLarge-bloc-infos-button1">
+                                    <Button
+                                    typeBouton={props.typeBouton} 
+                                    color={props.buttonColor}
+                                    link={props.buttonLink}
+                                    label={props.buttonLabel}
+                                    />
+                                    {/* <div class="module-button" to={props.button1Link} style={{ textDecoration: 'none' }}>{props.button1Label}</div> */}
+                                </div>
+                            </div>
+                        </div>              
                     </div>
             </div>
-        </Link>
+        // </Link>
         );
     } else if(status==="new") {
 

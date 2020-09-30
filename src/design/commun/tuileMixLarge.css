@@ -19,12 +19,14 @@
         text-decoration: none;
         background-color: rgba(78, 78, 78, 0.6);
         border-radius: 4px;
+        max-width: 50%;
     }
     
     .module-tuileMixLarge-bloc-infos-titre {
         font-size: 3rem;
         font-family: var(--tuile-mix-font-family);
         text-decoration: none;
+        line-height: 50px;
     }
     
     .module-tuileMixLarge-bloc-infos-description {
@@ -63,16 +65,21 @@
     }
     
     .module-tuileMixLarge-bloc-infos {
-        display: flex;
-        flex-direction: column;
         margin-top: auto;
         margin-right: auto;
-        padding: 10% 0 10% 0;
+        padding: 20px 0 25px 0;
         width: 100%;
         color: var(--white-AMB);
         font-family: var(--navbar-font-family);
         text-decoration: none;
-        background-color: rgb(0,0,0,0.4);
+        background-color: rgba(49, 24, 24, 0.5);
+    }
+
+    .module-tuileMixLarge-bloc-infos-margin {
+        display: flex;
+        flex-direction: column;
+        padding-left: 12px;
+        padding-right: 12px;
     }
     
     .module-tuileMixLarge-bloc-infos-titre {
@@ -83,18 +90,19 @@
     }
     
     .module-tuileMixLarge-bloc-infos-description {
-        margin-top: 2%;
+        margin-top: 10px;
         font-weight: bold;
         text-align: center;
     }
     
     .module-tuileMixLarge-bloc-infos-date {
-        margin-top: 2%;
+        margin-top: 10px;
         text-align: center;
+        font-size: 0.9rem;
     }
     
     .module-tuileMixLarge-bloc-infos-buttons {
-        margin-top: 4%;
+        margin-top: 20px;
         text-align: center;
         align-items: center;
         margin-left: auto;
