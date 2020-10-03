@@ -12,8 +12,6 @@ class Memories extends Component {
     
     render() {
 
-        const numberRandomImage = Math.floor(Math.random()*Math.random(4));
-
         return(
             <div class="page-memories">
                 <div style ={{ backgroundImage: "url("+MemoriesIllustration+")" }}  class="page-memories-illustration">
@@ -31,10 +29,10 @@ class Memories extends Component {
                         img1={WEI20192020}
                         titreGauche="Captain Croch'WEI"
                         titreDroite="2019"
-                        description="Embarquez mousaillons, avec le Captain Croch'WEI pour un week-end explosif !"
-                        lien="https://www.google.fr"
+                        description="Embarquez moussaillons, fiers z'et hardis, avec le Captain Croch'WEI pour un week-end explosif !"
+                        lien="https://photos.app.goo.gl/c7NTEZ9FSbMVmkke6"
                         siNouveau="true"
-                        siDateDeDispo="true"
+                        siDateDeDispo="false"
                         jourDispo="3"
                         moisDispo="octobre"
                         anneeDispo="2020"

@@ -36,7 +36,7 @@ export function TuileMemories(props) {
     } else {
         return(
             <div class="module-tuileMemories">
-            <a href={props.lien} onclick="window.open(this.href);return false" rel="noopener noreferrer nofollow" style={{ textDecoration: 'none' }}>
+            <a href={props.lien} target="_blank" rel="noopener noreferrer nofollow" style={{ textDecoration: 'none' }}>
             <div style ={{ backgroundImage: "url("+props.img1+")" }} class="module-tuileMemories-image">
                 { props.siNouveau === "true" 
                 ? 
