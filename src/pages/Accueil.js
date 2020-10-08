@@ -16,33 +16,6 @@ class Accueil extends Component {
             <div className="page-accueil">
                 <Tuile 
                 display="true"
-                type="info"
-                typeInfo="info"
-                texte={texteTuile}
-                siBouton="true"
-                typeBouton="interne"
-                buttonColor="white"
-                buttonLink="/memories"
-                buttonLabel="Voir les Memories"
-                />
-                <Tuile 
-                display="true"
-                type="mix"
-                typeMix="large"
-                status="online"
-                imgurl={Parrainage}
-                linkGlobal=""
-                title="L'enquête des parrains"
-                description="Un meurtre a été commis, qui est le coupable ?"
-                date="Début des investigations le 07 octobre !"
-                typeBouton="interne"
-                numberButtons="1"
-                buttonColor="white"
-                buttonLabel="En savoir plus"
-                buttonLink="/events/parrainage"
-                />
-                <Tuile 
-                display="true"
                 type="mix"
                 typeMix="large"
                 status="online"

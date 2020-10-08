@@ -36,7 +36,7 @@ const routing = (
     <Switch>
       <Route exact path='/' component={Accueil} />
       <Route exact path='/events' component={Events} />
-      <Route exact path='/events/parrainage' component={Parrainage} />
+      {/* <Route exact path='/events/parrainage' component={Parrainage} /> */}
       <Route exact path='/memories' component={Memories} />      
       <Route exact path='/communiques/weicingetorix' component={WEI} />    
       <Route exact path='/association/adhesion' component={Adhesion} />
