@@ -9,23 +9,24 @@ class Events extends Component {
         return(
             <div class="page-events">
                 <div class="page-events-title">Events</div>
-                <div class="page-events-subtitle">Prochain event</div>
+                {/* <div class="page-events-subtitle">Prochain event</div> */}
+                {/* <div class="page-events-subtitle">Events à suivre</div> */}
+                <div class="page-events-subtitle">Events passés</div>
                 <Tuile 
                 display="true"
                 type="event"
+                status="over"
                 typeEvent="unspecified"
                 title="L'enquête des parrains"
                 lieu="A22 - Amphi Darwin"
                 date="mercredi 7 octobre 2020"
-                description=""
+                description="Un meurtre a été commis, les indices et messages codés se multiplient, saurez-vous trouver le tueur ?"
                 typeBouton="interne"
                 button1Color="bleuAMB"
                 button1Label="En savoir plus"
                 button1Link="/events/parrainage"
                 isLast="false"
                 />
-                {/* <div class="page-events-subtitle">Events à suivre</div> */}
-                <div class="page-events-subtitle">Events passés</div>
                 <Tuile 
                 display="true"
                 type="event"

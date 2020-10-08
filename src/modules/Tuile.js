@@ -3,6 +3,7 @@ import React from 'react';
 import {TuileMix} from './TuileMix';
 import {TuileEvent} from './TuileEvent';
 import {TuileInfo} from './TuileInfo';
+import {TuileMemories} from './TuileMemories'
 
 export function Tuile(props) {
 
@@ -53,10 +54,27 @@ export function Tuile(props) {
             return (
                 <TuileInfo
                 texte={props.texte}
+                typeInfo={props.typeInfo}
+                siBouton={props.siBouton}
                 typeBouton={props.typeBouton}
                 buttonColor={props.buttonColor}
                 buttonLink={props.buttonLink}
                 buttonLabel={props.buttonLabel}
+                />
+            );
+        } else if(type === "memories") {
+            return (
+                <TuileMemories
+                img1={props.img1}
+                titreGauche={props.titreGauche}
+                titreDroite={props.titreDroite}
+                description={props.description}
+                lien={props.lien}
+                siNouveau={props.siNouveau}
+                siDateDeDispo={props.siDateDeDispo}
+                jourDispo={props.jourDispo}
+                moisDispo={props.moisDispo}
+                anneeDispo={props.anneeDispo}
                 />
             );
         } 

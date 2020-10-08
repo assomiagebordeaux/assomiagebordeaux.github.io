@@ -24,7 +24,8 @@ class Navbar extends Component {
         const data = {
             linkLogo: "/",
             nameFirst: "Accueil",linkFirst: "/",
-            nameSecond: "Events",linkSecond: "/events"
+            nameSecond: "Events",linkSecond: "/events",
+            nameThird: "Memories",linkThird: "/memories"
         };
         function displayMenu() {
             var x = document.getElementById("module-navbar-column-menu");
@@ -48,6 +49,9 @@ class Navbar extends Component {
                         <div class="module-navbar-row-menu-lien module-navbar-row-menu-lien-margin-left">
                             <Link to={data.linkSecond}>{data.nameSecond}</Link>
                         </div>
+                        <div class="module-navbar-row-menu-lien module-navbar-row-menu-lien-margin-left">
+                            <Link to={data.linkThird}>{data.nameThird}</Link>
+                        </div>
                     </div>
                 </div>
 
@@ -66,6 +70,9 @@ class Navbar extends Component {
                         </div>
                         <div class="module-navbar-column-menu-lien module-navbar-column-menu-lien-marginTop">
                             <Link to={data.linkSecond} onClick={hideMenu}>{data.nameSecond}</Link>
+                        </div>
+                        <div class="module-navbar-column-menu-lien module-navbar-column-menu-lien-marginTop">
+                            <Link to={data.linkThird} onClick={hideMenu}>{data.nameThird}</Link>
                         </div>
                     </div>
                 </div>

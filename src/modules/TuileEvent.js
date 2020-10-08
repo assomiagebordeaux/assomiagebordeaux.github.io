@@ -60,9 +60,16 @@ export function TuileEvent(props) {
     } else if (typeEvent === "unspecified") {
         return(
             <div class="module-tuileEvent">
+                { props.status === "over" 
+                ? 
+                <div class="module-tuileEvent-illustration module-tuileEvent-illustration-over">
+                    <img src={require("../images/event-notype.jpg")} alt={props.title} />
+                </div>
+                :  
                 <div class="module-tuileEvent-illustration">
                     <img src={require("../images/event-notype.jpg")} alt={props.title} />
                 </div>
+                }
                 <div class="module-tuileEvent-infos">
                     <div class="module-tuileEvent-info-titre">
                         {props.title}
@@ -77,14 +84,19 @@ export function TuileEvent(props) {
                         {props.description}
                     </div>
                     <div class="module-tuileEvent-info-buttons">
-                        <div class="module-tuileEvent-info-buttons-button1">
+                    { props.status === "over" 
+                    ?
+                    <div></div> 
+                    :  
+                    <div class="module-tuileEvent-info-buttons-button1">
                         <Button
                         typeBouton={props.typeBouton} 
                         color={props.button1Color}
                         label={props.button1Label}
                         link={props.button1Link}
                         />
-                        </div>
+                    </div>
+                    }
                     </div>
                 </div>
             </div>
