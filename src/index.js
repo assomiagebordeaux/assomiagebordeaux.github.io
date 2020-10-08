@@ -17,6 +17,7 @@ import Accueil from './pages/Accueil';
 import Navbar from './modules/Navbar';
 import Footer from './modules/Footer';
 import Page404 from './pages/Page404';
+import Memories from './pages/Memories';
 
 import Events from './pages/Events';
 import WEI from './pages/events/WEI-2020';
@@ -35,12 +36,11 @@ const routing = (
     <Switch>
       <Route exact path='/' component={Accueil} />
       <Route exact path='/events' component={Events} />
-      <Route exact path='/wordpress' component={Wordpress} />      
-      {/* <Route exact path={process.env.PUBLIC_URL + '/events/aw-amc-jmc'} component={AWAMCJMC} /> */}
-      <Route exact path='/communiques/weicingetorix' component={WEI} />
-      <Route exact path='/events/parrainage' component={Parrainage} />
-      {/* <Route exact path="/contact" component={Contact} /> */}
-      <Route exact path='/association/adhesion' component={Adhesion} /> 
+      {/* <Route exact path='/events/parrainage' component={Parrainage} /> */}
+      <Route exact path='/memories' component={Memories} />      
+      <Route exact path='/communiques/weicingetorix' component={WEI} />    
+      <Route exact path='/association/adhesion' component={Adhesion} />
+      <Route exact path='/wordpress' component={Wordpress} />  
       <Route component={Page404} />
     </Switch>
     <Footer />

@@ -4,11 +4,11 @@ import '../design/pages/accueil.css'
 
 import {Tuile} from '../modules/Tuile';
 
-import MoisIntegration from '../images/moisAfterwork.jpg'
+import MemoriesWEI2019 from '../images/tuileMemories.jpg'
 import Adhesion from '../images/adhesion.jpg'
 import Parrainage from '../images/parrainage.jpg'
 
-const WEIannulation = "Le Week-end d'Intégration 2020 : le Wei'cingétorix, initialement prévu les 3 et 4 octobre 2020, est annulé.";
+const texteTuile = "Suite à l'annulation du WEI 2020 : le Wei'cingétorix, l'AMB vous propose de vous (re)plonger dans le WEI de l'année dernière et de son hôte : le Captain Croch'WEI !";
 
 class Accueil extends Component {
     render() {
@@ -16,44 +16,19 @@ class Accueil extends Component {
             <div className="page-accueil">
                 <Tuile 
                 display="true"
-                type="info"
-                texte={WEIannulation}
-                typeBouton="interne"
-                buttonColor="white"
-                buttonLink="/communiques/weicingetorix"
-                buttonLabel="Lire le communiqué"
-                />
-                <Tuile 
-                display="true"
                 type="mix"
                 typeMix="large"
                 status="online"
-                imgurl={Parrainage}
+                imgurl={MemoriesWEI2019}
                 linkGlobal=""
-                title="L'enquête des parrains"
-                description="Un meurtre a été commis, qui est le coupable ?"
-                date="Début des investigations le 07 octobre !"
+                title="Memories"
+                description="Les souvenirs miagistes d'une décennie."
+                date="Captain Croch'WEI disponible !"
                 typeBouton="interne"
                 numberButtons="1"
                 buttonColor="white"
                 buttonLabel="En savoir plus"
-                buttonLink="/events/parrainage"
-                />
-                <Tuile 
-                display="true"
-                type="mix"
-                typeMix="large"
-                status="online"
-                imgurl={MoisIntegration}
-                linkGlobal="/events"
-                title="Mois d'Intégration"
-                description="Le mois à ne pas manquer !"
-                date="Tout le mois de Septembre"
-                typeBouton="interne"
-                numberButtons="1"
-                buttonColor="white"
-                buttonLabel="En savoir plus"
-                buttonLink="/events"
+                buttonLink="/memories"
                 last="fast"
                 />
                 <Tuile 
