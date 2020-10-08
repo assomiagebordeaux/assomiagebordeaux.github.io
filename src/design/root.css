@@ -19,6 +19,13 @@
     /* Footer specs */
     --footer-color: #BCBCBC;
 
+    /* TuileShop */
+    --tuileShop-siNouveauProduit-font-family: GothamMedium;
+    --tuileShop-nomProduit-font-family: GothamMedium;
+    --tuileShop-prixProduit-font-family: GothamBook;
+    --tuileShop-etatProduit-font-family: GothamBook;
+
+
     /* Tuile specs */
     --tuile-mix-font-family: GothamMedium;
 

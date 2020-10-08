@@ -3,7 +3,8 @@ import React from 'react';
 import {TuileMix} from './TuileMix';
 import {TuileEvent} from './TuileEvent';
 import {TuileInfo} from './TuileInfo';
-import {TuileMemories} from './TuileMemories'
+import {TuileMemories} from './TuileMemories';
+import {TuileShop} from './TuileShop';
 
 export function Tuile(props) {
 
@@ -75,6 +76,18 @@ export function Tuile(props) {
                 jourDispo={props.jourDispo}
                 moisDispo={props.moisDispo}
                 anneeDispo={props.anneeDispo}
+                />
+            );
+        } else if(type === "shop") {
+            return (
+                <TuileShop
+                imageProduit={props.imageProduit}
+                nomProduit={props.nomProduit}
+                siNouveauProduit={props.siNouveauProduit}
+                siPrixExact={props.siPrixExact}
+                prix={props.prix}
+                etatProduit={props.etatProduit}
+                lien={props.lien}
                 />
             );
         } 

@@ -6,6 +6,7 @@
 
 .page-memories-illustration {
     height: 30vh;
+    min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
