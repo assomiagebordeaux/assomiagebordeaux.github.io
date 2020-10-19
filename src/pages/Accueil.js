@@ -23,7 +23,7 @@ class Accueil extends Component {
                 imgurl={Sweat2021}
                 linkGlobal=""
                 title="Let's give 'em AMB !"
-                description="Les pulls de promo 2020-2021 sont disponibles !"
+                description="Le sweat de promo 2020/2021 est disponible !"
                 date="Commandes ouvertes jusqu'au 2 novembre à 18h !"
                 typeBouton="interne"
                 numberButtons="1"

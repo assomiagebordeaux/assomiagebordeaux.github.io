@@ -12,7 +12,7 @@ class Shop extends Component {
     
     render() {
 
-    const titreInfoSweats = "Profitez d'un tarif avantageux sur les sweats de promo en étant adhérent : à partir de 27€ au lieu de 29€ ! Vous n'êtes pas adhérent ? Venez adhérez au local lors de votre commande ou choisissez l'un des tarifs avec Adhésion 2020/2021 sur HelloAsso pour gagner du temps !";
+    const titreInfoSweats = "Profitez d'un tarif avantageux sur le sweat de promo en étant adhérent : à partir de 27€ au lieu de 29€ ! Vous n'êtes pas adhérent ? Venez adhérer au local lors de votre commande ou choisissez le tarif avec Adhésion 2020/2021 sur HelloAsso pour gagner du temps !";
     const lienSweats = "https://www.helloasso.com/associations/asso-miage-bordeaux/evenements/pull-de-promo-de-la-miage-de-bordeaux-edition-2020-2021";
         return(
             <div class="page-shop">
@@ -39,7 +39,7 @@ class Shop extends Component {
                         display="true"
                         type="shop"
                         imageProduit={Sweat2021Black}
-                        nomProduit="Sweat Straight Outta Miage Bordeaux 2021 - Black"
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Black"
                         siNouveauProduit="true"
                         siPrixExact="false"
                         prix="27,00 €"
@@ -50,7 +50,7 @@ class Shop extends Component {
                         display="true"
                         type="shop"
                         imageProduit={Sweat2021Blue}
-                        nomProduit="Sweat Straight Outta Miage Bordeaux 2021 - Dark Blue"
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Dark Blue"
                         siNouveauProduit="true"
                         siPrixExact="false"
                         prix="27,00 €"
