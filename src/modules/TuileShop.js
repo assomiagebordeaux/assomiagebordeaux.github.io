@@ -58,7 +58,8 @@ export function TuileShop(props) {
     } else {
         return(
             <div class="module-tuileShop">
-                <Link to={props.lien} style={{ textDecoration: 'none' }}>
+                {/* <Link to={props.lien} style={{ textDecoration: 'none' }}> */}
+                <a href={props.lien} target="_blank" rel="noopener noreferrer nofollow" style={{ textDecoration: 'none' }}>
                 <div class="module-tuileShop-imageProduit">
                     <img src={props.imageProduit} alt={props.title} />
                 </div>
@@ -99,7 +100,8 @@ export function TuileShop(props) {
                     <div></div>
                     }
                 </div>
-                </Link>
+                </a>
+                {/* </Link> */}
             </div>
             
         );

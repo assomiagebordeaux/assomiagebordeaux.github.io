@@ -25,6 +25,9 @@
     --tuileShop-prixProduit-font-family: GothamBook;
     --tuileShop-etatProduit-font-family: GothamBook;
 
+    /* Shop Article */
+    --module-articleShop-illustrationTop-title-font-family: GothamMedium;
+
 
     /* Tuile specs */
     --tuile-mix-font-family: GothamMedium;

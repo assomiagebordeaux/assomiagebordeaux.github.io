@@ -13,11 +13,11 @@
     display: flex;
     flex-direction: column;
     background-position: center;
-    padding: 2% 8% 2% 8%;
+    padding: 1% 8% 0.5% 8%;
 }
 
 .module-tuileInfo-texte {
-    padding-bottom: 1%;
+    padding-bottom: 10px;
     color: var(--white-AMB);
     font-family: var(--navbar-font-family);
     line-height: 25px;
@@ -27,6 +27,7 @@
 .module-tuileInfo-button {
     /* padding-bottom: 1%; */
     align-self: center;
+    padding-bottom: 0.5%;
 }
 
 }

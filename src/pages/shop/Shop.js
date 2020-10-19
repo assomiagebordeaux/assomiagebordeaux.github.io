@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import {Tuile} from '../../modules/Tuile';
 
 import ShopIllustration from '../../images/shop.jpg';
-import Sweat2021 from '../../images/shop/sweat2021.png';
-import FlasqueAMB from '../../images/shop/flasqueAMB.png'
+import Sweat2021Black from '../../images/shop/Pull_Black.png';
+import Sweat2021Blue from '../../images/shop/Pull_Blue.png';
 
 import '../../design/pages/shop.css';
 
@@ -12,6 +12,8 @@ class Shop extends Component {
     
     render() {
 
+    const titreInfoSweats = "Profitez d'un tarif avantageux sur les sweats de promo en étant adhérent : à partir de 27€ au lieu de 29€ ! Vous n'êtes pas adhérent ? Venez adhérez au local lors de votre commande ou choisissez l'un des tarifs avec Adhésion 2020/2021 sur HelloAsso pour gagner du temps !";
+    const lienSweats = "https://www.helloasso.com/associations/asso-miage-bordeaux/evenements/pull-de-promo-de-la-miage-de-bordeaux-edition-2020-2021";
         return(
             <div class="page-shop">
                 <div style ={{ backgroundImage: "url("+ShopIllustration+")" }}  class="page-shop-illustration">
@@ -20,29 +22,40 @@ class Shop extends Component {
                         <div class="page-shop-illustration-infos-subtitle">La panoplie complète du bon miagiste</div>
                     </div>
                 </div>
+                <Tuile
+                display="true"
+                type="info"
+                texte={titreInfoSweats}
+                typeInfo="info"
+                siBouton="false"
+                typeBouton="interne"
+                buttonColor="white"
+                buttonLink="/association/adhesion"
+                buttonLabel="J'adhère"
+                />
                 <div class="page-shop-content">
                     <div class="page-shop-articles">
                         <Tuile 
                         display="true"
                         type="shop"
-                        imageProduit={Sweat2021}
-                        nomProduit="Sweat Straight Outta Miage Bordeaux 2021"
+                        imageProduit={Sweat2021Black}
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2021 - Black"
                         siNouveauProduit="true"
                         siPrixExact="false"
-                        prix="35,00 €"
-                        etatProduit="Indisponible"
-                        lien="/shop/sweat2021"
+                        prix="27,00 €"
+                        etatProduit="Disponible"
+                        lien={lienSweats}
                         />
                         <Tuile 
                         display="true"
                         type="shop"
-                        imageProduit={FlasqueAMB}
-                        nomProduit="Flasque AMB"
-                        siNouveauProduit="false"
-                        siPrixExact="true"
-                        prix="8,00 €"
-                        etatProduit="En stock"
-                        lien=""
+                        imageProduit={Sweat2021Blue}
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2021 - Dark Blue"
+                        siNouveauProduit="true"
+                        siPrixExact="false"
+                        prix="27,00 €"
+                        etatProduit="Disponible"
+                        lien={lienSweats}
                         />
                     </div> 
                     <div id ="page-shop-conditions" class="page-shop-conditions">
@@ -50,9 +63,9 @@ class Shop extends Component {
                         pour les réservations d'évènements (WEI, WES...etc), dirigez vous vers la page "Events".
                         La commande en ligne n'est en réalité qu'un paiement en ligne. Ce paiement s'effectue via
                         HelloAsso, une solution de gestion de billeterie destinée aux associations. Il s'agit d'un
-                        site sécurisé, les différents moyens de paiement acceptés sont notés sur chaque page produit.
-                        Les conditions de retrait sont expliqués sur chaque page produit. Généralement, les produits
-                        commandés sont à récupérer au local de l'AMB.
+                        site sécurisé, les différents moyens de paiement acceptés sont : Carte bancaire. Il est 
+                        possible de venir commander au local de l'Asso MIAGE Bordeaux. Les produits commandés sont 
+                        à récupérer au local de l'AMB.
                     </div>  
                 </div>
             </div>
