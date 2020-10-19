@@ -39,7 +39,7 @@ class Shop extends Component {
                         display="true"
                         type="shop"
                         imageProduit={Sweat2021Black}
-                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Black"
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Noir"
                         siNouveauProduit="true"
                         siPrixExact="false"
                         prix="27,00 €"
@@ -50,7 +50,7 @@ class Shop extends Component {
                         display="true"
                         type="shop"
                         imageProduit={Sweat2021Blue}
-                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Dark Blue"
+                        nomProduit="Sweat Straight Outta Miage Bordeaux 2020/2021 - Bleu Marine"
                         siNouveauProduit="true"
                         siPrixExact="false"
                         prix="27,00 €"
