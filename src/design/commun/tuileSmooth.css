@@ -111,6 +111,9 @@
     .module-tuileSmooth-infos-boutons {
         align-self: center;
         margin-top: 15px;
+    }
+
+    .margin-bottom-boutons {
         margin-bottom: 40px;
     }
     
