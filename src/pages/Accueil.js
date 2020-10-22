@@ -42,7 +42,7 @@ class Accueil extends Component {
                 titre3="Profitez d'un Pass Citicks au rabais et de tous les avantages AMB !"
                 nombreBoutons="1"
                 bouton1Label="En savoir plus"
-                bouton1Link="/memories"
+                bouton1Link="/association/adhesion"
                 siImage="false"
                 image=""
                 />
@@ -56,7 +56,7 @@ class Accueil extends Component {
                 titre3="Les souvenirs miagistes d'une décennie."
                 nombreBoutons="1"
                 bouton1Label="Accéder aux photos !"
-                bouton1Link="/association/adhesion"
+                bouton1Link="/memories"
                 siImage="true"
                 image={SmoothMemories}
                 />
