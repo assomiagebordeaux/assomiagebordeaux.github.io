@@ -5,6 +5,7 @@ import {TuileEvent} from './TuileEvent';
 import {TuileInfo} from './TuileInfo';
 import {TuileMemories} from './TuileMemories';
 import {TuileShop} from './TuileShop';
+import {TuileSmooth} from './TuileSmooth';
 
 export function Tuile(props) {
 
@@ -31,7 +32,22 @@ export function Tuile(props) {
                 buttonLink={props.buttonLink}
                 last={props.last}
                 />
-            );
+            );  
+        } else if(type === "smooth") {
+                return (
+                    <TuileSmooth
+                    backgroundColor={props.backgroundColor}
+                    titre1={props.titre1}
+                    titre1FontFamily={props.titre1FontFamily}
+                    titre2={props.titre2}
+                    titre3={props.titre3}
+                    nombreBoutons={props.nombreBoutons}
+                    bouton1Label={props.bouton1Label}
+                    bouton1Link={props.bouton1Link}
+                    siImage={props.siImage}
+                    image={props.image}
+                    />
+                );
         } else if(type === "event") {
             return (
                 <TuileEvent
@@ -67,6 +83,10 @@ export function Tuile(props) {
             return (
                 <TuileMemories
                 img1={props.img1}
+                img2={props.img2}
+                img3={props.img3}
+                img4={props.img4}
+                img5={props.img5}
                 titreGauche={props.titreGauche}
                 titreDroite={props.titreDroite}
                 description={props.description}

@@ -4,7 +4,12 @@ import {Tuile} from '../modules/Tuile';
 
 import MemoriesIllustration from '../images/memories.jpg';
 
-import WEI20192020 from '../images/memories/2019-2020-wei/WEI20192020_1.jpg';
+// WEI 2019/2020
+import WEI20192020_1 from '../images/memories/2019-2020-wei/WEI20192020_1.jpg';
+import WEI20192020_2 from '../images/memories/2019-2020-wei/WEI20192020_2.jpg';
+import WEI20192020_3 from '../images/memories/2019-2020-wei/WEI20192020_3.jpg';
+import WEI20192020_4 from '../images/memories/2019-2020-wei/WEI20192020_4.jpg';
+import WEI20192020_5 from '../images/memories/2019-2020-wei/WEI20192020_5.jpg';
 
 import '../design/pages/memories.css'
 
@@ -23,20 +28,28 @@ class Memories extends Component {
                 <div class="page-memories-content">
                     <div class="page-memories-content-margin">
                         <div class="page-memories-content-title">WEIs</div>
-                        <Tuile
-                        display="true" 
-                        type="memories"
-                        img1={WEI20192020}
-                        titreGauche="Captain Croch'WEI"
-                        titreDroite="2019"
-                        description="Embarquez moussaillons, fiers z'et hardis, avec le Captain Croch'WEI pour un week-end explosif !"
-                        lien="https://photos.app.goo.gl/c7NTEZ9FSbMVmkke6"
-                        siNouveau="true"
-                        siDateDeDispo="false"
-                        jourDispo="3"
-                        moisDispo="octobre"
-                        anneeDispo="2020"
-                        />
+                        <section class="page-memories-content-tuiles">
+                            <div class="page-memories-content-tuile">
+                            <Tuile
+                            display="true" 
+                            type="memories"
+                            img1={WEI20192020_1}
+                            img2={WEI20192020_2}
+                            img3={WEI20192020_3}
+                            img4={WEI20192020_4}
+                            img5={WEI20192020_5}
+                            titreGauche="Captain Croch'WEI"
+                            titreDroite="2019"
+                            description="Embarquez moussaillons, fiers z'et hardis, avec le Captain Croch'WEI pour un week-end explosif !"
+                            lien="https://photos.app.goo.gl/c7NTEZ9FSbMVmkke6"
+                            siNouveau="true"
+                            siDateDeDispo="false"
+                            jourDispo="3"
+                            moisDispo="octobre"
+                            anneeDispo="2020"
+                            />
+                            </div>
+                        </section> 
                     </div> 
                     <div id ="page-memories-conditions" class="page-memories-conditions">
                         Toutes les photos sont stockées sur Google Photos de manière sécurisée. 

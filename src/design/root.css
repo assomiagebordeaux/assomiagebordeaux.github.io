@@ -95,6 +95,16 @@ body {
     src: url(../fonts/Gotham-Ultra.ttf);
 }
 
+@font-face {
+    font-family: StraightOuttaAMB;
+    src: url(../fonts/ChampionGothic-Welterweight.ttf);
+}
+
+@font-face {
+    font-family: Memories;
+    src: url(../fonts/SansitaSwashed-VariableFont_wght.ttf);
+}
+
 
 
 body {

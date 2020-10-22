@@ -49,6 +49,16 @@
     margin-bottom: 1%;
 }
 
+/* .page-memories-content-tuiles {
+    display: flex;
+    overflow-x: auto;
+}
+
+.page-memories-content-tuile {
+    display: flex;
+    overflow-x: auto;
+} */
+
 .page-memories-conditions {
     padding: 0 8% 1% 8%;
     color: rgb(88, 88, 88);
@@ -115,6 +125,16 @@
         margin-bottom: 15px;
         font-weight: 120;
     }
+
+    /* .page-memories-content-tuiles {
+        display: flex;
+        margin: 0;
+    } */
+    
+    /* .page-memories-content-tuile {
+        display: flex;
+        overflow-x: auto;
+    } */
 
     .page-memories-conditions {
         padding: 0 20px 20px 20px;
