@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c19473570a1417d9bd511f1ae04f139e",
+    "revision": "8cc860f660fd8a0dd506e8a5a3ba048f",
     "url": "/index.html"
   },
   {
-    "revision": "3094da69dc789d9555c9",
-    "url": "/static/css/main.e3ebd1c0.chunk.css"
+    "revision": "979459d974f079312fd5",
+    "url": "/static/css/main.2d901241.chunk.css"
   },
   {
-    "revision": "ea1c3e7518baf9f4a78a",
-    "url": "/static/js/2.50a876e8.chunk.js"
+    "revision": "32775a432fb2f2d6d36f",
+    "url": "/static/js/2.67def3fc.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.50a876e8.chunk.js.LICENSE.txt"
+    "revision": "2927c17f155caba9c734acdc50e6f829",
+    "url": "/static/js/2.67def3fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3094da69dc789d9555c9",
-    "url": "/static/js/main.aa0c760e.chunk.js"
+    "revision": "979459d974f079312fd5",
+    "url": "/static/js/main.45ed0800.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf82c30452f8fdb180ca50ef8f6382e5",
     "url": "/static/media/Afterwork.bf82c304.jpg"
+  },
+  {
+    "revision": "915bdfad764bf5ff5fbadfd71ce9bb3c",
+    "url": "/static/media/BreviaireV1.915bdfad.pdf"
+  },
+  {
+    "revision": "1b2d0d02c54a218978c046d96841b16c",
+    "url": "/static/media/ChampionGothic-Welterweight.1b2d0d02.ttf"
   },
   {
     "revision": "35955f9befef412927e2aa3b6bb5fa7a",
@@ -48,12 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
-    "revision": "4ec486be973a89a97a3cb6eda324b8dc",
-    "url": "/static/media/Pull_Black.4ec486be.png"
+    "revision": "ec2dc840f3a8f62a24c95e56ca049753",
+    "url": "/static/media/Pull_Black.ec2dc840.png"
   },
   {
-    "revision": "93b9aced6176c80a9854c8ea2891494b",
-    "url": "/static/media/Pull_Blue.93b9aced.png"
+    "revision": "1380007e995f2bd29005907da6163c9f",
+    "url": "/static/media/Pull_Blue.1380007e.png"
+  },
+  {
+    "revision": "d5b48266061d5fb55ffd476f2f48cb6e",
+    "url": "/static/media/Pulls.d5b48266.png"
+  },
+  {
+    "revision": "a2d502040b92592e04a3436256fa0e5c",
+    "url": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
+  },
+  {
+    "revision": "b0d37e9fdad77c4f26e4b7967ae36357",
+    "url": "/static/media/SmoothAdhesion.b0d37e9f.jpg"
   },
   {
     "revision": "d5d18008e6c829b1f97b14806e8d2d28",
@@ -62,6 +82,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6dbc533bc1d6621e6c4298ef1768597",
     "url": "/static/media/WEI20192020_1.c6dbc533.jpg"
+  },
+  {
+    "revision": "75b0cc64c265452269a98de2fee303c4",
+    "url": "/static/media/WEI20192020_2.75b0cc64.jpg"
+  },
+  {
+    "revision": "bddee6de50acd8601d22aee70458296b",
+    "url": "/static/media/WEI20192020_3.bddee6de.jpg"
+  },
+  {
+    "revision": "65c9ab0205010f508a4dd55ff96537e0",
+    "url": "/static/media/WEI20192020_4.65c9ab02.jpg"
+  },
+  {
+    "revision": "67eb6c0e1cdab59d743d782f4ac5a0d1",
+    "url": "/static/media/WEI20192020_5.67eb6c0e.jpg"
   },
   {
     "revision": "12f910bcbd58e9122d7f38c7b37b9c8a",
@@ -90,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5418a17bddd76743afb9812b5ea6383",
     "url": "/static/media/tuileMemories.d5418a17.jpg"
+  },
+  {
+    "revision": "e4cc12cacad77e7fb105e849876b462d",
+    "url": "/static/media/tuileSmoothMemories.e4cc12ca.jpg"
   },
   {
     "revision": "7e6b81dd8f8bd91e65523e2ef499cb51",
