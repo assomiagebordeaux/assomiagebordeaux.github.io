@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e85270509b58582a9d5d3fa43d929133",
+    "revision": "73ef6458577aea07c84a3b081a1e7721",
     "url": "/index.html"
   },
   {
-    "revision": "7f78fd4e7a59c8928d23",
+    "revision": "d593b5e486c273278f0b",
     "url": "/static/css/main.2d901241.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.67def3fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f78fd4e7a59c8928d23",
-    "url": "/static/js/main.1eda5bb8.chunk.js"
+    "revision": "d593b5e486c273278f0b",
+    "url": "/static/js/main.c20384a3.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SmoothAdhesion.b0d37e9f.jpg"
   },
   {
+    "revision": "08ff1dba9e6e5d7d640b0dc83f697dfe",
+    "url": "/static/media/SmoothMemories.08ff1dba.png"
+  },
+  {
     "revision": "d5d18008e6c829b1f97b14806e8d2d28",
     "url": "/static/media/Sweat2021.d5d18008.png"
   },
@@ -126,10 +130,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5418a17bddd76743afb9812b5ea6383",
     "url": "/static/media/tuileMemories.d5418a17.jpg"
-  },
-  {
-    "revision": "e4cc12cacad77e7fb105e849876b462d",
-    "url": "/static/media/tuileSmoothMemories.e4cc12ca.jpg"
   },
   {
     "revision": "7e6b81dd8f8bd91e65523e2ef499cb51",

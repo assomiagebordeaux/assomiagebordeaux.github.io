@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2d901241.chunk.css",
-    "main.js": "/static/js/main.1eda5bb8.chunk.js",
-    "main.js.map": "/static/js/main.1eda5bb8.chunk.js.map",
+    "main.js": "/static/js/main.c20384a3.chunk.js",
+    "main.js.map": "/static/js/main.c20384a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "runtime-main.js.map": "/static/js/runtime-main.62c936a4.js.map",
     "static/js/2.67def3fc.chunk.js": "/static/js/2.67def3fc.chunk.js",
     "static/js/2.67def3fc.chunk.js.map": "/static/js/2.67def3fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.711b82a8b1896081614cdf694d78b7a9.js": "/precache-manifest.711b82a8b1896081614cdf694d78b7a9.js",
+    "precache-manifest.df5eee3a799a1ed1a26a05ddcd9bb403.js": "/precache-manifest.df5eee3a799a1ed1a26a05ddcd9bb403.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2d901241.chunk.css.map": "/static/css/main.2d901241.chunk.css.map",
     "static/js/2.67def3fc.chunk.js.LICENSE.txt": "/static/js/2.67def3fc.chunk.js.LICENSE.txt",
@@ -20,6 +20,7 @@
     "static/media/Pull_Blue.png": "/static/media/Pull_Blue.1380007e.png",
     "static/media/Pulls.png": "/static/media/Pulls.d5b48266.png",
     "static/media/SmoothAdhesion.jpg": "/static/media/SmoothAdhesion.b0d37e9f.jpg",
+    "static/media/SmoothMemories.png": "/static/media/SmoothMemories.08ff1dba.png",
     "static/media/Sweat2021.png": "/static/media/Sweat2021.d5d18008.png",
     "static/media/WEI20192020_1.jpg": "/static/media/WEI20192020_1.c6dbc533.jpg",
     "static/media/WEI20192020_2.jpg": "/static/media/WEI20192020_2.75b0cc64.jpg",
@@ -33,13 +34,12 @@
     "static/media/parrainage.jpg": "/static/media/parrainage.ebcd8dd4.jpg",
     "static/media/shop.jpg": "/static/media/shop.83664c2a.jpg",
     "static/media/tuileMemories.jpg": "/static/media/tuileMemories.d5418a17.jpg",
-    "static/media/tuileSmoothMemories.jpg": "/static/media/tuileSmoothMemories.e4cc12ca.jpg",
     "static/media/wei-2020-460x460.jpg": "/static/media/wei-2020-460x460.7e6b81dd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
     "static/js/2.67def3fc.chunk.js",
     "static/css/main.2d901241.chunk.css",
-    "static/js/main.1eda5bb8.chunk.js"
+    "static/js/main.c20384a3.chunk.js"
   ]
 }
