@@ -16,6 +16,7 @@ export function TuileSmooth(props) {
         colorTitres = '#F5F5F7';
         colorBoutons = 'white';
     }
+    
 
     if(props.titre1FontFamily === "StraightOuttaAMB") {
         return (
