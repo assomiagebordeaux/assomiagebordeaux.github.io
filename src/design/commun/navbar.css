@@ -73,6 +73,7 @@
 
     .module-navbar-row {
         display: none;
+        transition: opacity 1s linear;
     }
 
     .module-navbar-column {
