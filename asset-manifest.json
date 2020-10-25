@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d901241.chunk.css",
-    "main.js": "/static/js/main.c20384a3.chunk.js",
-    "main.js.map": "/static/js/main.c20384a3.chunk.js.map",
+    "main.css": "/static/css/main.c08ee8fc.chunk.css",
+    "main.js": "/static/js/main.ffcb19e6.chunk.js",
+    "main.js.map": "/static/js/main.ffcb19e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "runtime-main.js.map": "/static/js/runtime-main.62c936a4.js.map",
-    "static/js/2.67def3fc.chunk.js": "/static/js/2.67def3fc.chunk.js",
-    "static/js/2.67def3fc.chunk.js.map": "/static/js/2.67def3fc.chunk.js.map",
+    "static/js/2.b5a7fa32.chunk.js": "/static/js/2.b5a7fa32.chunk.js",
+    "static/js/2.b5a7fa32.chunk.js.map": "/static/js/2.b5a7fa32.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.df5eee3a799a1ed1a26a05ddcd9bb403.js": "/precache-manifest.df5eee3a799a1ed1a26a05ddcd9bb403.js",
+    "precache-manifest.4cad6de131257578fecd20fbbece45e3.js": "/precache-manifest.4cad6de131257578fecd20fbbece45e3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2d901241.chunk.css.map": "/static/css/main.2d901241.chunk.css.map",
-    "static/js/2.67def3fc.chunk.js.LICENSE.txt": "/static/js/2.67def3fc.chunk.js.LICENSE.txt",
+    "static/css/main.c08ee8fc.chunk.css.map": "/static/css/main.c08ee8fc.chunk.css.map",
+    "static/js/2.b5a7fa32.chunk.js.LICENSE.txt": "/static/js/2.b5a7fa32.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/BreviaireV1.pdf": "/static/media/BreviaireV1.915bdfad.pdf",
     "static/media/root.css": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf",
@@ -29,6 +29,8 @@
     "static/media/WEI20192020_5.jpg": "/static/media/WEI20192020_5.67eb6c0e.jpg",
     "static/media/adhesion.jpg": "/static/media/adhesion.12f910bc.jpg",
     "static/media/event-notype.jpg": "/static/media/event-notype.61f9cf13.jpg",
+    "static/media/events.jpg": "/static/media/events.88986931.jpg",
+    "static/media/lamongie.jpg": "/static/media/lamongie.21b7720e.jpg",
     "static/media/memories.jpg": "/static/media/memories.f9095dca.jpg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg",
     "static/media/parrainage.jpg": "/static/media/parrainage.ebcd8dd4.jpg",
@@ -38,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.67def3fc.chunk.js",
-    "static/css/main.2d901241.chunk.css",
-    "static/js/main.c20384a3.chunk.js"
+    "static/js/2.b5a7fa32.chunk.js",
+    "static/css/main.c08ee8fc.chunk.css",
+    "static/js/main.ffcb19e6.chunk.js"
   ]
 }
