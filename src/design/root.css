@@ -19,6 +19,16 @@
     /* Footer specs */
     --footer-color: #BCBCBC;
 
+    /* TuileShop */
+    --tuileShop-siNouveauProduit-font-family: GothamMedium;
+    --tuileShop-nomProduit-font-family: GothamMedium;
+    --tuileShop-prixProduit-font-family: GothamBook;
+    --tuileShop-etatProduit-font-family: GothamBook;
+
+    /* Shop Article */
+    --module-articleShop-illustrationTop-title-font-family: GothamMedium;
+
+
     /* Tuile specs */
     --tuile-mix-font-family: GothamMedium;
 
@@ -83,6 +93,16 @@ body {
 @font-face {
     font-family: GothamUltra;
     src: url(../fonts/Gotham-Ultra.ttf);
+}
+
+@font-face {
+    font-family: StraightOuttaAMB;
+    src: url(../fonts/ChampionGothic-Welterweight.ttf);
+}
+
+@font-face {
+    font-family: Memories;
+    src: url(../fonts/SansitaSwashed-VariableFont_wght.ttf);
 }
 
 

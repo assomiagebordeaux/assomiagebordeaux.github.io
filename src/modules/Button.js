@@ -97,6 +97,8 @@ function ButtonInfo(props) {
 
 function ButtonExterne(props) {
     return(
-        <a class="module-button button-bleuAMB" target="_blank" rel="noopener noreferrer nofollow" href={props.url}>{props.label}</a>
+        <a class="module-button button-bleuAMB" target="_blank" rel="noopener noreferrer nofollow" href={props.url}>
+            {props.label}
+        </a>
     );
 }

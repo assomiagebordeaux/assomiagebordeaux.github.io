@@ -7,13 +7,38 @@ import {Button} from './Button'
 
 export function TuileMemories(props) {
 
+    var numberImage = Math.floor(Math.random() * 5);
+    console.log("number : "+numberImage);
+    let image = "url("+props.img1+")";
+
+    switch(numberImage) {
+        case 0:
+            image = "url("+props.img1+")";
+        break;
+        case 1:
+            image = "url("+props.img2+")";
+        break;
+        case 2:
+            image = "url("+props.img3+")";
+        break;
+        case 3:
+            image = "url("+props.img4+")";
+        break;
+        case 4:
+            image = "url("+props.img5+")";
+        break;
+        default:
+            image = "url("+props.img1+")";
+        break;
+    }
+
     const dateDispoAvecJour = "Disponible le "+props.jourDispo+" "+props.moisDispo+" "+props.anneeDispo+".";
     const dateDispoSansJour = "Disponible en "+props.moisDispo+" "+props.anneeDispo+".";
 
     if(props.siDateDeDispo === "true") {
         return(
             <div class="module-tuileMemories">
-            <div style ={{ backgroundImage: "url("+props.img1+")" }} class="module-tuileMemories-image">
+            <div style ={{ backgroundImage: image }} class="module-tuileMemories-image">
             </div>
             <div class="module-tuileMemories-titres">
                 <div class="module-tuileMemories-titreGauche">
@@ -37,7 +62,7 @@ export function TuileMemories(props) {
         return(
             <div class="module-tuileMemories">
             <a href={props.lien} target="_blank" rel="noopener noreferrer nofollow" style={{ textDecoration: 'none' }}>
-            <div style ={{ backgroundImage: "url("+props.img1+")" }} class="module-tuileMemories-image">
+            <div style ={{ backgroundImage: image }} class="module-tuileMemories-image">
                 { props.siNouveau === "true" 
                 ? 
                 <div class="module-tuileMemories-nouveau">Nouveau</div>
