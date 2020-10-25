@@ -78,7 +78,7 @@
 @media screen and (max-width: 599px) {
 
     .page-memories {
-        min-height: calc(100vh - 206px);;
+        min-height: calc(100vh - 206px);
     }
     
     .page-memories-illustration {
