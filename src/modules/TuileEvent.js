@@ -13,6 +13,40 @@ export function TuileEvent(props) {
         marginbottom = "";
     }
 
+    // return(
+    //     <div class="module-tuileEvent">
+    //         <div class="module-tuileEvent-illustration">
+    //             <img src={props.image} alt={props.title} />
+    //         </div>
+    //         <div class="module-tuileEvent-infos">
+    //             <div class="module-tuileEvent-infos-ligne">
+    //                 <div class="module-tuileEvent-infos-date">
+    //                     <div class="module-tuileEvent-infos-date-jourNom">
+    //                     Lundi
+    //                     </div>
+    //                     <div class="module-tuileEvent-infos-date-jourNumero">
+    //                     17
+    //                     </div>
+    //                     <div class="module-tuileEvent-infos-date-mois">
+    //                     oct
+    //                     </div>
+    //                 </div>
+    //                 <div class="module-tuileEvent-infos-titre">
+    //                     Miage on Snow
+    //                 </div>
+    //             </div>
+    //             <div class="module-tuileEvent-infos-ligne">
+    //                 <div class="module-tuileEvent-infos-description">
+    //                     Loremp ipseus
+    //                 </div>
+    //             </div>
+    //             <div class="module-tuileEvent-infos-boutons">
+    //                 lala
+    //             </div>
+    //         </div>
+    //     </div>
+    // );
+
     if(typeEvent === "afterwork") {
         return(
             <div class="module-tuileEvent module-tuileEvent-margin">

@@ -46,13 +46,14 @@ export function Tuile(props) {
                     bouton1Link={props.bouton1Link}
                     siImage={props.siImage}
                     image={props.image}
-                    siDernier={props.siDernier}
+                    siMarginBottom={props.siMarginBottom}
                     />
                 );
         } else if(type === "event") {
             return (
                 <TuileEvent
-                typeEvent={props.typeEvent} 
+                typeEvent={props.typeEvent}
+                image={props.image} 
                 title={props.title}
                 lieu={props.lieu}
                 date={props.date}

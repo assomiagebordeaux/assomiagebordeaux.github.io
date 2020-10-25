@@ -67,6 +67,47 @@
     padding-left: 30px;
 }
 
+/* NOUVEAU */
+
+/* .module-tuileEvent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.module-tuileEvent-illustration {
+    width: 50vw;
+}
+
+.module-tuileEvent-illustration img {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.module-tuileEvent-infos {
+    padding-left: 2%;
+    width: 50vw;
+}
+
+.module-tuileEvent-infos-ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.module-tuileEvent-infos-date {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+} */
+
 }
 
 @media screen and (max-width: 699px) {

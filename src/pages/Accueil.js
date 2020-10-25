@@ -31,7 +31,7 @@ class Accueil extends Component {
                 bouton1Link="/shop"
                 siImage="true"
                 image={Sweats}
-                siDernier="false"
+                siMarginBottom="true"
                 />
                 <Tuile
                 display="true"
@@ -46,7 +46,7 @@ class Accueil extends Component {
                 bouton1Link="/association/adhesion"
                 siImage="false"
                 image=""
-                siDernier="false"
+                siMarginBottom="true"
                 />
                 <Tuile
                 display="true"
@@ -61,7 +61,7 @@ class Accueil extends Component {
                 bouton1Link="/memories"
                 siImage="true"
                 image={SmoothMemories}
-                siDernier="true"
+                siMarginBottom="false"
                 />
             </div>
         );
