@@ -42,8 +42,12 @@ export function Tuile(props) {
                     titre2={props.titre2}
                     titre3={props.titre3}
                     nombreBoutons={props.nombreBoutons}
+                    bouton1Type={props.bouton1Type}
                     bouton1Label={props.bouton1Label}
                     bouton1Link={props.bouton1Link}
+                    bouton2Type={props.bouton2Type}
+                    bouton2Label={props.bouton2Label}
+                    bouton2Link={props.bouton2Link}
                     siImage={props.siImage}
                     image={props.image}
                     siMarginBottom={props.siMarginBottom}
@@ -84,6 +88,7 @@ export function Tuile(props) {
         } else if(type === "memories") {
             return (
                 <TuileMemories
+                nombreImages={props.nombreImages}
                 img1={props.img1}
                 img2={props.img2}
                 img3={props.img3}
@@ -98,6 +103,7 @@ export function Tuile(props) {
                 jourDispo={props.jourDispo}
                 moisDispo={props.moisDispo}
                 anneeDispo={props.anneeDispo}
+                siPremierListe={props.siPremierListe}
                 />
             );
         } else if(type === "shop") {

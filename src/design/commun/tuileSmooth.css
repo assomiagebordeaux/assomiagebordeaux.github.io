@@ -55,6 +55,15 @@
     margin-bottom: 40px;
 }
 
+.module-tuileSmooth-infos-boutons-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.module-tuileSmooth-infos-boutons-left {
+    margin-right: 20px;
+}
+
 .module-tuileSmooth-image {
     text-align: center;
 }
@@ -63,7 +72,6 @@
     /* height: 500px; */
     width: auto;
     max-height: 500px;
-
 }
 
 }
@@ -115,6 +123,16 @@
 
     .margin-bottom-boutons {
         margin-bottom: 40px;
+    }
+
+    .module-tuileSmooth-infos-boutons-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .module-tuileSmooth-infos-boutons-left {
+        margin-bottom: 8px;
     }
     
     .module-tuileSmooth-image {

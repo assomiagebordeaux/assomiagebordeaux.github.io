@@ -27,7 +27,8 @@ export function Button(props) {
         );
     } else if(props.typeBouton === "externe") {
         return(
-            <ButtonExterne 
+            <ButtonExterne
+            color={props.color} 
             label={props.label}
             link={props.link}
             />
@@ -35,33 +36,6 @@ export function Button(props) {
     } else {
         return(null);
     }
-
-        // if(color === "white"){
-        //     return(
-        //         <Link to={props.link} style={{ textDecoration: 'none' }}>
-        //         <div class="module-button button-white">{props.label}</div>
-        //         </Link>
-        //     );
-        // } else if(color === "bleuAMB"){
-        //     return(
-        //         <div>
-        //         { props.url === "" 
-        //             ?
-        //             <Link to={props.link} style={{ textDecoration: 'none' }}>
-        //             <div class="module-button button-bleuAMB">{props.label}</div>
-        //             </Link>
-        //             :  
-        //             <a class="module-button button-bleuAMB" url={props.url}>{props.label}</a>
-        //             }
-        //         </div>
-        //     );            
-        // } else if (color==="grey"){
-        //     return(
-        //         <div class="module-button button-grey">{props.label}</div>
-        //     );
-        // } else {
-        //     return(null);
-        // }
 }
 
 export default Button
@@ -96,9 +70,28 @@ function ButtonInfo(props) {
 }
 
 function ButtonExterne(props) {
-    return(
-        <a class="module-button button-bleuAMB" target="_blank" rel="noopener noreferrer nofollow" href={props.url}>
-            {props.label}
-        </a>
-    );
+
+    const styleExternalLinkIcon = {
+        width: '12px',
+        marginLeft: '3px',
+        marginTop:'6px'
+    }
+
+    if(props.color === "white"){
+        return(
+            <div class="module-button-external button-white button-external-white">
+                <a target="_blank" rel="noopener noreferrer nofollow" href={props.link}>
+                    {props.label}
+                </a>
+            </div>
+        );
+    } else if (props.color === "bleuAMB"){
+        return(
+            <div class="module-button-external button-bleuAMB button-external-bleuAMB">
+                <a target="_blank" rel="noopener noreferrer nofollow" href={props.link}>
+                    {props.label} 
+                </a>
+            </div>
+        );            
+    }
 }

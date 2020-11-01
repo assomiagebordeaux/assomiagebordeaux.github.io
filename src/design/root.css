@@ -105,6 +105,11 @@ body {
     src: url(../fonts/SansitaSwashed-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Movember;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+
 
 
 body {

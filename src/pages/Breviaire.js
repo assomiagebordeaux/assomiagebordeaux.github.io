@@ -1,27 +1,31 @@
 import React, { Component } from 'react';
+import Button from '../modules/Button';
 
-import { Document, Page } from 'react-pdf';
+import { Page, Text, View, Document, StyleSheet } from 'react-pdf';
+
+import '../design/pages/breviaire.css'
 
 import BreviaireV1 from '../docs/BreviaireV1.pdf';
 
 class Breviaire extends Component {
+
     render() {
 
+        const heightDynamic = 'calc(100vh - 206px)';
+
+        const stylePDF = {
+            height: heightDynamic,
+            width: '100%',
+            maxWidth: '700px',
+        }
+
         return(
-            // <div class="page-breviaire">
-            // {/* <object data={BreviaireV1} type="application/pdf" style={pdfStyles} scrollbar="0">
-            //     <p>Le PDF ne s'affiche pas ? Le bréviaire est disponible sur le Drive de l'AMB !</p>
-            // </object> */}
-            // <script src="/js/pdfobject.js"></script>
-            // <script>PDFObject.embed(BreviaireV1, "#example1");</script>
-            // </div>
-            // <div>
-            // <Document
-            //     file={BreviaireV1}
-            // >
-            // </Document>
-            // </div>
-            <div></div>
+            
+            <div class="page-breviaire">
+                <div class="page-breviaire-pdf">
+                <iframe scrolling="yes" src={BreviaireV1} style={stylePDF}></iframe>
+                </div>
+            </div>
         );
     }
 }

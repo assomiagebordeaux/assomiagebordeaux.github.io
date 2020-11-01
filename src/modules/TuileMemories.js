@@ -11,21 +11,34 @@ export function TuileMemories(props) {
     console.log("number : "+numberImage);
     let image = "url("+props.img1+")";
 
+    var marginLeftTuileMemories = '0px';
+    if(props.siPremierListe === "false") {
+        marginLeftTuileMemories = '20px';
+    }
+
     switch(numberImage) {
         case 0:
             image = "url("+props.img1+")";
         break;
         case 1:
-            image = "url("+props.img2+")";
+            if(props.nombreImages >= 2) {
+                image = "url("+props.img2+")";
+            }
         break;
         case 2:
+            if(props.nombreImages >= 3) {
             image = "url("+props.img3+")";
+            }
         break;
         case 3:
+            if(props.nombreImages >= 4) {
             image = "url("+props.img4+")";
+            }
         break;
         case 4:
+            if(props.nombreImages == 5) {
             image = "url("+props.img5+")";
+            }
         break;
         default:
             image = "url("+props.img1+")";
@@ -37,7 +50,7 @@ export function TuileMemories(props) {
 
     if(props.siDateDeDispo === "true") {
         return(
-            <div class="module-tuileMemories">
+            <div class="module-tuileMemories" style={{marginLeft: marginLeftTuileMemories}}>
             <div style ={{ backgroundImage: image }} class="module-tuileMemories-image">
             </div>
             <div class="module-tuileMemories-titres">
@@ -60,7 +73,7 @@ export function TuileMemories(props) {
         );
     } else {
         return(
-            <div class="module-tuileMemories">
+            <div class="module-tuileMemories" style={{marginLeft: marginLeftTuileMemories}}>
             <a href={props.lien} target="_blank" rel="noopener noreferrer nofollow" style={{ textDecoration: 'none' }}>
             <div style ={{ backgroundImage: image }} class="module-tuileMemories-image">
                 { props.siNouveau === "true" 

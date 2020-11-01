@@ -1,0 +1,4 @@
+.page-breviaire-pdf {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}

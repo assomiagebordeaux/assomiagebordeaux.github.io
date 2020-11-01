@@ -33,7 +33,9 @@ export function TuileSmooth(props) {
         fontFTitre1 = 'StraightOuttaAMB'
     } else if(props.titre1FontFamily === "Memories"){
         fontFTitre1 = 'Memories'
-    }
+    } else if(props.titre1FontFamily === "Movember"){
+        fontFTitre1 = 'Movember'
+    } 
 
     const styleTitre1 = {
         fontFamily: fontFTitre1,
@@ -55,21 +57,89 @@ export function TuileSmooth(props) {
                         </div>
                         { props.siImage === "true" ? 
                         <div class="module-tuileSmooth-infos-boutons margin-bottom-boutons">
+                            { props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                            <div></div> 
+                            :
+                            <div></div>
+                            }
+                            { props.nombreBoutons === "1" ?
+                            <div class="module-tuileSmooth-infos-boutons-1">
                             <Button
-                            typeBouton="interne"
+                            typeBouton={props.bouton1Type}
                             color={colorBoutons}
                             label={props.bouton1Label}
                             link={props.bouton1Link}
                             />
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            {props.nombreBoutons === "2" ?
+                            <div class="module-tuileSmooth-infos-boutons-2">
+                                <div class="module-tuileSmooth-infos-boutons-left">
+                                <Button
+                                typeBouton={props.bouton1Type}
+                                color={colorBoutons}
+                                label={props.bouton1Label}
+                                link={props.bouton1Link}
+                                />
+                                </div>
+                                <div class="module-tuileSmooth-infos-boutons-right">
+                                <Button
+                                typeBouton={props.bouton2Type}
+                                color={colorBoutons}
+                                label={props.bouton2Label}
+                                link={props.bouton2Link}
+                                />
+                                </div>
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            
                         </div>
                         :
                         <div class="module-tuileSmooth-infos-boutons">
+                            { props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                            <div></div> 
+                            :
+                            <div></div>
+                            }
+                            { props.nombreBoutons === "1" ?
+                            <div class="module-tuileSmooth-infos-boutons-1">
                             <Button
-                            typeBouton="interne"
+                            typeBouton={props.bouton1Type}
                             color={colorBoutons}
                             label={props.bouton1Label}
                             link={props.bouton1Link}
                             />
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            {props.nombreBoutons === "2" ?
+                            <div class="module-tuileSmooth-infos-boutons-2">
+                                <div class="module-tuileSmooth-infos-boutons-left">
+                                <Button
+                                typeBouton={props.bouton1Type}
+                                color={colorBoutons}
+                                label={props.bouton1Label}
+                                link={props.bouton1Link}
+                                />
+                                </div>
+                                <div class="module-tuileSmooth-infos-boutons-right">
+                                <Button
+                                typeBouton={props.bouton2Type}
+                                color={colorBoutons}
+                                label={props.bouton2Label}
+                                link={props.bouton2Link}
+                                />
+                                </div>
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            
                         </div>
                         }
                     </div>
