@@ -42,10 +42,52 @@ export function TuileSmooth(props) {
         color: colorTitres
     }
 
+    // Set the date we're counting down to
+var countDownDate = new Date("Nov 9, 2020 18:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  var labelDay;
+  var labelHour;
+  var labelMinute;
+  var labelSecond;
+
+  // Display the result in the element with id="demo"
+  document.getElementById("countdown").innerHTML = "Fin dans "+days + "J " + hours + "H "
+  + minutes + "M " + seconds + "S ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+    if(props.typeSmooth === "simple") {
         return (
             <div class="module-tuileSmooth" style ={styleModule}>
                 <div class="module-tuileSmooth-margin">
                     <div class="module-tuileSmooth-infos">
+                        { props.countdown === "true" ?
+                        <div id="countdown" class="module-tuileSmooth-infos-countdown">
+
+                        </div>
+                        :
+                        <div></div>
+                        }
                         <div id ="titre1" class="module-tuileSmooth-infos-titre1" style ={styleTitre1}>
                             {props.titre1}
                         </div>
@@ -153,6 +195,11 @@ export function TuileSmooth(props) {
                 </div>
             </div>
         );
+    } else if(props.typeSmooth === "double") {
+        return null;
+    } else {
+        return null;
+    }
 }
 
 export default TuileSmooth;

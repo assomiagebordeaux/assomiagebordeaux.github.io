@@ -29,6 +29,13 @@
     height: max-content;
 }
 
+.module-tuileSmooth-infos-countdown {
+    color: #8B2C2C;
+    font-family: GothamUltra;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 .module-tuileSmooth-infos-titre1 {
     font-size: 5rem;
     line-height: 5rem;
@@ -93,6 +100,13 @@
         align-content: center;
         align-self: center;
         height: max-content;
+    }
+
+    .module-tuileSmooth-infos-countdown {
+        color: #8B2C2C;
+        font-family: GothamUltra;
+        margin-bottom: 10px;
+        text-transform: uppercase;
     }
     
     .module-tuileSmooth-infos-titre1 {

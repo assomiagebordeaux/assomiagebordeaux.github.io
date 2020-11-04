@@ -22,7 +22,9 @@ class Accueil extends Component {
                 <Tuile
                 display="true"
                 type="smooth"
+                typeSmooth="simple"
                 backgroundColor="grey"
+                countdown="true"
                 titre1="LET'S GIVE 'EM AMB !"
                 titre1FontFamily="StraightOuttaAMB"
                 titre2="Le sweat de promo 2020/2021 est disponible !"
@@ -41,7 +43,9 @@ class Accueil extends Component {
                 <Tuile
                 display="true"
                 type="smooth"
+                typeSmooth="simple"
                 backgroundColor="black"
+                countdown="false"
                 titre1="MOVEMBER"
                 titre1FontFamily="Movember"
                 titre2="Participez à la campagne 2020 pendant le confinement !"
@@ -60,7 +64,9 @@ class Accueil extends Component {
                 <Tuile
                 display="true"
                 type="smooth"
+                typeSmooth="simple"
                 backgroundColor="grey"
+                countdown="false"
                 titre1="Adhérer à l'AMB"
                 titre1FontFamily=""
                 titre2="Pour bien commencer cette nouvelle année !"
@@ -79,7 +85,9 @@ class Accueil extends Component {
                 <Tuile
                 display="true"
                 type="smooth"
+                typeSmooth="simple"
                 backgroundColor="black"
+                countdown="false"
                 titre1="Memories are coming..."
                 titre1FontFamily="Memories"
                 titre2="Soirée d'intégration, WES..."

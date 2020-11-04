@@ -36,7 +36,9 @@ export function Tuile(props) {
         } else if(type === "smooth") {
                 return (
                     <TuileSmooth
+                    typeSmooth={props.typeSmooth}
                     backgroundColor={props.backgroundColor}
+                    countdown={props.countdown}
                     titre1={props.titre1}
                     titre1FontFamily={props.titre1FontFamily}
                     titre2={props.titre2}
