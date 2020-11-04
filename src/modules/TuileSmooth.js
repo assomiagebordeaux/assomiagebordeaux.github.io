@@ -60,14 +60,32 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  var labelDay;
-  var labelHour;
-  var labelMinute;
-  var labelSecond;
+  var labelDay = " "+days+"J";
+  var labelHour = " "+hours+"H";
+  var labelMinute = " "+minutes+"M";
+  var labelSecond = " "+seconds+"S";
+
+  if(days == 0){
+      labelDay = "";
+  }
+
+  if(hours == 0) {
+      labelHour = "";
+  }
+
+  if(minutes == 0) {
+      labelMinute = "";
+  }
+
+  if(seconds == 0){
+    labelSecond = "";
+}
 
   // Display the result in the element with id="demo"
-  document.getElementById("countdown").innerHTML = "Fin dans "+days + "J " + hours + "H "
-  + minutes + "M " + seconds + "S ";
+//   document.getElementById("countdown").innerHTML = "Fin dans "+days + "J " + hours + "H "
+//   + minutes + "M " + seconds + "S ";
+
+  document.getElementById("countdown").innerHTML = "Fin dans"+labelDay+labelHour+labelMinute+labelSecond;
 
   // If the count down is finished, write some text 
   if (distance < 0) {
