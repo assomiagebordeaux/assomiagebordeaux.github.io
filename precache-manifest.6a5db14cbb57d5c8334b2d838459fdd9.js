@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "647fc286532add3ec48a3e75dee0e114",
+    "revision": "674ed9ef71fff35cf379f5a2c6809dd7",
     "url": "/index.html"
   },
   {
-    "revision": "375736a00c9c5b6ac4de",
-    "url": "/static/css/main.e245872e.chunk.css"
+    "revision": "0ab5547d77ed05d054d0",
+    "url": "/static/css/main.e6361308.chunk.css"
   },
   {
-    "revision": "0fa2e8ee324931e8eaa6",
-    "url": "/static/js/2.9a0ab9aa.chunk.js"
+    "revision": "44b28f9a8dfd7815392a",
+    "url": "/static/js/2.e5804024.chunk.js"
   },
   {
     "revision": "2927c17f155caba9c734acdc50e6f829",
-    "url": "/static/js/2.9a0ab9aa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e5804024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "375736a00c9c5b6ac4de",
-    "url": "/static/js/main.bb02f976.chunk.js"
+    "revision": "0ab5547d77ed05d054d0",
+    "url": "/static/js/main.dd8c0212.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SmoothAdhesion.b0d37e9f.jpg"
   },
   {
-    "revision": "61be259df484f13ad05005c169ab3557",
-    "url": "/static/media/SmoothMemories2.61be259d.png"
+    "revision": "a25a82a40c2b227ca80a65ad291a27ba",
+    "url": "/static/media/SmoothMemories.a25a82a4.png"
   },
   {
     "revision": "d5d18008e6c829b1f97b14806e8d2d28",
