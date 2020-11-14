@@ -38,7 +38,7 @@ class Accueil extends Component {
                 bouton2Link="https://fr.movember.com/donate/details?memberId=86"
                 siImage="true"
                 image={SmoothMovember}
-                siMarginBottom="true"
+                siMarginBottom="false"
                 />
                 <Tuile
                 display="true"
@@ -59,7 +59,7 @@ class Accueil extends Component {
                 bouton2Link="https://www.helloasso.com/associations/asso-miage-bordeaux/adhesions/adhesion-asso-miage-bordeaux-2020-2021"
                 siImage="false"
                 image=""
-                siMarginBottom="true"
+                siMarginBottom="false"
                 />
                 <Tuile
                 display="true"
@@ -67,10 +67,10 @@ class Accueil extends Component {
                 typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
-                titre1="Memories are coming..."
+                titre1="Memories"
                 titre1FontFamily="Memories"
-                titre2="Soirée d'intégration 2019"
-                titre3="Disponible le 15 novembre !"
+                titre2="Soirée d'intégration 2019 disponible !"
+                titre3=""
                 nombreBoutons="1"
                 bouton1Type="interne"
                 bouton1Label="Voir les Memories"

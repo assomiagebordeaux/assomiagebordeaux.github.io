@@ -13,6 +13,10 @@ import WEI20192020_5 from '../images/memories/2019-2020-wei/WEI20192020_5.jpg';
 
 // SI 2019/2020
 import SI20192020_1 from '../images/memories/2019-2020-soiree-integration/SI20192020_1.jpg';
+import SI20192020_2 from '../images/memories/2019-2020-soiree-integration/SI20192020_2.jpg';
+import SI20192020_3 from '../images/memories/2019-2020-soiree-integration/SI20192020_3.jpg';
+import SI20192020_4 from '../images/memories/2019-2020-soiree-integration/SI20192020_4.jpg';
+import SI20192020_5 from '../images/memories/2019-2020-soiree-integration/SI20192020_5.jpg';
 
 //WES 2019/2020
 import WES20192020_1 from '../images/memories/2019-2020-wes/WES20192020_1.jpg';
@@ -42,6 +46,26 @@ class Memories extends Component {
                             display="true" 
                             type="memories"
                             nombreImages="5"
+                            img1={SI20192020_1}
+                            img2={SI20192020_2}
+                            img3={SI20192020_3}
+                            img4={SI20192020_4}
+                            img5={SI20192020_5}
+                            titreGauche="Soirée d'intégration"
+                            titreDroite="11 sept."
+                            description="C'était l'ÉVÈNEMENT de la rentrée 2019 ! Venez (re)vivre la dernière soirée de l'été et l'intégration des nouveaux miagistes !"
+                            lien="https://photos.app.goo.gl/Df1jHHHX5gF6mYqJ7"
+                            siNouveau="true"
+                            siDateDeDispo="false"
+                            jourDispo="15"
+                            moisDispo="novembre"
+                            anneeDispo="2020"
+                            siPremierListe="true"
+                            />
+                            <Tuile
+                            display="true" 
+                            type="memories"
+                            nombreImages="5"
                             img1={WEI20192020_1}
                             img2={WEI20192020_2}
                             img3={WEI20192020_3}
@@ -56,30 +80,10 @@ class Memories extends Component {
                             jourDispo="3"
                             moisDispo="octobre"
                             anneeDispo="2020"
-                            siPremierListe="true"
-                            />
-                            <Tuile
-                            display="true" 
-                            type="memories"
-                            nombreImages="1"
-                            img1={SI20192020_1}
-                            img2=""
-                            img3=""
-                            img4=""
-                            img5=""
-                            titreGauche="Soirée d'intégration"
-                            titreDroite="11 sept."
-                            description="C'était l'ÉVÈNEMENT de la rentrée 2019 ! Venez (re)vivre la dernière soirée de l'été et l'intégration des nouveaux miagistes !"
-                            lien=""
-                            siNouveau="false"
-                            siDateDeDispo="true"
-                            jourDispo="15"
-                            moisDispo="novembre"
-                            anneeDispo="2020"
                             siPremierListe="false"
                             />
                             <Tuile
-                            display="false" 
+                            display="true" 
                             type="memories"
                             nombreImages="1"
                             img1={WES20192020_1}
@@ -87,7 +91,7 @@ class Memories extends Component {
                             img3=""
                             img4=""
                             img5=""
-                            titreGauche="MIAGE on Snow 2020"
+                            titreGauche="MIAGE on Snow"
                             titreDroite="8-9 fev."
                             description="Un WES miagiste c'est forcément : des bières en terrasse, une tartiflette, du vin rouge, une soirée, ABBA et ... du ski !"
                             lien=""
@@ -99,8 +103,6 @@ class Memories extends Component {
                             siPremierListe="false"
                             />
                         </section>
-
-
 
                     </div> 
                     <div id ="page-memories-conditions" class="page-memories-conditions">
