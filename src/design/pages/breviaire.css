@@ -1,4 +1,138 @@
-.page-breviaire-pdf {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+@media screen and (min-width: 600px) {
+
+.page-breviaire {
+    min-height: calc(100vh - 206px);;
+}
+
+.page-breviaire-illustration {
+    height: 30vh;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.page-breviaire-illustration-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-breviaire-illustration-infos-titre {
+    font-size: 4rem;
+    font-family: var(--page-title-font-family);
+    color: black;
+}
+
+.page-breviaire-illustration-infos-subtitle {
+    font-family: var(--page-subtitle-font-family);
+    color: black;
+    font-size: 0.9rem;
+}
+
+.page-breviaire-content {
+    min-height: calc(70vh - 206px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.page-breviaire-content-margin {
+    padding: 4% 8% 4% 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-brevaire-content-infos {
+    color: black;
+    font-family: GothamMedium;
+}
+
+.page-brevaire-content-link {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-brevaire-content-astuce {
+    margin-top: 20px;
+    font-family: GothamBook;
+    font-size: 0.8rem;
+    color: rgb(88, 88, 88);
+}
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .page-breviaire {
+        min-height: calc(100vh - 206px);
+    }
+    
+    .page-breviaire-illustration {
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+    
+    .page-breviaire-illustration-infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page-breviaire-illustration-infos-titre {
+        font-size: 3rem;
+        font-family: var(--page-title-font-family);
+        color: black;
+    }
+    
+    .page-breviaire-illustration-infos-subtitle {
+        font-family: var(--page-subtitle-font-family);
+        color: black;
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    .page-breviaire-content {
+        min-height: calc(75vh - 206px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .page-breviaire-content-margin {
+        padding: 35px 20px 50px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-brevaire-content-infos {
+        color: black;
+        font-family: GothamMedium;
+    }
+    
+    .page-brevaire-content-link {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page-brevaire-content-astuce {
+        margin-top: 20px;
+        font-family: GothamBook;
+        font-size: 0.8rem;
+        color: rgb(88, 88, 88);
+    }
+
 }
