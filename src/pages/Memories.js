@@ -73,13 +73,13 @@ class Memories extends Component {
                             lien=""
                             siNouveau="false"
                             siDateDeDispo="true"
-                            jourDispo=""
+                            jourDispo="15"
                             moisDispo="novembre"
                             anneeDispo="2020"
                             siPremierListe="false"
                             />
                             <Tuile
-                            display="true" 
+                            display="false" 
                             type="memories"
                             nombreImages="1"
                             img1={WES20192020_1}

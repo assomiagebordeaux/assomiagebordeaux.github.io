@@ -31,6 +31,18 @@
         color: white;
         font-size: 0.9rem;
     }
+
+    .page-shop-closed {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(70vh - 206px);
+        font-family: GothamMedium;
+        color:rgb(161, 161, 161);
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
     
     .page-shop-content {
         background-color: white;
@@ -94,6 +106,18 @@
             font-family: var(--page-subtitle-font-family);
             color: white;
             font-size: 0.9rem;
+        }
+
+        .page-shop-closed {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: calc(70vh - 206px);
+            font-family: GothamMedium;
+            color:rgb(161, 161, 161);
+            font-size: 1.3rem;
+            width: 100%;
+            text-align: center;
         }
         
         .page-shop-content {

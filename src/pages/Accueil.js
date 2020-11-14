@@ -9,7 +9,7 @@ import Adhesion from '../images/adhesion.jpg'
 import Parrainage from '../images/parrainage.jpg'
 import Sweat2021 from '../images/Sweat2021.png'
 import Sweats from '../images/shop/Pulls.png'
-import SmoothMemories from '../images/SmoothMemories2.png'
+import SmoothMemories from '../images/SmoothMemories.png'
 import SmoothAdhesion from '../images/SmoothAdhesion.jpg'
 import SmoothMovember from '../images/movember.png'
 
@@ -23,33 +23,12 @@ class Accueil extends Component {
                 display="true"
                 type="smooth"
                 typeSmooth="simple"
-                backgroundColor="grey"
-                countdown="true"
-                titre1="LET'S GIVE 'EM AMB !"
-                titre1FontFamily="StraightOuttaAMB"
-                titre2="Le sweat de promo 2020/2021 est disponible !"
-                titre3="Noir ou bleu marine ou les deux ! Prolongation jusqu'au 09/11 à 18h."
-                nombreBoutons="2"
-                bouton1Type="interne"
-                bouton1Label="En savoir plus"
-                bouton1Link="/shop"
-                bouton2Type="externe"
-                bouton2Label="Acheter"
-                bouton2Link="https://www.helloasso.com/associations/asso-miage-bordeaux/evenements/pull-de-promo-de-la-miage-de-bordeaux-edition-2020-2021"
-                siImage="true"
-                image={Sweats}
-                siMarginBottom="true"
-                />
-                <Tuile
-                display="true"
-                type="smooth"
-                typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
                 titre1="MOVEMBER"
                 titre1FontFamily="Movember"
                 titre2="Participez à la campagne 2020 pendant le confinement !"
-                titre3="Se raser la moustache le 1er ? Check. La laisser pousser tout novembre ? Check."
+                titre3="Laisser pousser sa moustache tout novembre ? Check !"
                 nombreBoutons="2"
                 bouton1Type="externe"
                 bouton1Label="En savoir plus"
@@ -90,8 +69,8 @@ class Accueil extends Component {
                 countdown="false"
                 titre1="Memories are coming..."
                 titre1FontFamily="Memories"
-                titre2="Soirée d'intégration, WES..."
-                titre3="Les albums 2019/2020 reviennent pendant le confinement !"
+                titre2="Soirée d'intégration 2019"
+                titre3="Disponible le 15 novembre !"
                 nombreBoutons="1"
                 bouton1Type="interne"
                 bouton1Label="Voir les Memories"

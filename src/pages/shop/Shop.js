@@ -23,7 +23,7 @@ class Shop extends Component {
                     </div>
                 </div>
                 <Tuile
-                display="true"
+                display="false"
                 type="info"
                 texte={titreInfoSweats}
                 typeInfo="info"
@@ -33,7 +33,10 @@ class Shop extends Component {
                 buttonLink="/association/adhesion"
                 buttonLabel="J'adhère"
                 />
-                <div class="page-shop-content">
+                <div class="page-shop-closed">
+                    Le shop revient bientôt !
+                </div>
+                {/* <div class="page-shop-content">
                     <div class="page-shop-articles">
                         <Tuile 
                         display="true"
@@ -67,7 +70,7 @@ class Shop extends Component {
                         possible de venir commander au local de l'Asso MIAGE Bordeaux. Les produits commandés sont 
                         à récupérer au local de l'AMB.
                     </div>  
-                </div>
+                </div> */}
             </div>
         );
     }

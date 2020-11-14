@@ -23,7 +23,8 @@ class Breviaire extends Component {
             
             <div class="page-breviaire">
                 <div class="page-breviaire-pdf">
-                <iframe scrolling="yes" src={BreviaireV1} style={stylePDF}></iframe>
+                    <a href={BreviaireV1} alt="r">Lala</a>
+                {/* <iframe scrolling="yes" src={BreviaireV1} style={stylePDF}></iframe> */}
                 </div>
             </div>
         );
