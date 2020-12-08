@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "240d812e9057c38ab2602c5f2f3a773a",
+    "revision": "082a25e30a85e51ae9c21e73826e3749",
     "url": "/index.html"
   },
   {
-    "revision": "12f50c43c9ab45593351",
-    "url": "/static/css/main.b981dc06.chunk.css"
+    "revision": "353fc9e1cb7d8631117a",
+    "url": "/static/css/main.4ff86f10.chunk.css"
   },
   {
-    "revision": "95497c47538deb6c7b95",
-    "url": "/static/js/2.bf492102.chunk.js"
+    "revision": "4736fea8a2c8eb35ea69",
+    "url": "/static/js/2.42f4d13f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.bf492102.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.42f4d13f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12f50c43c9ab45593351",
-    "url": "/static/js/main.56a22f9f.chunk.js"
+    "revision": "353fc9e1cb7d8631117a",
+    "url": "/static/js/main.00b61f51.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -26,6 +26,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf82c30452f8fdb180ca50ef8f6382e5",
     "url": "/static/media/Afterwork.bf82c304.jpg"
+  },
+  {
+    "revision": "c313c68b40f76509aa2ef3a50c8c966b",
+    "url": "/static/media/AmongTheMiagistes.c313c68b.ics"
+  },
+  {
+    "revision": "045429fc7016d89be6b4fd55e86f2df6",
+    "url": "/static/media/AmongUs.045429fc.ttf"
+  },
+  {
+    "revision": "33fa00269a460888143eb752921e1457",
+    "url": "/static/media/AmongUsAMB.33fa0026.png"
+  },
+  {
+    "revision": "116f8c2945005b6be0f14d9d947bced3",
+    "url": "/static/media/AmongUsAMB3.116f8c29.png"
   },
   {
     "revision": "10c6818802ed96f9d6976633ae148c37",
@@ -60,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Gotham-Ultra.49437ce9.ttf"
   },
   {
-    "revision": "243e0e5e1e04824e6055bf087375a30a",
-    "url": "/static/media/LogoAMBNovember2.243e0e5e.png"
+    "revision": "6f542d24f4166b2ea79534e246ad5634",
+    "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
     "revision": "ec2dc840f3a8f62a24c95e56ca049753",
@@ -70,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1380007e995f2bd29005907da6163c9f",
     "url": "/static/media/Pull_Blue.1380007e.png"
-  },
-  {
-    "revision": "d5b48266061d5fb55ffd476f2f48cb6e",
-    "url": "/static/media/Pulls.d5b48266.png"
   },
   {
     "revision": "0b454339b0ee5675822d7f96dc5a4a8d",
@@ -100,16 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
   },
   {
-    "revision": "b0d37e9fdad77c4f26e4b7967ae36357",
-    "url": "/static/media/SmoothAdhesion.b0d37e9f.jpg"
-  },
-  {
     "revision": "a25a82a40c2b227ca80a65ad291a27ba",
     "url": "/static/media/SmoothMemories.a25a82a4.png"
-  },
-  {
-    "revision": "d5d18008e6c829b1f97b14806e8d2d28",
-    "url": "/static/media/Sweat2021.d5d18008.png"
   },
   {
     "revision": "c6dbc533bc1d6621e6c4298ef1768597",
@@ -140,10 +144,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
   {
-    "revision": "61f9cf135c7260733c22ef7fdf9fe8d5",
-    "url": "/static/media/event-notype.61f9cf13.jpg"
-  },
-  {
     "revision": "8898693189fd813e7a6abd157f499560",
     "url": "/static/media/events.88986931.jpg"
   },
@@ -170,13 +170,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83664c2a4c56a68b731ef57b65ed500a",
     "url": "/static/media/shop.83664c2a.jpg"
-  },
-  {
-    "revision": "d5418a17bddd76743afb9812b5ea6383",
-    "url": "/static/media/tuileMemories.d5418a17.jpg"
-  },
-  {
-    "revision": "7e6b81dd8f8bd91e65523e2ef499cb51",
-    "url": "/static/media/wei-2020-460x460.7e6b81dd.jpg"
   }
 ]);
