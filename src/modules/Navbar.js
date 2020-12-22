@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../design/commun/navbar.css'
 
 import logo from '../images/LogoAMB.png';
+// import logo from '../images/LogoAMBNovember2.png';
 
 // Fonction qui s'occupe de rendre invisible le menu de la navbar 
 // quand celle-ci est en mode smartphone

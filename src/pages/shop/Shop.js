@@ -12,7 +12,7 @@ class Shop extends Component {
     
     render() {
 
-    const titreInfoSweats = "Profitez d'un tarif avantageux sur le sweat de promo en étant adhérent : à partir de 27€ au lieu de 29€ ! Vous n'êtes pas adhérent ? Venez adhérer au local lors de votre commande ou choisissez le tarif avec Adhésion 2020/2021 sur HelloAsso pour gagner du temps !";
+    const titreInfoSweats = "La vente du sweat de promo est prolongée jusqu'au 09/11 à 18h ! Toujours à partir de 27€ pour les adhérents (29€ sinon). Pas encore adhérent(e) ? Choisis le tarif avec Adhésion 2020/2021 sur HelloAsso pour gagner du temps !";
     const lienSweats = "https://www.helloasso.com/associations/asso-miage-bordeaux/evenements/pull-de-promo-de-la-miage-de-bordeaux-edition-2020-2021";
         return(
             <div class="page-shop">
@@ -23,7 +23,7 @@ class Shop extends Component {
                     </div>
                 </div>
                 <Tuile
-                display="true"
+                display="false"
                 type="info"
                 texte={titreInfoSweats}
                 typeInfo="info"
@@ -33,7 +33,10 @@ class Shop extends Component {
                 buttonLink="/association/adhesion"
                 buttonLabel="J'adhère"
                 />
-                <div class="page-shop-content">
+                <div class="page-shop-closed">
+                    Le shop revient bientôt !
+                </div>
+                {/* <div class="page-shop-content">
                     <div class="page-shop-articles">
                         <Tuile 
                         display="true"
@@ -67,7 +70,7 @@ class Shop extends Component {
                         possible de venir commander au local de l'Asso MIAGE Bordeaux. Les produits commandés sont 
                         à récupérer au local de l'AMB.
                     </div>  
-                </div>
+                </div> */}
             </div>
         );
     }
