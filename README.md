@@ -1,3 +1,30 @@
+# Wiki du site de l'AMB
+
+## Prérequis
+
+lala
+
+## Installation
+
+lala
+
+## Scripts
+
+lala
+
+## Fonctionnement
+
+Cette partie a pour but d'expliquer comment a été conçu le site web et comment ajouter, modifier ou supprimer des éléments. 
+
+### lala
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

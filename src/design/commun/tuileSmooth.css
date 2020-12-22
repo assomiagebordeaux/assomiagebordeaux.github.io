@@ -29,6 +29,13 @@
     height: max-content;
 }
 
+.module-tuileSmooth-infos-countdown {
+    color: #8B2C2C;
+    font-family: GothamUltra;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 .module-tuileSmooth-infos-titre1 {
     font-size: 5rem;
     line-height: 5rem;
@@ -55,6 +62,15 @@
     margin-bottom: 40px;
 }
 
+.module-tuileSmooth-infos-boutons-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.module-tuileSmooth-infos-boutons-left {
+    margin-right: 20px;
+}
+
 .module-tuileSmooth-image {
     text-align: center;
 }
@@ -63,7 +79,6 @@
     /* height: 500px; */
     width: auto;
     max-height: 500px;
-
 }
 
 }
@@ -85,6 +100,13 @@
         align-content: center;
         align-self: center;
         height: max-content;
+    }
+
+    .module-tuileSmooth-infos-countdown {
+        color: #8B2C2C;
+        font-family: GothamUltra;
+        margin-bottom: 10px;
+        text-transform: uppercase;
     }
     
     .module-tuileSmooth-infos-titre1 {
@@ -115,6 +137,16 @@
 
     .margin-bottom-boutons {
         margin-bottom: 40px;
+    }
+
+    .module-tuileSmooth-infos-boutons-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .module-tuileSmooth-infos-boutons-left {
+        margin-bottom: 8px;
     }
     
     .module-tuileSmooth-image {

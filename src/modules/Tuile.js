@@ -36,23 +36,30 @@ export function Tuile(props) {
         } else if(type === "smooth") {
                 return (
                     <TuileSmooth
+                    typeSmooth={props.typeSmooth}
                     backgroundColor={props.backgroundColor}
+                    countdown={props.countdown}
                     titre1={props.titre1}
                     titre1FontFamily={props.titre1FontFamily}
                     titre2={props.titre2}
                     titre3={props.titre3}
                     nombreBoutons={props.nombreBoutons}
+                    bouton1Type={props.bouton1Type}
                     bouton1Label={props.bouton1Label}
                     bouton1Link={props.bouton1Link}
+                    bouton2Type={props.bouton2Type}
+                    bouton2Label={props.bouton2Label}
+                    bouton2Link={props.bouton2Link}
                     siImage={props.siImage}
                     image={props.image}
-                    siDernier={props.siDernier}
+                    siMarginBottom={props.siMarginBottom}
                     />
                 );
         } else if(type === "event") {
             return (
                 <TuileEvent
-                typeEvent={props.typeEvent} 
+                typeEvent={props.typeEvent}
+                imageEvent={props.imageEvent} 
                 title={props.title}
                 lieu={props.lieu}
                 date={props.date}
@@ -83,6 +90,7 @@ export function Tuile(props) {
         } else if(type === "memories") {
             return (
                 <TuileMemories
+                nombreImages={props.nombreImages}
                 img1={props.img1}
                 img2={props.img2}
                 img3={props.img3}
@@ -97,6 +105,7 @@ export function Tuile(props) {
                 jourDispo={props.jourDispo}
                 moisDispo={props.moisDispo}
                 anneeDispo={props.anneeDispo}
+                siPremierListe={props.siPremierListe}
                 />
             );
         } else if(type === "shop") {

@@ -11,19 +11,52 @@ export function TuileSmooth(props) {
     var colorBG = '#F2F2F2';
     var colorTitres = 'black';
     var colorBoutons = 'bleuAMB';
+    var marginB = '12px';
+    var fontFTitre1 = 'GothamMedium';
+
     if(props.backgroundColor === "black") {
         colorBG = 'black';
         colorTitres = '#F5F5F7';
         colorBoutons = 'white';
     }
-    
 
-    if(props.titre1FontFamily === "StraightOuttaAMB") {
+    if(props.siMarginBottom === "false"){
+        marginB = '0px';
+    }
+
+    const styleModule = {
+        backgroundColor: colorBG,
+        marginBottom: marginB
+    }
+
+    if(props.titre1FontFamily === "StraightOuttaAMB"){
+        fontFTitre1 = 'StraightOuttaAMB'
+    } else if(props.titre1FontFamily === "Memories"){
+        fontFTitre1 = 'Memories'
+    } else if(props.titre1FontFamily === "Movember"){
+        fontFTitre1 = 'Movember'
+    } else if(props.titre1FontFamily === "AmongUs"){
+        fontFTitre1 = 'AmongUs'
+    } 
+
+    const styleTitre1 = {
+        fontFamily: fontFTitre1,
+        color: colorTitres
+    }
+
+    if(props.typeSmooth === "simple") {
         return (
-            <div class="module-tuileSmooth" style ={{ backgroundColor: colorBG }}>
+            <div class="module-tuileSmooth" style ={styleModule}>
                 <div class="module-tuileSmooth-margin">
                     <div class="module-tuileSmooth-infos">
-                        <div id ="titre1" class="module-tuileSmooth-infos-titre1 font-StraightOuttaAMB" style ={{ color: colorTitres}}>
+                        {/* { props.countdown === "true" ?
+                        <div id="countdown" class="module-tuileSmooth-infos-countdown">
+
+                        </div>
+                        :
+                        <div></div>
+                        } */}
+                        <div id ="titre1" class="module-tuileSmooth-infos-titre1" style ={styleTitre1}>
                             {props.titre1}
                         </div>
                         <div class="module-tuileSmooth-infos-titre2" style ={{ color: colorTitres}}>
@@ -34,21 +67,89 @@ export function TuileSmooth(props) {
                         </div>
                         { props.siImage === "true" ? 
                         <div class="module-tuileSmooth-infos-boutons margin-bottom-boutons">
+                            { props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                            <div></div> 
+                            :
+                            <div></div>
+                            }
+                            { props.nombreBoutons === "1" ?
+                            <div class="module-tuileSmooth-infos-boutons-1">
                             <Button
-                            typeBouton="interne"
+                            typeBouton={props.bouton1Type}
                             color={colorBoutons}
                             label={props.bouton1Label}
                             link={props.bouton1Link}
                             />
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            {props.nombreBoutons === "2" ?
+                            <div class="module-tuileSmooth-infos-boutons-2">
+                                <div class="module-tuileSmooth-infos-boutons-left">
+                                <Button
+                                typeBouton={props.bouton1Type}
+                                color={colorBoutons}
+                                label={props.bouton1Label}
+                                link={props.bouton1Link}
+                                />
+                                </div>
+                                <div class="module-tuileSmooth-infos-boutons-right">
+                                <Button
+                                typeBouton={props.bouton2Type}
+                                color={colorBoutons}
+                                label={props.bouton2Label}
+                                link={props.bouton2Link}
+                                />
+                                </div>
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            
                         </div>
                         :
                         <div class="module-tuileSmooth-infos-boutons">
+                            { props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                            <div></div> 
+                            :
+                            <div></div>
+                            }
+                            { props.nombreBoutons === "1" ?
+                            <div class="module-tuileSmooth-infos-boutons-1">
                             <Button
-                            typeBouton="interne"
+                            typeBouton={props.bouton1Type}
                             color={colorBoutons}
                             label={props.bouton1Label}
                             link={props.bouton1Link}
                             />
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            {props.nombreBoutons === "2" ?
+                            <div class="module-tuileSmooth-infos-boutons-2">
+                                <div class="module-tuileSmooth-infos-boutons-left">
+                                <Button
+                                typeBouton={props.bouton1Type}
+                                color={colorBoutons}
+                                label={props.bouton1Label}
+                                link={props.bouton1Link}
+                                />
+                                </div>
+                                <div class="module-tuileSmooth-infos-boutons-right">
+                                <Button
+                                typeBouton={props.bouton2Type}
+                                color={colorBoutons}
+                                label={props.bouton2Label}
+                                link={props.bouton2Link}
+                                />
+                                </div>
+                            </div>
+                            :
+                            <div></div>
+                            }
+                            
                         </div>
                         }
                     </div>
@@ -62,94 +163,10 @@ export function TuileSmooth(props) {
                 </div>
             </div>
         );
-    } else if(props.titre1FontFamily === "Memories") {
-        return (
-            <div class="module-tuileSmooth" style ={{ backgroundColor: colorBG }}>
-                <div class="module-tuileSmooth-margin">
-                    <div class="module-tuileSmooth-infos">
-                        <div id ="titre1" class="module-tuileSmooth-infos-titre1 font-Memories" style ={{ color: colorTitres}}>
-                            {props.titre1}
-                        </div>
-                        <div class="module-tuileSmooth-infos-titre2" style ={{ color: colorTitres}}>
-                            {props.titre2}
-                        </div>
-                        <div class="module-tuileSmooth-infos-titre3" style ={{ color: colorTitres}}>
-                            {props.titre3}
-                        </div>
-                        { props.siImage === "true" ? 
-                        <div class="module-tuileSmooth-infos-boutons margin-bottom-boutons">
-                            <Button
-                            typeBouton="interne"
-                            color={colorBoutons}
-                            label={props.bouton1Label}
-                            link={props.bouton1Link}
-                            />
-                        </div>
-                        :
-                        <div class="module-tuileSmooth-infos-boutons">
-                            <Button
-                            typeBouton="interne"
-                            color={colorBoutons}
-                            label={props.bouton1Label}
-                            link={props.bouton1Link}
-                            />
-                        </div>
-                        }
-                    </div>
-                    { props.siImage === "true" ? 
-                    <div class="module-tuileSmooth-image">
-                        <img src={props.image} alt={props.title} />
-                    </div>
-                    :
-                    <div></div>
-                    }
-                </div>
-            </div>
-        );
+    } else if(props.typeSmooth === "double") {
+        return null;
     } else {
-        return (
-            <div class="module-tuileSmooth" style ={{ backgroundColor: colorBG }}>
-                <div class="module-tuileSmooth-margin">
-                    <div class="module-tuileSmooth-infos">
-                        <div id ="titre1" class="module-tuileSmooth-infos-titre1 font-normal" style ={{ color: colorTitres}}>
-                            {props.titre1}
-                        </div>
-                        <div class="module-tuileSmooth-infos-titre2" style ={{ color: colorTitres}}>
-                            {props.titre2}
-                        </div>
-                        <div class="module-tuileSmooth-infos-titre3" style ={{ color: colorTitres}}>
-                            {props.titre3}
-                        </div>
-                        { props.siImage === "true" ? 
-                        <div class="module-tuileSmooth-infos-boutons margin-bottom-boutons">
-                            <Button
-                            typeBouton="interne"
-                            color={colorBoutons}
-                            label={props.bouton1Label}
-                            link={props.bouton1Link}
-                            />
-                        </div>
-                        :
-                        <div class="module-tuileSmooth-infos-boutons">
-                            <Button
-                            typeBouton="interne"
-                            color={colorBoutons}
-                            label={props.bouton1Label}
-                            link={props.bouton1Link}
-                            />
-                        </div>
-                        }
-                    </div>
-                    { props.siImage === "true" ? 
-                    <div class="module-tuileSmooth-image">
-                        <img src={props.image} alt={props.title} />
-                    </div>
-                    :
-                    <div></div>
-                    }
-                </div>
-            </div>
-        );
+        return null;
     }
 }
 
