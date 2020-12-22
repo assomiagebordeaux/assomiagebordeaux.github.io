@@ -33,6 +33,13 @@ export function Button(props) {
             link={props.link}
             />
         );
+    } else if(props.typeBouton === "addCalendar") {
+        return(
+            <ButtonAddCalendar
+            color={props.color} 
+            link={props.link}
+            />
+        );
     } else {
         return(null);
     }
@@ -90,6 +97,26 @@ function ButtonExterne(props) {
             <div class="module-button-external button-bleuAMB button-external-bleuAMB">
                 <a target="_blank" rel="noopener noreferrer nofollow" href={props.link}>
                     {props.label} 
+                </a>
+            </div>
+        );            
+    }
+}
+
+function ButtonAddCalendar(props) {
+    if(props.color === "white"){
+        return(
+            <div class="module-button-external button-white button-external-white">
+                <a target="_blank" rel="noopener noreferrer nofollow" href={props.link}>
+                    Ajouter au calendrier +
+                </a>
+            </div>
+        );
+    } else if (props.color === "bleuAMB"){
+        return(
+            <div class="module-button-external button-bleuAMB button-external-bleuAMB">
+                <a target="_blank" rel="noopener noreferrer nofollow" href={props.link}>
+                    Ajouter au calendrier + 
                 </a>
             </div>
         );            

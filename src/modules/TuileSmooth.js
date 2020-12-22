@@ -35,6 +35,8 @@ export function TuileSmooth(props) {
         fontFTitre1 = 'Memories'
     } else if(props.titre1FontFamily === "Movember"){
         fontFTitre1 = 'Movember'
+    } else if(props.titre1FontFamily === "AmongUs"){
+        fontFTitre1 = 'AmongUs'
     } 
 
     const styleTitre1 = {

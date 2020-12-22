@@ -2,10 +2,38 @@ import React, { Component } from 'react';
 
 import '../design/commun/footer.css'
 
+import Facebook from '../icons/facebook.png';
+import Instagram from '../icons/instagram.png';
+import Linkedin from '../icons/linkedin.png';
+import Messenger from '../icons/messenger.png';
+import Discord from '../icons/discord.png';
+import Mail from '../icons/mail.png';
+
 class Footer extends Component {
     render() {
         return (
             <div class="module-footer">
+
+                <div class="module-footer-network">
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/assomiagebordeaux">
+                    <img class="module-footer-network-icon" src={Facebook} alt="Facebook"/>
+                </a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/assomiagebordeaux/">
+                    <img class="module-footer-network-icon secondMore" src={Instagram} alt="Instagram"/>
+                </a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://linkedin.com/company/amb-asso-miage-bordeaux">
+                    <img class="module-footer-network-icon secondMore" src={Linkedin} alt="Linkedin"/>
+                </a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://m.me/assomiagebordeaux">
+                    <img class="module-footer-network-icon secondMore" src={Messenger} alt="Messenger"/>
+                </a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/P57WPSkjq2">
+                    <img class="module-footer-network-icon secondMore" src={Discord} alt="Discord"/>
+                </a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="mailto:asso@miagebordeaux.fr">
+                    <img class="module-footer-network-icon secondMore" src={Mail} alt="Mail"/>
+                </a>    
+                </div>
 
                 <div class="module-footer-mentions">
                 Copyright © 2020 Asso MIAGE Bordeaux. Tous droits réservés.

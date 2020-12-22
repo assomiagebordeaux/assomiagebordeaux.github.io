@@ -4,6 +4,9 @@ import {Tuile} from '../modules/Tuile';
 
 import EventsIllustration from '../images/events.jpg';
 import WES from '../images/lamongie.jpg';
+import AmongTheMiagistes from '../images/AmongUsAMB.png';
+import Afterwork from'../images/Afterwork.jpg';
+import Parrainage from '../images/parrainage.jpg';
 
 import '../design/pages/events.css'
 
@@ -28,7 +31,23 @@ class Events extends Component {
                 display="true"
                 type="event"
                 status="over"
-                image={WES}
+                imageEvent={AmongTheMiagistes}
+                typeEvent=""
+                title="Among The Miagistes !"
+                lieu="Discord de l'AMB"
+                date="mercredi 25 novembre 2020"
+                description="Rejoignez les miagistes pour débusquer les imposteurs lors de la soirée de lancement du discord de l'AMB !"
+                typeBouton="desactive"
+                button1Color="bleuAMB"
+                button1Label="Discord à venir..."
+                button1Link=""
+                isLast="false"
+                />
+                <Tuile 
+                display="true"
+                type="event"
+                status="over"
+                imageEvent={Parrainage}
                 typeEvent="unspecified"
                 title="L'enquête des parrains"
                 lieu="A22 - Amphi Darwin"
@@ -44,6 +63,7 @@ class Events extends Component {
                 display="true"
                 type="event"
                 status="over"
+                imageEvent={Afterwork}
                 typeEvent="afterwork"
                 title="Afterwork AMB x JMC"
                 lieu="Carnaval Café"

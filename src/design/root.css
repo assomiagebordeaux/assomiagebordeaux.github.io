@@ -110,6 +110,11 @@ body {
     src: url(../fonts/Anton-Regular.ttf);
 }
 
+@font-face {
+    font-family: AmongUs;
+    src: url(../fonts/AmongUs.ttf);
+}
+
 
 
 body {

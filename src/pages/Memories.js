@@ -21,6 +21,9 @@ import SI20192020_5 from '../images/memories/2019-2020-soiree-integration/SI2019
 //WES 2019/2020
 import WES20192020_1 from '../images/memories/2019-2020-wes/WES20192020_1.jpg';
 
+//GALA 2018/2019
+import GALA20182019_1 from '../images/memories/2018-2019-gala/GALA20182019_1.jpg';
+
 import '../design/pages/memories.css'
 
 class Memories extends Component {
@@ -55,7 +58,7 @@ class Memories extends Component {
                             titreDroite="11 sept."
                             description="C'était l'ÉVÈNEMENT de la rentrée 2019 ! Venez (re)vivre la dernière soirée de l'été et l'intégration des nouveaux miagistes !"
                             lien="https://photos.app.goo.gl/Df1jHHHX5gF6mYqJ7"
-                            siNouveau="true"
+                            siNouveau="false"
                             siDateDeDispo="false"
                             jourDispo="15"
                             moisDispo="novembre"
@@ -94,6 +97,50 @@ class Memories extends Component {
                             titreGauche="MIAGE on Snow"
                             titreDroite="8-9 fev."
                             description="Un WES miagiste c'est forcément : des bières en terrasse, une tartiflette, du vin rouge, une soirée, ABBA et ... du ski !"
+                            lien=""
+                            siNouveau="false"
+                            siDateDeDispo="true"
+                            jourDispo=""
+                            moisDispo="décembre"
+                            anneeDispo="2020"
+                            siPremierListe="false"
+                            />
+                        </section>
+
+                        {/* <div class="page-memories-content-title">2018/2019</div> */}
+                        <section class="page-memories-content-tuiles">
+                        <Tuile
+                            display="false" 
+                            type="memories"
+                            nombreImages="1"
+                            img1={GALA20182019_1}
+                            img2=""
+                            img3=""
+                            img4=""
+                            img5=""
+                            titreGauche="Gala MIAGE"
+                            titreDroite="5 avr."
+                            description="Revivez la soirée de cette 11ème édition du Gala MIAGE placée sous le signe des contes traditionnels ! "
+                            lien=""
+                            siNouveau="false"
+                            siDateDeDispo="true"
+                            jourDispo=""
+                            moisDispo="décembre"
+                            anneeDispo="2020"
+                            siPremierListe="true"
+                            />
+                        <Tuile
+                            display="false" 
+                            type="memories"
+                            nombreImages="1"
+                            img1={GALA20182019_1}
+                            img2=""
+                            img3=""
+                            img4=""
+                            img5=""
+                            titreGauche="FarWEI'st"
+                            titreDroite="5 avr."
+                            description="Revivez la soirée de cette 11ème édition du Gala MIAGE placée sous le signe des contes traditionnels ! "
                             lien=""
                             siNouveau="false"
                             siDateDeDispo="true"

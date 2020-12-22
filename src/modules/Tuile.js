@@ -59,7 +59,7 @@ export function Tuile(props) {
             return (
                 <TuileEvent
                 typeEvent={props.typeEvent}
-                image={props.image} 
+                imageEvent={props.imageEvent} 
                 title={props.title}
                 lieu={props.lieu}
                 date={props.date}

@@ -19,7 +19,6 @@ import Footer from './modules/Footer';
 import Page404 from './pages/Page404';
 import Memories from './pages/Memories';
 import Shop from './pages/shop/Shop';
-import SweatPromo2021 from './pages/shop/SweatPromo-2021';
 
 import Events from './pages/Events';
 import WEI from './pages/events/WEI-2020';
