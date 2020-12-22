@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "082a25e30a85e51ae9c21e73826e3749",
+    "revision": "52369af3df7d8303e94e48e9b16ac062",
     "url": "/index.html"
   },
   {
-    "revision": "353fc9e1cb7d8631117a",
-    "url": "/static/css/main.4ff86f10.chunk.css"
+    "revision": "94ebe8f6092116c424d4",
+    "url": "/static/css/main.6ab0e523.chunk.css"
   },
   {
-    "revision": "4736fea8a2c8eb35ea69",
-    "url": "/static/js/2.42f4d13f.chunk.js"
+    "revision": "a9917bcf1c8ddf55bda6",
+    "url": "/static/js/2.961d4f72.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.42f4d13f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.961d4f72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "353fc9e1cb7d8631117a",
-    "url": "/static/js/main.00b61f51.chunk.js"
+    "revision": "94ebe8f6092116c424d4",
+    "url": "/static/js/main.1305872a.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Afterwork.bf82c304.jpg"
   },
   {
-    "revision": "c313c68b40f76509aa2ef3a50c8c966b",
-    "url": "/static/media/AmongTheMiagistes.c313c68b.ics"
+    "revision": "9c4825d84ad4b47a1b239949c6fdb401",
+    "url": "/static/media/AmongTheMiagistes.9c4825d8.ics"
   },
   {
     "revision": "045429fc7016d89be6b4fd55e86f2df6",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b2d0d02c54a218978c046d96841b16c",
     "url": "/static/media/ChampionGothic-Welterweight.1b2d0d02.ttf"
+  },
+  {
+    "revision": "972bce0d0776cf4a835d46635b95cbb0",
+    "url": "/static/media/GALA20182019_1.972bce0d.jpg"
   },
   {
     "revision": "35955f9befef412927e2aa3b6bb5fa7a",
