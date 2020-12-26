@@ -34,7 +34,7 @@ class Shop extends Component {
                 buttonLabel="J'adhère"
                 />
                 <div class="page-shop-closed">
-                    Le shop revient bientôt !
+                    Le shop revient en janvier 2021 !
                 </div>
                 {/* <div class="page-shop-content">
                     <div class="page-shop-articles">

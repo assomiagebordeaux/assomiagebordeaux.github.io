@@ -5,9 +5,8 @@ import '../design/pages/accueil.css'
 import {Tuile} from '../modules/Tuile';
 
 import SmoothMemories from '../images/SmoothMemories.png'
-import SmoothMovember from '../images/movember.png'
-import SmoothAmongUs from '../images/AmongUsAMB3.png'
-import CalendarAmongUs from '../icons/AmongTheMiagistes.ics'
+import SmoothMemories20182019 from '../images/SmoothMemories20182019.png';
+import SmoothMemoriesChristmasParty2019 from '../images/SmoothMemoriesChristmasParty2019.png';
 
 class Accueil extends Component {
     render() {
@@ -19,23 +18,77 @@ class Accueil extends Component {
                 typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
-                titre1="Memories"
+                titre1="2018/2019"
                 titre1FontFamily="Memories"
-                titre2="Soirée d'intégration 2019 disponible !"
-                titre3=""
+                titre2="Les Memories sont disponibles !"
+                titre3="Soirée d'intégration, FarWEI'st et Gala MIAGE !"
                 nombreBoutons="1"
                 bouton1Type="interne"
                 bouton1Label="Voir les Memories"
                 bouton1Link="/memories"
                 siImage="true"
-                image={SmoothMemories}
+                image={SmoothMemories20182019}
                 siMarginBottom="false"
                 />
                 <Tuile
                 display="true"
                 type="smooth"
                 typeSmooth="simple"
-                backgroundColor="grey"
+                backgroundColor="black"
+                countdown="false"
+                titre1="l'amb vous souhaite de bonnes fêtes de fin d'année !"
+                titre1FontFamily="Memories"
+                titre2=""
+                titre3=""
+                nombreBoutons="0"
+                bouton1Type="interne"
+                bouton1Label="Voir les Memories"
+                bouton1Link="/memories"
+                siImage="false"
+                image=""
+                siMarginBottom="false"
+                />
+                <Tuile
+                display="true"
+                type="smooth"
+                typeSmooth="simple"
+                backgroundColor="black"
+                countdown="false"
+                titre1="2019/2020"
+                titre1FontFamily="Memories"
+                titre2="La Christmas Party est disponible !"
+                titre3="feat. ACBX, AEBBCB, Ambigu and M-TECH !"
+                nombreBoutons="1"
+                bouton1Type="interne"
+                bouton1Label="Voir les Memories"
+                bouton1Link="/memories"
+                siImage="true"
+                image={SmoothMemoriesChristmasParty2019}
+                siMarginBottom="false"
+                />
+                <Tuile
+                display="true"
+                type="smooth"
+                typeSmooth="simple"
+                backgroundColor="black"
+                countdown="false"
+                titre1="des nouveautés arrivent en janvier !"
+                titre1FontFamily="Memories"
+                titre2=""
+                titre3=""
+                nombreBoutons="0"
+                bouton1Type="interne"
+                bouton1Label="Voir les Memories"
+                bouton1Link="/memories"
+                siImage="false"
+                image=""
+                siMarginBottom="false"
+                />
+                <Tuile
+                display="false"
+                type="smooth"
+                typeSmooth="simple"
+                backgroundColor="black"
                 countdown="false"
                 titre1="Adhérer à l'AMB"
                 titre1FontFamily=""
