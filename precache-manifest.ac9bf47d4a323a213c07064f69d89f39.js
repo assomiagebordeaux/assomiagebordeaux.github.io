@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52369af3df7d8303e94e48e9b16ac062",
+    "revision": "2570e24da2e692443fcab5ffabe1cc81",
     "url": "/index.html"
   },
   {
-    "revision": "94ebe8f6092116c424d4",
-    "url": "/static/css/main.6ab0e523.chunk.css"
+    "revision": "1b160e128d6d61e80ace",
+    "url": "/static/css/main.e06233ae.chunk.css"
   },
   {
-    "revision": "a9917bcf1c8ddf55bda6",
-    "url": "/static/js/2.961d4f72.chunk.js"
+    "revision": "b6503b52ce1f370d5894",
+    "url": "/static/js/2.d7323d1b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.961d4f72.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d7323d1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94ebe8f6092116c424d4",
-    "url": "/static/js/main.1305872a.chunk.js"
+    "revision": "1b160e128d6d61e80ace",
+    "url": "/static/js/main.cfdbdd5c.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -28,20 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Afterwork.bf82c304.jpg"
   },
   {
-    "revision": "9c4825d84ad4b47a1b239949c6fdb401",
-    "url": "/static/media/AmongTheMiagistes.9c4825d8.ics"
-  },
-  {
     "revision": "045429fc7016d89be6b4fd55e86f2df6",
     "url": "/static/media/AmongUs.045429fc.ttf"
   },
   {
     "revision": "33fa00269a460888143eb752921e1457",
     "url": "/static/media/AmongUsAMB.33fa0026.png"
-  },
-  {
-    "revision": "116f8c2945005b6be0f14d9d947bced3",
-    "url": "/static/media/AmongUsAMB3.116f8c29.png"
   },
   {
     "revision": "10c6818802ed96f9d6976633ae148c37",
@@ -56,12 +48,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/BreviaireV1.915bdfad.pdf"
   },
   {
+    "revision": "8c51eca0af7edbcc7cc136fa7638d466",
+    "url": "/static/media/CP20192020_1.8c51eca0.jpg"
+  },
+  {
+    "revision": "2ffc47753ab5ee09e29b6dcbbf312765",
+    "url": "/static/media/CP20192020_2.2ffc4775.jpg"
+  },
+  {
+    "revision": "60b0c9f50e339bc4213a8d55c08cf944",
+    "url": "/static/media/CP20192020_3.60b0c9f5.jpg"
+  },
+  {
+    "revision": "34de5528d738051cf15ef23ecf3e2f3a",
+    "url": "/static/media/CP20192020_4.34de5528.jpg"
+  },
+  {
+    "revision": "80ef34d034b38b15c3a44adc2b9e7a01",
+    "url": "/static/media/CP20192020_5.80ef34d0.jpg"
+  },
+  {
     "revision": "1b2d0d02c54a218978c046d96841b16c",
     "url": "/static/media/ChampionGothic-Welterweight.1b2d0d02.ttf"
   },
   {
     "revision": "972bce0d0776cf4a835d46635b95cbb0",
     "url": "/static/media/GALA20182019_1.972bce0d.jpg"
+  },
+  {
+    "revision": "ad59443a0cba3cecf43dfdf9829e02fb",
+    "url": "/static/media/GALA20182019_2.ad59443a.jpg"
+  },
+  {
+    "revision": "8a3476f3d609c4ca64c5a1c26ee91539",
+    "url": "/static/media/GALA20182019_3.8a3476f3.jpg"
+  },
+  {
+    "revision": "2d8a4aacbb9b09f182c4838b2afc7307",
+    "url": "/static/media/GALA20182019_4.2d8a4aac.jpg"
+  },
+  {
+    "revision": "f48a20df8aacc4bd10fc5c53d6d5ae2c",
+    "url": "/static/media/GALA20182019_5.f48a20df.jpg"
   },
   {
     "revision": "35955f9befef412927e2aa3b6bb5fa7a",
@@ -92,6 +120,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Pull_Blue.1380007e.png"
   },
   {
+    "revision": "cc62602b9d9bc3bc9c0c42b41b79c287",
+    "url": "/static/media/SI20182019_1.cc62602b.jpg"
+  },
+  {
+    "revision": "e318a237d4aad0b6a826db03ae71f879",
+    "url": "/static/media/SI20182019_2.e318a237.jpg"
+  },
+  {
+    "revision": "cce06f95747caa1837e7664f38dfdb8a",
+    "url": "/static/media/SI20182019_3.cce06f95.jpg"
+  },
+  {
+    "revision": "9b6f7037e843c1a6eb5d19cb71f09c95",
+    "url": "/static/media/SI20182019_4.9b6f7037.jpg"
+  },
+  {
+    "revision": "6a987c631b33222bcc0c7444b700e4bb",
+    "url": "/static/media/SI20182019_5.6a987c63.jpg"
+  },
+  {
     "revision": "0b454339b0ee5675822d7f96dc5a4a8d",
     "url": "/static/media/SI20192020_1.0b454339.jpg"
   },
@@ -118,6 +166,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a25a82a40c2b227ca80a65ad291a27ba",
     "url": "/static/media/SmoothMemories.a25a82a4.png"
+  },
+  {
+    "revision": "7d16ee0ba812bca1a708ff6091b04a4a",
+    "url": "/static/media/SmoothMemories20182019.7d16ee0b.png"
+  },
+  {
+    "revision": "f09e50a4bb9bb5e8c1ab397dcb774e86",
+    "url": "/static/media/SmoothMemoriesChristmasParty2019.f09e50a4.png"
+  },
+  {
+    "revision": "2423b8ee74bee675caafe831738f71b6",
+    "url": "/static/media/WEI20182019_1.2423b8ee.jpg"
+  },
+  {
+    "revision": "17d57e541b950893830a32424317dcd9",
+    "url": "/static/media/WEI20182019_2.17d57e54.jpg"
+  },
+  {
+    "revision": "9764e155a32bbd8ba25e2659a9c4b45c",
+    "url": "/static/media/WEI20182019_3.9764e155.jpg"
+  },
+  {
+    "revision": "7ae82e29e0fc239f1970d6e091fdbc65",
+    "url": "/static/media/WEI20182019_4.7ae82e29.jpg"
+  },
+  {
+    "revision": "7282f6bfcb9ff231b9df5d931d77218a",
+    "url": "/static/media/WEI20182019_5.7282f6bf.jpg"
   },
   {
     "revision": "c6dbc533bc1d6621e6c4298ef1768597",
@@ -162,10 +238,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa9f56a0e938f4f6ba34122b4fdd9a63",
     "url": "/static/media/moisAfterwork.aa9f56a0.jpg"
-  },
-  {
-    "revision": "a71be003a1cab716ad21ffafc754863a",
-    "url": "/static/media/movember.a71be003.png"
   },
   {
     "revision": "ebcd8dd4e93baa5fa62930cc8fe6b00a",
