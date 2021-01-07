@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e06233ae.chunk.css",
-    "main.js": "/static/js/main.cfdbdd5c.chunk.js",
+    "main.css": "/static/css/main.f14b31bf.chunk.css",
+    "main.js": "/static/js/main.d139c1c8.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
-    "static/js/2.d7323d1b.chunk.js": "/static/js/2.d7323d1b.chunk.js",
+    "static/js/2.f87d846c.chunk.js": "/static/js/2.f87d846c.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.ac9bf47d4a323a213c07064f69d89f39.js": "/precache-manifest.ac9bf47d4a323a213c07064f69d89f39.js",
+    "precache-manifest.8786a60d3d135e8395f210b46718b9f2.js": "/precache-manifest.8786a60d3d135e8395f210b46718b9f2.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.d7323d1b.chunk.js.LICENSE.txt": "/static/js/2.d7323d1b.chunk.js.LICENSE.txt",
+    "static/js/2.f87d846c.chunk.js.LICENSE.txt": "/static/js/2.f87d846c.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/root.css": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf",
     "static/media/AmongUsAMB.png": "/static/media/AmongUsAMB.33fa0026.png",
@@ -60,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.d7323d1b.chunk.js",
-    "static/css/main.e06233ae.chunk.css",
-    "static/js/main.cfdbdd5c.chunk.js"
+    "static/js/2.f87d846c.chunk.js",
+    "static/css/main.f14b31bf.chunk.css",
+    "static/js/main.d139c1c8.chunk.js"
   ]
 }
