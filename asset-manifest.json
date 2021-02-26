@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.f14b31bf.chunk.css",
-    "main.js": "/static/js/main.d139c1c8.chunk.js",
+    "main.css": "/static/css/main.470c7f58.chunk.css",
+    "main.js": "/static/js/main.9a15d01d.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
-    "static/js/2.f87d846c.chunk.js": "/static/js/2.f87d846c.chunk.js",
+    "static/js/2.b45cad98.chunk.js": "/static/js/2.b45cad98.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.8786a60d3d135e8395f210b46718b9f2.js": "/precache-manifest.8786a60d3d135e8395f210b46718b9f2.js",
+    "precache-manifest.a5ea1dfe173a2d4caae7522875816a2c.js": "/precache-manifest.a5ea1dfe173a2d4caae7522875816a2c.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.f87d846c.chunk.js.LICENSE.txt": "/static/js/2.f87d846c.chunk.js.LICENSE.txt",
+    "static/js/2.b45cad98.chunk.js.LICENSE.txt": "/static/js/2.b45cad98.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/root.css": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf",
     "static/media/AmongUsAMB.png": "/static/media/AmongUsAMB.33fa0026.png",
@@ -52,6 +52,7 @@
     "static/media/WES20192020_1.jpg": "/static/media/WES20192020_1.5860475d.jpg",
     "static/media/adhesion.jpg": "/static/media/adhesion.12f910bc.jpg",
     "static/media/events.jpg": "/static/media/events.88986931.jpg",
+    "static/media/flasque-amb.png": "/static/media/flasque-amb.4a1e1464.png",
     "static/media/lamongie.jpg": "/static/media/lamongie.21b7720e.jpg",
     "static/media/memories.jpg": "/static/media/memories.f9095dca.jpg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg",
@@ -60,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.f87d846c.chunk.js",
-    "static/css/main.f14b31bf.chunk.css",
-    "static/js/main.d139c1c8.chunk.js"
+    "static/js/2.b45cad98.chunk.js",
+    "static/css/main.470c7f58.chunk.css",
+    "static/js/main.9a15d01d.chunk.js"
   ]
 }
