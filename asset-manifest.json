@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.470c7f58.chunk.css",
-    "main.js": "/static/js/main.24703409.chunk.js",
+    "main.css": "/static/css/main.ef51a189.chunk.css",
+    "main.js": "/static/js/main.1d6b06c9.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
-    "static/js/2.b45cad98.chunk.js": "/static/js/2.b45cad98.chunk.js",
+    "static/js/2.cc65b726.chunk.js": "/static/js/2.cc65b726.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.5e7b80ec8637ad7b2253bd8c6cef3af3.js": "/precache-manifest.5e7b80ec8637ad7b2253bd8c6cef3af3.js",
+    "precache-manifest.14f458ad2c5300ad2637620c08f30fc8.js": "/precache-manifest.14f458ad2c5300ad2637620c08f30fc8.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.b45cad98.chunk.js.LICENSE.txt": "/static/js/2.b45cad98.chunk.js.LICENSE.txt",
+    "static/js/2.cc65b726.chunk.js.LICENSE.txt": "/static/js/2.cc65b726.chunk.js.LICENSE.txt",
     "static/media/Afterwork.jpg": "/static/media/Afterwork.bf82c304.jpg",
     "static/media/root.css": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf",
     "static/media/AmongUsAMB.png": "/static/media/AmongUsAMB.33fa0026.png",
@@ -57,12 +57,13 @@
     "static/media/memories.jpg": "/static/media/memories.f9095dca.jpg",
     "static/media/moisAfterwork.jpg": "/static/media/moisAfterwork.aa9f56a0.jpg",
     "static/media/parrainage.jpg": "/static/media/parrainage.ebcd8dd4.jpg",
-    "static/media/shop.jpg": "/static/media/shop.83664c2a.jpg"
+    "static/media/shop.jpg": "/static/media/shop.83664c2a.jpg",
+    "static/media/summer.png": "/static/media/summer.65a39a13.png"
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.b45cad98.chunk.js",
-    "static/css/main.470c7f58.chunk.css",
-    "static/js/main.24703409.chunk.js"
+    "static/js/2.cc65b726.chunk.js",
+    "static/css/main.ef51a189.chunk.css",
+    "static/js/main.1d6b06c9.chunk.js"
   ]
 }
