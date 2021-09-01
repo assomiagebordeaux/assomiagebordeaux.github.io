@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62e39f377592152488049931a4be7f1e",
+    "revision": "b8807396d8251e4d2814ef0ca173a6be",
     "url": "/index.html"
   },
   {
-    "revision": "a2dbc79d312717319e6a",
-    "url": "/static/css/main.ef51a189.chunk.css"
+    "revision": "78d1c4ecb8e610e27427",
+    "url": "/static/css/main.fc3eeb0a.chunk.css"
   },
   {
-    "revision": "0287f5c0026d45213434",
-    "url": "/static/js/2.cc65b726.chunk.js"
+    "revision": "3375dd8dbbeb2b9c311c",
+    "url": "/static/js/2.a87e547c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.cc65b726.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a87e547c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2dbc79d312717319e6a",
-    "url": "/static/js/main.1d6b06c9.chunk.js"
+    "revision": "78d1c4ecb8e610e27427",
+    "url": "/static/js/main.c63f2b19.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
     "url": "/static/js/runtime-main.62c936a4.js"
   },
   {
-    "revision": "bf82c30452f8fdb180ca50ef8f6382e5",
-    "url": "/static/media/Afterwork.bf82c304.jpg"
+    "revision": "d7eef4f333c7517b55e0b9bddbca1478",
+    "url": "/static/media/AW-0809.d7eef4f3.png"
+  },
+  {
+    "revision": "13a1c35fb499c0cc45ef92e789acaa55",
+    "url": "/static/media/AfterworkRentreeAMBJMC.13a1c35f.ics"
   },
   {
     "revision": "045429fc7016d89be6b4fd55e86f2df6",
@@ -38,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "10c6818802ed96f9d6976633ae148c37",
     "url": "/static/media/Anton-Regular.10c68188.ttf"
+  },
+  {
+    "revision": "d0e0c9d174a9cec8f1383ebd7bf51b31",
+    "url": "/static/media/BalsamiqSans-Regular.d0e0c9d1.ttf"
   },
   {
     "revision": "f4d51918e301fbea8389ae324e914399",
@@ -68,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CP20192020_5.80ef34d0.jpg"
   },
   {
+    "revision": "0be9f13b307070f7d92c6745ccc8c0d7",
+    "url": "/static/media/CarnavalCafe.0be9f13b.jpg"
+  },
+  {
     "revision": "f568f29616d99885b4a8d0e84a08eb29",
     "url": "/static/media/CaveatBrush-Regular.f568f296.ttf"
   },
   {
     "revision": "1b2d0d02c54a218978c046d96841b16c",
     "url": "/static/media/ChampionGothic-Welterweight.1b2d0d02.ttf"
+  },
+  {
+    "revision": "42d82db6a7fbd488a996d38de9bdfb47",
+    "url": "/static/media/EventMystery.42d82db6.png"
   },
   {
     "revision": "972bce0d0776cf4a835d46635b95cbb0",
@@ -232,6 +248,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
   {
+    "revision": "7572c376d05b2b2c5b66b7b10098b2d6",
+    "url": "/static/media/calendar.7572c376.svg"
+  },
+  {
+    "revision": "12a8b42cd90c6dd17cc7f644662c51bd",
+    "url": "/static/media/euro.12a8b42c.svg"
+  },
+  {
     "revision": "8898693189fd813e7a6abd157f499560",
     "url": "/static/media/events.88986931.jpg"
   },
@@ -242,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21b7720e2dd5145bacc421d3acaba0a4",
     "url": "/static/media/lamongie.21b7720e.jpg"
+  },
+  {
+    "revision": "60d290478d4500b5d19ec4bb8251f0fb",
+    "url": "/static/media/location.60d29047.svg"
   },
   {
     "revision": "f9095dca422df1df0925bac6315b9bbb",
@@ -258,9 +286,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83664c2a4c56a68b731ef57b65ed500a",
     "url": "/static/media/shop.83664c2a.jpg"
-  },
-  {
-    "revision": "65a39a137bb9ae28b523c5a0abd8a9cd",
-    "url": "/static/media/summer.65a39a13.png"
   }
 ]);
