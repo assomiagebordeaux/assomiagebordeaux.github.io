@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98a2b2d4ace66f9ab5f41526c6a78ee3",
+    "revision": "f857abec7f819e195d08b91068e2d73f",
     "url": "/index.html"
   },
   {
-    "revision": "021526bfab50b8ca51bf",
-    "url": "/static/css/main.fc3eeb0a.chunk.css"
+    "revision": "2b88ceda9f0ec579456e",
+    "url": "/static/css/main.31e5f721.chunk.css"
   },
   {
-    "revision": "3375dd8dbbeb2b9c311c",
-    "url": "/static/js/2.a87e547c.chunk.js"
+    "revision": "51f13da00bc661abf840",
+    "url": "/static/js/2.1b583ac3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.a87e547c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1b583ac3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "021526bfab50b8ca51bf",
-    "url": "/static/js/main.a7c65fdb.chunk.js"
+    "revision": "2b88ceda9f0ec579456e",
+    "url": "/static/js/main.21c33cf3.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -28,20 +28,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AW-0809.d7eef4f3.png"
   },
   {
-    "revision": "8ae791684db99be99f1eb24027894ea9",
-    "url": "/static/media/AfterworkRentreeAMBJMC.8ae79168.ics"
+    "revision": "e870ddc824430f3b154b6abab83cb976",
+    "url": "/static/media/AW-1509.e870ddc8.png"
+  },
+  {
+    "revision": "8815349e3baf419359302c3f90aa04ce",
+    "url": "/static/media/AW20212022_1.8815349e.jpg"
+  },
+  {
+    "revision": "1dd3e51e09d97c7fd5ba7644c579fa96",
+    "url": "/static/media/AW20212022_2.1dd3e51e.jpeg"
+  },
+  {
+    "revision": "d8e671d5feef4cde425bb383fc45fc28",
+    "url": "/static/media/AW20212022_3.d8e671d5.jpeg"
+  },
+  {
+    "revision": "1ed1ef04da4d4c5700d67d4c1c6e2456",
+    "url": "/static/media/AW20212022_4.1ed1ef04.jpeg"
+  },
+  {
+    "revision": "7b6ddb243d5fb280b89ffa39f537808a",
+    "url": "/static/media/AW20212022_5.7b6ddb24.jpeg"
   },
   {
     "revision": "045429fc7016d89be6b4fd55e86f2df6",
     "url": "/static/media/AmongUs.045429fc.ttf"
   },
   {
-    "revision": "33fa00269a460888143eb752921e1457",
-    "url": "/static/media/AmongUsAMB.33fa0026.png"
-  },
-  {
     "revision": "10c6818802ed96f9d6976633ae148c37",
     "url": "/static/media/Anton-Regular.10c68188.ttf"
+  },
+  {
+    "revision": "1c034a3c79b7bb221891bf22588b450d",
+    "url": "/static/media/Avengers.1c034a3c.ttf"
   },
   {
     "revision": "d0e0c9d174a9cec8f1383ebd7bf51b31",
@@ -88,10 +108,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ChampionGothic-Welterweight.1b2d0d02.ttf"
   },
   {
-    "revision": "42d82db6a7fbd488a996d38de9bdfb47",
-    "url": "/static/media/EventMystery.42d82db6.png"
-  },
-  {
     "revision": "972bce0d0776cf4a835d46635b95cbb0",
     "url": "/static/media/GALA20182019_1.972bce0d.jpg"
   },
@@ -134,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f542d24f4166b2ea79534e246ad5634",
     "url": "/static/media/LogoAMB.6f542d24.png"
+  },
+  {
+    "revision": "bd3a8f5e3c270e2fa61f5dc988293ee3",
+    "url": "/static/media/NuitEtudiant.bd3a8f5e.png"
   },
   {
     "revision": "ec2dc840f3a8f62a24c95e56ca049753",
@@ -264,10 +284,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flasque-amb.4a1e1464.png"
   },
   {
-    "revision": "21b7720e2dd5145bacc421d3acaba0a4",
-    "url": "/static/media/lamongie.21b7720e.jpg"
-  },
-  {
     "revision": "60d290478d4500b5d19ec4bb8251f0fb",
     "url": "/static/media/location.60d29047.svg"
   },
@@ -280,11 +296,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/moisAfterwork.aa9f56a0.jpg"
   },
   {
-    "revision": "ebcd8dd4e93baa5fa62930cc8fe6b00a",
-    "url": "/static/media/parrainage.ebcd8dd4.jpg"
-  },
-  {
     "revision": "83664c2a4c56a68b731ef57b65ed500a",
     "url": "/static/media/shop.83664c2a.jpg"
+  },
+  {
+    "revision": "b2b8d8457b0874a526a130ad20045c96",
+    "url": "/static/media/wei20212022.b2b8d845.png"
   }
 ]);
