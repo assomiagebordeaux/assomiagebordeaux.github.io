@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0388ade6bdf7b69b8c04a2a4ef346d62",
+    "revision": "9ad92265bdbb6d76c7dfab63025fea57",
     "url": "/index.html"
   },
   {
-    "revision": "139a832553b5b170995e",
-    "url": "/static/css/main.617da285.chunk.css"
+    "revision": "20997ddc925f2ceaee7b",
+    "url": "/static/css/main.7bae65b8.chunk.css"
   },
   {
     "revision": "4173b240ccf56efab77f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7d529ff7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "139a832553b5b170995e",
-    "url": "/static/js/main.67627cfa.chunk.js"
+    "revision": "20997ddc925f2ceaee7b",
+    "url": "/static/js/main.fa022474.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Breviaire-Illustration.f4d51918.jpg"
   },
   {
-    "revision": "915bdfad764bf5ff5fbadfd71ce9bb3c",
-    "url": "/static/media/BreviaireV1.915bdfad.pdf"
+    "revision": "9f34e02be59fee82b157d43bc620e99e",
+    "url": "/static/media/BreviaireV1.1.9f34e02b.pdf"
   },
   {
     "revision": "8c51eca0af7edbcc7cc136fa7638d466",

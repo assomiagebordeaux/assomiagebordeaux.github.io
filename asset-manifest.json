@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.617da285.chunk.css",
-    "main.js": "/static/js/main.67627cfa.chunk.js",
+    "main.css": "/static/css/main.7bae65b8.chunk.css",
+    "main.js": "/static/js/main.fa022474.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
     "static/js/2.7d529ff7.chunk.js": "/static/js/2.7d529ff7.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.778e5d340571c9cd58dfb326febbcb39.js": "/precache-manifest.778e5d340571c9cd58dfb326febbcb39.js",
+    "precache-manifest.a025f6e788e79f1ca1be27591b79524d.js": "/precache-manifest.a025f6e788e79f1ca1be27591b79524d.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.7d529ff7.chunk.js.LICENSE.txt": "/static/js/2.7d529ff7.chunk.js.LICENSE.txt",
     "static/media/AW-0809.png": "/static/media/AW-0809.d7eef4f3.png",
@@ -17,7 +17,7 @@
     "static/media/AW20212022_5.jpeg": "/static/media/AW20212022_5.7b6ddb24.jpeg",
     "static/media/root.css": "/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf",
     "static/media/Breviaire-Illustration.jpg": "/static/media/Breviaire-Illustration.f4d51918.jpg",
-    "static/media/BreviaireV1.pdf": "/static/media/BreviaireV1.915bdfad.pdf",
+    "static/media/BreviaireV1.1.pdf": "/static/media/BreviaireV1.1.9f34e02b.pdf",
     "static/media/CP20192020_1.jpg": "/static/media/CP20192020_1.8c51eca0.jpg",
     "static/media/CP20192020_2.jpg": "/static/media/CP20192020_2.2ffc4775.jpg",
     "static/media/CP20192020_3.jpg": "/static/media/CP20192020_3.60b0c9f5.jpg",
@@ -70,7 +70,7 @@
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
     "static/js/2.7d529ff7.chunk.js",
-    "static/css/main.617da285.chunk.css",
-    "static/js/main.67627cfa.chunk.js"
+    "static/css/main.7bae65b8.chunk.css",
+    "static/js/main.fa022474.chunk.js"
   ]
 }
