@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bae65b8.chunk.css",
-    "main.js": "/static/js/main.9d4ec62f.chunk.js",
+    "main.css": "/static/css/main.33d7ee13.chunk.css",
+    "main.js": "/static/js/main.feccc515.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c936a4.js",
-    "static/js/2.0c0e6ca9.chunk.js": "/static/js/2.0c0e6ca9.chunk.js",
+    "static/js/2.15bcdb63.chunk.js": "/static/js/2.15bcdb63.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.e48c05882193367ed3d4022d7f245977.js": "/precache-manifest.e48c05882193367ed3d4022d7f245977.js",
+    "precache-manifest.ee2929017f75b899993be5f5e8dc70cb.js": "/precache-manifest.ee2929017f75b899993be5f5e8dc70cb.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.0c0e6ca9.chunk.js.LICENSE.txt": "/static/js/2.0c0e6ca9.chunk.js.LICENSE.txt",
+    "static/js/2.15bcdb63.chunk.js.LICENSE.txt": "/static/js/2.15bcdb63.chunk.js.LICENSE.txt",
     "static/media/AW-0809.png": "/static/media/AW-0809.d7eef4f3.png",
     "static/media/AW-1509.png": "/static/media/AW-1509.e870ddc8.png",
     "static/media/AW20212022_1.jpg": "/static/media/AW20212022_1.8815349e.jpg",
@@ -30,7 +30,6 @@
     "static/media/GALA20182019_4.jpg": "/static/media/GALA20182019_4.2d8a4aac.jpg",
     "static/media/GALA20182019_5.jpg": "/static/media/GALA20182019_5.f48a20df.jpg",
     "static/media/LogoAMB.png": "/static/media/LogoAMB.6f542d24.png",
-    "static/media/MemoriesAW0809.png": "/static/media/MemoriesAW0809.e4305730.png",
     "static/media/NuitEtudiant.png": "/static/media/NuitEtudiant.bd3a8f5e.png",
     "static/media/Pull_Black.png": "/static/media/Pull_Black.ec2dc840.png",
     "static/media/Pull_Blue.png": "/static/media/Pull_Blue.1380007e.png",
@@ -55,6 +54,13 @@
     "static/media/WEI20192020_3.jpg": "/static/media/WEI20192020_3.bddee6de.jpg",
     "static/media/WEI20192020_4.jpg": "/static/media/WEI20192020_4.65c9ab02.jpg",
     "static/media/WEI20192020_5.jpg": "/static/media/WEI20192020_5.67eb6c0e.jpg",
+    "static/media/WEI2021.png": "/static/media/WEI2021.410789e8.png",
+    "static/media/WEI2021_1.jpg": "/static/media/WEI2021_1.e6ce4c52.jpg",
+    "static/media/WEI2021_2.jpg": "/static/media/WEI2021_2.ecee252a.jpg",
+    "static/media/WEI2021_3.jpg": "/static/media/WEI2021_3.fff0ae8d.jpg",
+    "static/media/WEI2021_4.jpg": "/static/media/WEI2021_4.25074866.jpg",
+    "static/media/WEI2021_5.jpg": "/static/media/WEI2021_5.001f12dd.jpg",
+    "static/media/WEI_Aftermovie.png": "/static/media/WEI_Aftermovie.ef767d77.png",
     "static/media/WES20192020_1.jpg": "/static/media/WES20192020_1.5860475d.jpg",
     "static/media/adhesion.jpg": "/static/media/adhesion.12f910bc.jpg",
     "static/media/calendar.svg": "/static/media/calendar.7572c376.svg",
@@ -69,8 +75,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62c936a4.js",
-    "static/js/2.0c0e6ca9.chunk.js",
-    "static/css/main.7bae65b8.chunk.css",
-    "static/js/main.9d4ec62f.chunk.js"
+    "static/js/2.15bcdb63.chunk.js",
+    "static/css/main.33d7ee13.chunk.css",
+    "static/js/main.feccc515.chunk.js"
   ]
 }

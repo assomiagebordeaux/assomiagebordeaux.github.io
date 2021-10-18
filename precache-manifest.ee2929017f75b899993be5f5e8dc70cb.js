@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d20398a557462583204f29196cd72da4",
+    "revision": "56e229bb46418a0c468635009f08df30",
     "url": "/index.html"
   },
   {
-    "revision": "f8df04dbd5c273a926f2",
-    "url": "/static/css/main.7bae65b8.chunk.css"
+    "revision": "4633ec1ca06b498db3d4",
+    "url": "/static/css/main.33d7ee13.chunk.css"
   },
   {
-    "revision": "e9d894661e194002ca62",
-    "url": "/static/js/2.0c0e6ca9.chunk.js"
+    "revision": "fa0c671e52ea1748ede0",
+    "url": "/static/js/2.15bcdb63.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.0c0e6ca9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.15bcdb63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8df04dbd5c273a926f2",
-    "url": "/static/js/main.9d4ec62f.chunk.js"
+    "revision": "4633ec1ca06b498db3d4",
+    "url": "/static/js/main.feccc515.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -152,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
-    "revision": "e4305730f8cbd8fa8afac2fe88dc3a25",
-    "url": "/static/media/MemoriesAW0809.e4305730.png"
-  },
-  {
     "revision": "bd3a8f5e3c270e2fa61f5dc988293ee3",
     "url": "/static/media/NuitEtudiant.bd3a8f5e.png"
   },
@@ -254,6 +250,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67eb6c0e1cdab59d743d782f4ac5a0d1",
     "url": "/static/media/WEI20192020_5.67eb6c0e.jpg"
+  },
+  {
+    "revision": "410789e80db1bbcdb96ceba1ea9b89c9",
+    "url": "/static/media/WEI2021.410789e8.png"
+  },
+  {
+    "revision": "e6ce4c52af7594b4a9b83d8870609fe4",
+    "url": "/static/media/WEI2021_1.e6ce4c52.jpg"
+  },
+  {
+    "revision": "ecee252ae01bc6f7da8dd519fde72967",
+    "url": "/static/media/WEI2021_2.ecee252a.jpg"
+  },
+  {
+    "revision": "fff0ae8d6a063bb7c7333edf301abbc5",
+    "url": "/static/media/WEI2021_3.fff0ae8d.jpg"
+  },
+  {
+    "revision": "250748668b22f057ee2cec55f15c83c0",
+    "url": "/static/media/WEI2021_4.25074866.jpg"
+  },
+  {
+    "revision": "001f12dd6ba7dbb5b4bde4a7aa6f5216",
+    "url": "/static/media/WEI2021_5.001f12dd.jpg"
+  },
+  {
+    "revision": "ef767d775f82d750cc0b7f0a0e4bab26",
+    "url": "/static/media/WEI_Aftermovie.ef767d77.png"
   },
   {
     "revision": "5860475d70420b4353f07b49af0f00cb",
