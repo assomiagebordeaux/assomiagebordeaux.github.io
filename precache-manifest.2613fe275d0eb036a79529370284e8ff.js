@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56e229bb46418a0c468635009f08df30",
+    "revision": "f4a537ada327fb0efa724877d1de63cd",
     "url": "/index.html"
   },
   {
-    "revision": "4633ec1ca06b498db3d4",
-    "url": "/static/css/main.33d7ee13.chunk.css"
+    "revision": "41a4701ffa157d43ca14",
+    "url": "/static/css/main.213eef53.chunk.css"
   },
   {
-    "revision": "fa0c671e52ea1748ede0",
-    "url": "/static/js/2.15bcdb63.chunk.js"
+    "revision": "c6365fd78436574dafe2",
+    "url": "/static/js/2.d5904448.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.15bcdb63.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5904448.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4633ec1ca06b498db3d4",
-    "url": "/static/js/main.feccc515.chunk.js"
+    "revision": "41a4701ffa157d43ca14",
+    "url": "/static/js/main.84caa162.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -146,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78499124880031f7d0e800d0790663fc",
     "url": "/static/media/HaiCalifornia.78499124.ttf"
+  },
+  {
+    "revision": "e6f7591a1d420f432945e93d41c62c7d",
+    "url": "/static/media/LOGO_MIAGE.e6f7591a.png"
   },
   {
     "revision": "6f542d24f4166b2ea79534e246ad5634",
