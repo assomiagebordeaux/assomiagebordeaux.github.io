@@ -8,6 +8,7 @@ import Linkedin from '../icons/linkedin.png';
 import Messenger from '../icons/messenger.png';
 import Discord from '../icons/discord.png';
 import Mail from '../icons/mail.png';
+import LogoMiage from '../images/LOGO_MIAGE.png';
 
 class Footer extends Component {
     render() {
@@ -27,7 +28,7 @@ class Footer extends Component {
                 <a target="_blank" rel="noopener noreferrer nofollow" href="https://m.me/assomiagebordeaux">
                     <img class="module-footer-network-icon secondMore" src={Messenger} alt="Messenger"/>
                 </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/P57WPSkjq2">
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/Ky9JU2mWpK">
                     <img class="module-footer-network-icon secondMore" src={Discord} alt="Discord"/>
                 </a>
                 <a target="_blank" rel="noopener noreferrer nofollow" href="mailto:asso@miagebordeaux.fr">
@@ -36,8 +37,12 @@ class Footer extends Component {
                 </div>
 
                 <div class="module-footer-mentions">
-                Copyright © 2020 Asso MIAGE Bordeaux. Tous droits réservés.
+                Copyright © 2021 Asso MIAGE Bordeaux. Tous droits réservés.
                 </div>
+
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://miage.emi.u-bordeaux.fr">
+                    <img class="module-footer-miage" src={LogoMiage} alt="Facebook"/>
+                </a>
 
             </div>
         );

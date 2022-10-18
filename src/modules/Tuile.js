@@ -39,9 +39,11 @@ export function Tuile(props) {
                     typeSmooth={props.typeSmooth}
                     backgroundColor={props.backgroundColor}
                     countdown={props.countdown}
+                    uptitle={props.uptitle}
                     titre1={props.titre1}
                     titre1FontFamily={props.titre1FontFamily}
                     titre2={props.titre2}
+                    titre2FontFamily={props.titre2FontFamily}
                     titre3={props.titre3}
                     nombreBoutons={props.nombreBoutons}
                     bouton1Type={props.bouton1Type}
@@ -90,6 +92,7 @@ export function Tuile(props) {
         } else if(type === "memories") {
             return (
                 <TuileMemories
+                siVideo={props.siVideo}
                 nombreImages={props.nombreImages}
                 img1={props.img1}
                 img2={props.img2}

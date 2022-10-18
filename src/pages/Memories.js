@@ -4,6 +4,20 @@ import {Tuile} from '../modules/Tuile';
 
 import MemoriesIllustration from '../images/memories.jpg';
 
+// WEI 2021
+import WEI20212022_1 from '../images/memories/2021-2022-wei/WEI2021_1.jpg';
+import WEI20212022_2 from '../images/memories/2021-2022-wei/WEI2021_2.jpg';
+import WEI20212022_3 from '../images/memories/2021-2022-wei/WEI2021_3.jpg';
+import WEI20212022_4 from '../images/memories/2021-2022-wei/WEI2021_4.jpg';
+import WEI20212022_5 from '../images/memories/2021-2022-wei/WEI2021_5.jpg';
+
+// AW DE RENTREE 2021/2022
+import AW20212022_1 from '../images/memories/2021-2022-aw-rentree-amb-jmc/AW20212022_1.jpg';
+import AW20212022_2 from '../images/memories/2021-2022-aw-rentree-amb-jmc/AW20212022_2.jpeg';
+import AW20212022_3 from '../images/memories/2021-2022-aw-rentree-amb-jmc/AW20212022_3.jpeg';
+import AW20212022_4 from '../images/memories/2021-2022-aw-rentree-amb-jmc/AW20212022_4.jpeg';
+import AW20212022_5 from '../images/memories/2021-2022-aw-rentree-amb-jmc/AW20212022_5.jpeg';
+
 // Christmas Part 2019/2020
 import CP20192020_1 from '../images/memories/2019-2020-christmas-party/CP20192020_1.jpg';
 import CP20192020_2 from '../images/memories/2019-2020-christmas-party/CP20192020_2.jpg';
@@ -66,7 +80,52 @@ class Memories extends Component {
                 <div class="page-memories-content">
                     <div class="page-memories-content-margin">
 
+                        {/* <div class="page-memories-content-one-title">Nouveauté</div> */}
 
+                        <div class="page-memories-content-title">2021/2022</div>
+                        <section class="page-memories-content-tuiles">
+                        <Tuile
+                            display="true" 
+                            type="memories"
+                            siVideo="true"
+                            nombreImages="5"
+                            img1={WEI20212022_1}
+                            img2={WEI20212022_2}
+                            img3={WEI20212022_3}
+                            img4={WEI20212022_4}
+                            img5={WEI20212022_5}
+                            titreGauche="MIAGE Infinity WEI"
+                            titreDroite="2-3 oct."
+                            description="Mettez votre armure et embarquez sur l'héliporteur pour le retour du WEI MIAGE Bordeaux."
+                            lien="https://photos.app.goo.gl/UWwba8QQWLNn1xyw5"
+                            siNouveau="true"
+                            siDateDeDispo="false"
+                            jourDispo="15"
+                            moisDispo="octobre"
+                            anneeDispo="2021"
+                            siPremierListe="true"
+                            />
+                        <Tuile
+                            display="true" 
+                            type="memories"
+                            nombreImages="5"
+                            img1={AW20212022_1}
+                            img2={AW20212022_2}
+                            img3={AW20212022_3}
+                            img4={AW20212022_4}
+                            img5={AW20212022_5}
+                            titreGauche="Afterwork de rentrée"
+                            titreDroite="8 sept."
+                            description="Quoi de mieux pour accueillir les nouveaux miagistes bordelais qu'une soirée de rentrée au Carnaval Café ?"
+                            lien="https://photos.app.goo.gl/o5j8vzgA44ns34Rm6"
+                            siNouveau="false"
+                            siDateDeDispo="false"
+                            jourDispo="15"
+                            moisDispo="septembre"
+                            anneeDispo="2021"
+                            siPremierListe="false"
+                            />
+                        </section>
 
                         <div class="page-memories-content-title">2019/2020</div>
                         <section class="page-memories-content-tuiles">
@@ -123,7 +182,7 @@ class Memories extends Component {
                             titreDroite="20 dec."
                             description="Sortez vos plus beaux pulls de Noël pour la soirée de fin d'année concoctée par vos cinq assos préférées !"
                             lien="https://photos.app.goo.gl/3Zj3xeYxbhALt5ep6"
-                            siNouveau="true"
+                            siNouveau="false"
                             siDateDeDispo="false"
                             jourDispo=""
                             moisDispo="décembre"
@@ -167,7 +226,7 @@ class Memories extends Component {
                             titreDroite="12 sept."
                             description="Redécouvrez l'évènement de cette fin d'été : la soirée d'intégration des nouveaux miagistes très très 'chillance' (ou pas) !"
                             lien="https://photos.app.goo.gl/TB6oPE5htS9ezJqE8"
-                            siNouveau="true"
+                            siNouveau="false"
                             siDateDeDispo="false"
                             jourDispo=""
                             moisDispo="décembre"
@@ -187,7 +246,7 @@ class Memories extends Component {
                             titreDroite="6-7 oct."
                             description="Chevauchez vers le Grand Ouest, passez par le saloon (sans en repartir) ou le feu de camp (sans vous brûler) et proftez du FarWEI'st !"
                             lien="https://photos.app.goo.gl/mpCBVsd1HADCDS7x7"
-                            siNouveau="true"
+                            siNouveau="false"
                             siDateDeDispo="false"
                             jourDispo=""
                             moisDispo="décembre"
@@ -207,7 +266,7 @@ class Memories extends Component {
                             titreDroite="5 avr."
                             description="Revivez la soirée de cette 11ème édition du Gala MIAGE placée sous le signe des contes traditionnels ! "
                             lien="https://photos.app.goo.gl/2vvDXGXhtvcYpExS8"
-                            siNouveau="true"
+                            siNouveau="false"
                             siDateDeDispo="false"
                             jourDispo=""
                             moisDispo="décembre"

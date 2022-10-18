@@ -16,6 +16,9 @@ export function Event(props) {
                 <div class="module-event-couverture-titre">{props.title}</div>
             </div>
             <div class="module-event-blocInfos">
+                <div class="module-event-blocInfos-pass">
+                    PASS SANITAIRE OBLIGATOIRE
+                </div>
                 <div class="module-event-blocInfos-resume">
                     {props.resume}
                 </div>

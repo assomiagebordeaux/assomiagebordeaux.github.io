@@ -63,6 +63,11 @@
         margin-left: 1.75rem;
     }
 
+    .module-navbar-row-menu-lien-adhesion {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
 }
 
 @media screen and (max-width: 499px) {
@@ -141,6 +146,11 @@
 
     .module-navbar-column-menu-lien-marginTop {
         margin-top: 1rem;
+    }
+
+    .module-navbar-column-menu-lien-adhesion {
+        font-weight: bold;
+        text-decoration: underline;
     }
 
 }

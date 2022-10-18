@@ -5,11 +5,15 @@ import '../design/pages/accueil.css'
 import {Tuile} from '../modules/Tuile';
 
 import SmoothMemories from '../images/SmoothMemories.png'
-import SmoothMemories20182019 from '../images/SmoothMemories20182019.png';
-import SmoothMemoriesChristmasParty2019 from '../images/SmoothMemoriesChristmasParty2019.png';
+import WEI from '../images/wei20212022.png';
+import NuitEtudiant from '../images/NuitEtudiant.png';
+import AfterworkAlumnis from '../images/AW-1509.png';
+import MemoriesWEI2021 from '../images/WEI2021.png';
+import WEI2021_Aftermovie from '../images/WEI_Aftermovie.png'
 
 class Accueil extends Component {
     render() {
+
         return(
             <div className="page-accueil">
                 <Tuile
@@ -18,34 +22,18 @@ class Accueil extends Component {
                 typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
-                titre1="2018/2019"
-                titre1FontFamily="Memories"
-                titre2="Les Memories sont disponibles !"
-                titre3="Soirée d'intégration, FarWEI'st et Gala MIAGE !"
-                nombreBoutons="1"
-                bouton1Type="interne"
-                bouton1Label="Voir les Memories"
-                bouton1Link="/memories"
-                siImage="true"
-                image={SmoothMemories20182019}
-                siMarginBottom="false"
-                />
-                <Tuile
-                display="true"
-                type="smooth"
-                typeSmooth="simple"
-                backgroundColor="black"
-                countdown="false"
-                titre1="l'amb vous souhaite de bonnes fêtes de fin d'année !"
+                uptitle=""
+                titre1=""
                 titre1FontFamily="Memories"
                 titre2=""
+                titre2FontFamily="GothamBook"
                 titre3=""
-                nombreBoutons="0"
-                bouton1Type="interne"
-                bouton1Label="Voir les Memories"
-                bouton1Link="/memories"
-                siImage="false"
-                image=""
+                nombreBoutons="1"
+                bouton1Type="externe"
+                bouton1Label="Je visionne !"
+                bouton1Link="https://photos.app.goo.gl/MrU77HSRaAWZzzzB8"
+                siImage="true"
+                image={WEI2021_Aftermovie}
                 siMarginBottom="false"
                 />
                 <Tuile
@@ -54,16 +42,18 @@ class Accueil extends Component {
                 typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
-                titre1="2019/2020"
+                uptitle=""
+                titre1="Memories"
                 titre1FontFamily="Memories"
-                titre2="La Christmas Party est disponible !"
-                titre3="feat. ACBX, AEBBCB, Ambigu and M-TECH !"
+                titre2="Les souvenirs épiques du MIAGE Infinity WEI !!"
+                titre2FontFamily="GothamBook"
+                titre3=""
                 nombreBoutons="1"
                 bouton1Type="interne"
-                bouton1Label="Voir les Memories"
+                bouton1Label="J'embarque !"
                 bouton1Link="/memories"
                 siImage="true"
-                image={SmoothMemoriesChristmasParty2019}
+                image={MemoriesWEI2021}
                 siMarginBottom="false"
                 />
                 <Tuile
@@ -72,37 +62,21 @@ class Accueil extends Component {
                 typeSmooth="simple"
                 backgroundColor="black"
                 countdown="false"
-                titre1="des nouveautés arrivent en janvier !"
+                uptitle=""
+                titre1="Deviens adhérent !"
                 titre1FontFamily="Memories"
-                titre2=""
+                titre2="5€. Une carte. Des events toute l'année."
+                titre2FontFamily="GothamBook"
                 titre3=""
-                nombreBoutons="0"
-                bouton1Type="interne"
-                bouton1Label="Voir les Memories"
-                bouton1Link="/memories"
-                siImage="false"
-                image=""
-                siMarginBottom="false"
-                />
-                <Tuile
-                display="false"
-                type="smooth"
-                typeSmooth="simple"
-                backgroundColor="black"
-                countdown="false"
-                titre1="Adhérer à l'AMB"
-                titre1FontFamily=""
-                titre2="De nombreux events de prévu en 2021 !"
-                titre3="Profitez de tous les avantages AMB et d'un Pass Citicks à 1€50 (au lieu de 5€)."
                 nombreBoutons="2"
                 bouton1Type="interne"
                 bouton1Label="En savoir plus"
                 bouton1Link="/association/adhesion"
                 bouton2Type="externe"
                 bouton2Label="Adhérer"
-                bouton2Link="https://www.helloasso.com/associations/asso-miage-bordeaux/adhesions/adhesion-asso-miage-bordeaux-2020-2021"
+                bouton2Link="https://www.helloasso.com/associations/asso-miage-bordeaux/adhesions/adhesion-adhesion-asso-miage-bordeaux-2021-2022"
                 siImage="false"
-                image=""
+                image={SmoothMemories}
                 siMarginBottom="false"
                 />
             </div>

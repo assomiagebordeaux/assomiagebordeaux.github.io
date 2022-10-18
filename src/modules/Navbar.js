@@ -27,7 +27,8 @@ class Navbar extends Component {
             nameFirst: "Accueil",linkFirst: "/",
             nameSecond: "Events",linkSecond: "/events",
             nameThird: "Memories",linkThird: "/memories",
-            nameFourth: "Shop",linkFourth: "/shop"
+            nameFourth: "Shop",linkFourth: "/shop",
+            name5: "ADHÉRER",link5: "/association/adhesion"
         };
         function displayMenu() {
             var x = document.getElementById("module-navbar-column-menu");
