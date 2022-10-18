@@ -48,6 +48,18 @@
     margin-bottom: 3%;
 }
 
+.page-events-beback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(70vh - 206px);
+    font-family: GothamMedium;
+    color:rgb(161, 161, 161);
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
 }
 
 @media screen and (max-width: 699px) {
@@ -94,6 +106,18 @@
         text-transform: uppercase;
         margin-top: 30px;
         margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .page-events-beback {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(70vh - 206px);
+        font-family: GothamMedium;
+        color:rgb(161, 161, 161);
+        font-size: 1.3rem;
+        width: 100%;
         text-align: center;
     }
 

@@ -42,6 +42,14 @@
     color: white;
 }
 
+.page-memories-content-one-title {
+    padding-top: 2%;
+    font-size: 2rem;
+    font-family: var(--page-title-font-family);
+    color: white;
+    margin-bottom: 1%;
+}
+
 .page-memories-content-title {
     padding-top: 2%;
     font-size: 1.3rem;
@@ -120,6 +128,15 @@
     .page-memories-content-margin {
         padding: 35px 20px 50px 20px;
         color: white;
+    }
+
+    .page-memories-content-one-title {
+        font-size: 1.8rem;
+        padding-top: 15px;
+        font-family: var(--page-title-font-family);
+        color: white;
+        margin-bottom: 15px;
+        font-weight: 120;
     }
     
     .page-memories-content-title {

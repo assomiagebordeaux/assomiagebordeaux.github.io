@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import {Tuile} from '../modules/Tuile';
 
 import EventsIllustration from '../images/events.jpg';
-import WES from '../images/lamongie.jpg';
-import AmongTheMiagistes from '../images/AmongUsAMB.png';
-import Afterwork from'../images/Afterwork.jpg';
-import Parrainage from '../images/parrainage.jpg';
+import Afterwork from '../images/AW-0809.png';
+import AfterworkAlumnis from '../images/AW-1509.png';
+import WEI from '../images/wei20212022.png';
+import NuitEtudiant from '../images/NuitEtudiant.png';
 
 import '../design/pages/events.css'
 
@@ -21,13 +21,80 @@ class Events extends Component {
                     </div>
                 </div>
                 <div class="page-events-contenu">
-                    {/* <div class="page-events-noevents">
-                        De nouveaux events arrivent...
+                    {/* <div class="page-events-beback">
+                        Rendez-vous en septembre...
                     </div> */}
-                {/* <div class="page-events-subtitle">Prochain event</div> */}
-                {/* <div class="page-events-subtitle">Events à suivre</div> */}
+                {/* <div class="page-events-subtitle">Prochain event</div>
+
+                <div class="page-events-subtitle">Events à venir</div> */}
+
                 <div class="page-events-subtitle">Events passés</div>
                 <Tuile 
+                display="true"
+                type="event"
+                status="over"
+                imageEvent={WEI}
+                typeEvent=""
+                title="Week-end d'intégration - MIAGE Infinity WEI"
+                lieu="Domaine de Peyreguilhot"
+                date="02 - 03 octobre 2021"
+                description="L'évènement de cette rentrée à ne surtout pas louper !"
+                typeBouton="externe"
+                button1Color="bleuAMB"
+                button1Label="En savoir plus"
+                button1Link="https://www.facebook.com/events/s/miage-infinity-wei-week-end-in/372457881137438/"
+                isLast="false"
+                />
+                <Tuile 
+                display="true"
+                type="event"
+                status="over"
+                imageEvent={NuitEtudiant}
+                typeEvent=""
+                title="La nuit de l'étudiant"
+                lieu="Bordeaux"
+                date="jeudi 23 septembre 2021"
+                description="La plus grosse soirée d’intégration de l'année est de retour ! La SEULE qui est consacrée aux étudiants de toutes les Écoles et Universités de France !"
+                typeBouton="externe"
+                button1Color="bleuAMB"
+                button1Label="En savoir plus | M'inscrire"
+                button1Link="https://littl.fr/NDL-Bordeaux"
+                isLast="false"
+                />
+                <Tuile 
+                display="true"
+                type="event"
+                status="over"
+                imageEvent={AfterworkAlumnis}
+                typeEvent=""
+                title="Afterwork Alumni by Alumni MIAGE Bordeaux"
+                lieu="HMS Victory"
+                date="mercredi 15 septembre 2021"
+                description="Alors, prêts à rencontrer des Miagistes diplômés depuis quelques années ?"
+                typeBouton="externe"
+                button1Color="bleuAMB"
+                button1Label="En savoir plus"
+                button1Link="https://facebook.com/events/s/afterwork-alumni-hms/952161438694609/"
+                isLast="false"
+                />
+                <Tuile 
+                display="true"
+                type="event"
+                status="over"
+                imageEvent={Afterwork}
+                typeEvent=""
+                title="Afterwork de rentrée AMB x JMC"
+                lieu="Carnaval Café"
+                date="mercredi 08 septembre 2021"
+                description="Venez découvrir, autour d'un verre, les deux assos de la formation MIAGE : 
+                l'AMB, le Bureau des Elèves et JMC, la Junior-Entreprise."
+                typeBouton="interne"
+                button1Color="bleuAMB"
+                button1Label="En savoir plus"
+                button1Link="/events/afterwork-de-rentree-amb-jmc"
+                isLast="false"
+                />
+                {/* <Tuile 
                 display="true"
                 type="event"
                 status="over"
@@ -75,7 +142,7 @@ class Events extends Component {
                 button1Label="En savoir plus"
                 button1Link="/events/aw-amc-jmc"
                 isLast="true"
-                />
+                /> */}
                 </div>
             </div>
         );

@@ -115,6 +115,26 @@ body {
     src: url(../fonts/AmongUs.ttf);
 }
 
+@font-face {
+    font-family: Distingued;
+    src: url(../fonts/HaiCalifornia.ttf);
+}
+
+@font-face {
+    font-family: Summer;
+    src: url(../fonts/CaveatBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url(../fonts/BalsamiqSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Avengers;
+    src: url(../fonts/Avengers.ttf);
+}
+
 
 
 body {

@@ -21,7 +21,7 @@ import Memories from './pages/Memories';
 import Shop from './pages/shop/Shop';
 
 import Events from './pages/Events';
-import WEI from './pages/events/WEI-2020';
+import AWrentreeAMBJMC from './pages/events/AW-Rentree-2021';
 import Wordpress from './pages/Wordpress';
 import ScrollToTop from './pages/ScrollToTop';
 import Breviaire from './pages/Breviaire';
@@ -37,12 +37,12 @@ const routing = (
     <Switch>
       <Route exact path='/' component={Accueil} />
       <Route exact path='/events' component={Events} />
+      <Route exact path='/events/afterwork-de-rentree-amb-jmc' component={AWrentreeAMBJMC} />
       <Route exact path='/memories' component={Memories} />
       <Route exact path='/shop' component={Shop} />
-      <Route exact path='/breviaire' component={Breviaire} />
-      {/* <Route exact path='/shop/sweat-2021' component={SweatPromo2021} />         */}
-      <Route exact path='/communiques/weicingetorix' component={WEI} />    
+      <Route exact path='/breviaire' component={Breviaire} />       
       <Route exact path='/association/adhesion' component={Adhesion} />
+      <Route exact path='/partenariats' component={Events} />
       
       <Route exact path='/wordpress' component={Wordpress} />  
       <Route component={Page404} />

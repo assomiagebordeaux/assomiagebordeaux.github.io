@@ -13,6 +13,7 @@ export function TuileSmooth(props) {
     var colorBoutons = 'bleuAMB';
     var marginB = '12px';
     var fontFTitre1 = 'GothamMedium';
+    var fontFTitre2 = 'GothamMedium';
 
     if(props.backgroundColor === "black") {
         colorBG = 'black';
@@ -29,18 +30,35 @@ export function TuileSmooth(props) {
         marginBottom: marginB
     }
 
-    if(props.titre1FontFamily === "StraightOuttaAMB"){
-        fontFTitre1 = 'StraightOuttaAMB'
-    } else if(props.titre1FontFamily === "Memories"){
-        fontFTitre1 = 'Memories'
-    } else if(props.titre1FontFamily === "Movember"){
-        fontFTitre1 = 'Movember'
-    } else if(props.titre1FontFamily === "AmongUs"){
-        fontFTitre1 = 'AmongUs'
-    } 
+    if(props.titre1FontFamily !== "") {
+        fontFTitre1 = props.titre1FontFamily;
+    }
+
+    if(props.titre2FontFamily !== ""){
+        fontFTitre2 = props.titre2FontFamily;
+    }
+
+    // if(props.titre1FontFamily === "StraightOuttaAMB"){
+    //     fontFTitre1 = 'StraightOuttaAMB'
+    // } else if(props.titre1FontFamily === "Memories"){
+    //     fontFTitre1 = 'Memories'
+    // } else if(props.titre1FontFamily === "Movember"){
+    //     fontFTitre1 = 'Movember'
+    // } else if(props.titre1FontFamily === "AmongUs"){
+    //     fontFTitre1 = 'AmongUs'
+    // } else if(props.titre1FontFamily === "Distingued"){
+    //     fontFTitre1 = 'Distingued'
+    // } else if(props.titre1FontFamily === "Summer"){
+    //     fontFTitre1 = 'Summer'
+    // }
 
     const styleTitre1 = {
         fontFamily: fontFTitre1,
+        color: colorTitres
+    }
+
+    const styleTitre2 = {
+        fontFamily: fontFTitre2,
         color: colorTitres
     }
 
@@ -56,10 +74,13 @@ export function TuileSmooth(props) {
                         :
                         <div></div>
                         } */}
+                        <div class="module-tuileSmooth-infos-uptitre">
+                            {props.uptitle}
+                        </div>
                         <div id ="titre1" class="module-tuileSmooth-infos-titre1" style ={styleTitre1}>
                             {props.titre1}
                         </div>
-                        <div class="module-tuileSmooth-infos-titre2" style ={{ color: colorTitres}}>
+                        <div class="module-tuileSmooth-infos-titre2" style ={styleTitre2}>
                             {props.titre2}
                         </div>
                         <div class="module-tuileSmooth-infos-titre3" style ={{ color: colorTitres}}>

@@ -36,6 +36,14 @@
     text-transform: uppercase;
 }
 
+.module-tuileSmooth-infos-uptitre {
+    color: #8B2C2C;
+    font-family: GothamUltra;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
 .module-tuileSmooth-infos-titre1 {
     font-size: 5rem;
     line-height: 5rem;
@@ -107,6 +115,14 @@
         font-family: GothamUltra;
         margin-bottom: 10px;
         text-transform: uppercase;
+    }
+
+    .module-tuileSmooth-infos-uptitre {
+        color: #8B2C2C;
+        font-family: GothamUltra;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
     
     .module-tuileSmooth-infos-titre1 {
