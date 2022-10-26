@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import {Tuile} from '../modules/Tuile';
 
@@ -9,14 +9,14 @@ class Contact extends Component {
 
         const contacts = {
             presidentMail: "president@asso.miagebordeaux.fr",
-            nameFirst: "L'ASSO",linkFirst: "/association",
-            nameSecond: "ESCALADE",linkSecond: "/escalade",
-            nameThird: "RANDONNEE",linkThird: "/randonnee",
-            nameFourth: "PHOTO",linkFourth: "/photo",
-            nameFifth: "CONTACT",linkFifth: "/contact"
+            nameFirst: "L'ASSO", linkFirst: "/association",
+            nameSecond: "ESCALADE", linkSecond: "/escalade",
+            nameThird: "RANDONNEE", linkThird: "/randonnee",
+            nameFourth: "PHOTO", linkFourth: "/photo",
+            nameFifth: "CONTACT", linkFifth: "/contact"
         };
 
-        return(
+        return (
             <div class="page-contact">
                 <div class="page-contact-title">Contact</div>
                 <div class="page-contact-subtitle">Président</div>

@@ -7,7 +7,7 @@ S'occupe de la gestion des differents urls du site web
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Redirect} from 'react-router-dom';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 // Liste des feuilles css necessaires
 import './design/root.css';
@@ -31,29 +31,28 @@ import Adhesion from './pages/association/Adhesion';
 
 // Routing du site
 const routing = (
-  <Router basename={`${process.env.PUBLIC_URL}/`}>
-    <ScrollToTop>
-    <Navbar />
-    <Switch>
-      <Route exact path='/' component={Accueil} />
-      <Route exact path='/events' component={Events} />
-      <Route exact path='/events/afterwork-de-rentree-amb-jmc' component={AWrentreeAMBJMC} />
-      <Route exact path='/memories' component={Memories} />
-      <Route exact path='/shop' component={Shop} />
-      <Route exact path='/breviaire' component={Breviaire} />       
-      <Route exact path='/association/adhesion' component={Adhesion} />
-      <Route exact path='/partenariats' component={Events} />
-      
-      <Route exact path='/wordpress' component={Wordpress} />  
-      <Route component={Page404} />
-    </Switch>
-    <Footer />
-    </ScrollToTop>
-  </Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
+        <ScrollToTop>
+            <Navbar/>
+            <Switch>
+                <Route exact path='/' component={Accueil}/>
+                <Route exact path='/events' component={Events}/>
+                <Route exact path='/events/afterwork-de-rentree-amb-jmc' component={AWrentreeAMBJMC}/>
+                <Route exact path='/memories' component={Memories}/>
+                <Route exact path='/shop' component={Shop}/>
+                <Route exact path='/breviaire' component={Breviaire}/>
+                <Route exact path='/association/adhesion' component={Adhesion}/>
+
+                <Route exact path='/wordpress' component={Wordpress}/>
+                <Route component={Page404}/>
+            </Switch>
+            <Footer/>
+        </ScrollToTop>
+    </Router>
 )
 
 // Rendu des elements dans la page index.html
 ReactDOM.render(
-  routing,
-  document.getElementById('root')
+    routing,
+    document.getElementById('root')
 );

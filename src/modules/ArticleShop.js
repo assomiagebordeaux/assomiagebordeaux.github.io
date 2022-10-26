@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import '../design/commun/articleShop.css';
 
@@ -8,9 +8,9 @@ import IllustrationTop from '../images/shop.jpg';
 
 export function ArticleShop(props) {
 
-    return(
+    return (
         <div class="module-articleShop">
-            <div class="module-articleShop-illustrationTop" style ={{ backgroundImage: "url("+IllustrationTop+")" }}>
+            <div class="module-articleShop-illustrationTop" style={{backgroundImage: "url(" + IllustrationTop + ")"}}>
                 <div class="module-articleShop-illustrationTop-title">
                     Shop AMB
                 </div>
@@ -25,7 +25,7 @@ export function ArticleShop(props) {
                             Sweat x
                         </div>
                         <div class="module-articleShop-content-infos-prix">
-                            
+
                         </div>
                         <div class="module-articleShop-content-infos-disponibilite">
 
@@ -50,7 +50,7 @@ export function ArticleShop(props) {
                         </div>
                     </div>
                     <div class="module-articleShop-content-gallery">
-                        
+
                     </div>
                 </div>
             </div>
