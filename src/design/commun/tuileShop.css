@@ -1,76 +1,76 @@
 @media screen and (min-width: 391px) {
 
-.module-tuileShop {
-    /* height: 500px; */
-    width: 350px;
-    background-color: #F2F2F2;
-    margin: 20px 20px 20px 20px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-}
+    .module-tuileShop {
+        /* height: 500px; */
+        width: 350px;
+        background-color: #F2F2F2;
+        margin: 20px 20px 20px 20px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
 
-.module-tuileShop-imageProduit {
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
+    .module-tuileShop-imageProduit {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
 
-.module-tuileShop-imageProduit img {
-    width: 250px;
-    height: auto;
-    max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .module-tuileShop-imageProduit img {
+        width: 250px;
+        height: auto;
+        max-height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.module-tuileShop-infosProduit {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-self: center;
-    height: max-content;
-}
+    .module-tuileShop-infosProduit {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-self: center;
+        height: max-content;
+    }
 
-.module-tuileShop-infosProduit-siNouveauté {
-    font-family: var(--tuileShop-siNouveauProduit-font-family);
-    color: #E85D00;
-    font-size: 0.8rem;
-    padding-top: 5px;
-}
+    .module-tuileShop-infosProduit-siNouveauté {
+        font-family: var(--tuileShop-siNouveauProduit-font-family);
+        color: #E85D00;
+        font-size: 0.8rem;
+        padding-top: 5px;
+    }
 
-.module-tuileShop-infosProduit-nom {
-    font-family: var(--tuileShop-nomProduit-font-family);
-    font-size: 1.3rem;
-    padding-top: 10px;
-    color: black;
-}
+    .module-tuileShop-infosProduit-nom {
+        font-family: var(--tuileShop-nomProduit-font-family);
+        font-size: 1.3rem;
+        padding-top: 10px;
+        color: black;
+    }
 
-.module-tuileShop-infosProduit-prix {
-    padding-top: 8px;
-    font-size: 0.9rem;
-    font-family: var(--tuileShop-prixProduit-font-family);
-    color: gray;
-}
+    .module-tuileShop-infosProduit-prix {
+        padding-top: 8px;
+        font-size: 0.9rem;
+        font-family: var(--tuileShop-prixProduit-font-family);
+        color: gray;
+    }
 
-.module-tuileShop-infosProduit-etatProduit {
-    padding-top: 8px;
-    /* padding-bottom: 40px; */
-    font-size: 0.9rem;
-}
+    .module-tuileShop-infosProduit-etatProduit {
+        padding-top: 8px;
+        /* padding-bottom: 40px; */
+        font-size: 0.9rem;
+    }
 
-.disponible {   
-    font-family: var(--tuileShop-etatProduit-font-family);
-    color:#6ACA6B;
-}
+    .disponible {
+        font-family: var(--tuileShop-etatProduit-font-family);
+        color: #6ACA6B;
+    }
 
-.indisponible {
-    font-family: var(--tuileShop-etatProduit-font-family);
-    color:#FC363B;
-}
+    .indisponible {
+        font-family: var(--tuileShop-etatProduit-font-family);
+        color: #FC363B;
+    }
 
 }
 
@@ -84,12 +84,12 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .module-tuileShop-imageProduit {
         padding-top: 40px;
         padding-bottom: 20px;
     }
-    
+
     .module-tuileShop-imageProduit img {
         width: 250px;
         height: auto;
@@ -98,7 +98,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .module-tuileShop-infosProduit {
         text-align: center;
         padding-left: 20px;
@@ -108,42 +108,42 @@
         align-content: center;
         align-self: center;
     }
-    
+
     .module-tuileShop-infosProduit-siNouveauté {
         font-family: var(--tuileShop-siNouveauProduit-font-family);
         color: #E85D00;
         font-size: 0.8rem;
         padding-top: 10px;
     }
-    
+
     .module-tuileShop-infosProduit-nom {
         font-family: var(--tuileShop-nomProduit-font-family);
         padding-top: 10px;
         font-size: 1.3rem;
         color: black;
     }
-    
+
     .module-tuileShop-infosProduit-prix {
         padding-top: 8px;
         font-size: 0.9rem;
         font-family: var(--tuileShop-prixProduit-font-family);
         color: gray;
     }
-    
+
     .module-tuileShop-infosProduit-etatProduit {
         padding-top: 8px;
         padding-bottom: 40px;
         font-size: 0.9rem;
     }
-    
-    .disponible {   
+
+    .disponible {
         font-family: var(--tuileShop-etatProduit-font-family);
-        color:#6ACA6B;
+        color: #6ACA6B;
     }
-    
+
     .indisponible {
         font-family: var(--tuileShop-etatProduit-font-family);
-        color:#FC363B;
+        color: #FC363B;
     }
 
 

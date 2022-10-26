@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 import '../design/commun/navbar.css'
 
@@ -18,18 +18,20 @@ function hideMenu() {
 }
 
 class Navbar extends Component {
-    componentDidMount(){
+    componentDidMount() {
         hideMenu();
     }
+
     render() {
         const data = {
             linkLogo: "/",
-            nameFirst: "Accueil",linkFirst: "/",
-            nameSecond: "Events",linkSecond: "/events",
-            nameThird: "Memories",linkThird: "/memories",
-            nameFourth: "Shop",linkFourth: "/shop",
-            name5: "ADHÉRER",link5: "/association/adhesion"
+            nameFirst: "Accueil", linkFirst: "/",
+            nameSecond: "Events", linkSecond: "/events",
+            nameThird: "Memories", linkThird: "/memories",
+            nameFourth: "Shop", linkFourth: "/shop",
+            name5: "ADHÉRER", link5: "/association/adhesion"
         };
+
         function displayMenu() {
             var x = document.getElementById("module-navbar-column-menu");
             if (x.style.display === "none") {
@@ -38,16 +40,16 @@ class Navbar extends Component {
                 x.style.display = "none";
             }
         };
-        return(
+        return (
             <div class="module-navbar">
 
                 <div class="module-navbar-row">
                     <div class="module-navbar-row-logo">
-                    <Link class="module-navbar-row-logo-img" to={data.linkLogo}><img src={logo} alt="Logo"/></Link>
+                        <Link class="module-navbar-row-logo-img" to={data.linkLogo}><img src={logo} alt="Logo"/></Link>
                     </div>
                     <div class="module-navbar-row-menu">
                         <div class="module-navbar-row-menu-lien">
-                            <Link to={data.linkFirst}>{data.nameFirst}</Link>  
+                            <Link to={data.linkFirst}>{data.nameFirst}</Link>
                         </div>
                         <div class="module-navbar-row-menu-lien module-navbar-row-menu-lien-margin-left">
                             <Link to={data.linkSecond}>{data.nameSecond}</Link>
@@ -64,7 +66,8 @@ class Navbar extends Component {
                 <div class="module-navbar-column">
                     <div class="module-navbar-column-first-row">
                         <div class="module-navbabr-column-first-row-logo">
-                            <Link class="module-navbabr-column-first-row-logo-img" to={data.linkLogo} onClick={hideMenu}><img src={logo} alt="Logo"/></Link>
+                            <Link class="module-navbabr-column-first-row-logo-img" to={data.linkLogo}
+                                  onClick={hideMenu}><img src={logo} alt="Logo"/></Link>
                         </div>
                         <div className="module-navbabr-column-first-row-icon" onClick={displayMenu}>
                             <i class="fa fa-bars"></i>
@@ -72,7 +75,7 @@ class Navbar extends Component {
                     </div>
                     <div id="module-navbar-column-menu" class="module-navbar-column-menu">
                         <div class="module-navbar-column-menu-lien">
-                            <Link to={data.linkFirst} onClick={hideMenu}>{data.nameFirst}</Link>  
+                            <Link to={data.linkFirst} onClick={hideMenu}>{data.nameFirst}</Link>
                         </div>
                         <div class="module-navbar-column-menu-lien module-navbar-column-menu-lien-marginTop">
                             <Link to={data.linkSecond} onClick={hideMenu}>{data.nameSecond}</Link>

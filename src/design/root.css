@@ -1,12 +1,12 @@
 :root {
     /* Theme AMB standard */
-    --bleu-AMB: rgb(28,31,61);
-    --orange-AMB: rgb(216,160,73);
+    --bleu-AMB: rgb(28, 31, 61);
+    --orange-AMB: rgb(216, 160, 73);
     --white-AMB: white;
 
     /* Buttons specs */
-    --button-bleuAMB-backgroundcolor:var(--bleu-AMB);
-    --button-bleuAMB-backgroundcolor-hover:#454EA1;
+    --button-bleuAMB-backgroundcolor: var(--bleu-AMB);
+    --button-bleuAMB-backgroundcolor-hover: #454EA1;
     --button-font-family: GothamBook;
     --button-grey-color: #BCBCBC;
 
@@ -134,7 +134,6 @@ body {
     font-family: Avengers;
     src: url(../fonts/Avengers.ttf);
 }
-
 
 
 body {

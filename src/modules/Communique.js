@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import '../design/commun/communique.css';
 
@@ -7,7 +7,7 @@ import {Button} from './Button';
 
 export function Communique(props) {
 
-    return(
+    return (
         <div class="page-communique">
             <div class="page-communique-titre">
                 {props.titre}
@@ -16,38 +16,38 @@ export function Communique(props) {
                 {props.paragraphe1}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe2}
+                {props.paragraphe2}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe3}
+                {props.paragraphe3}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe4}
+                {props.paragraphe4}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe5}
+                {props.paragraphe5}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe6}
+                {props.paragraphe6}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe7}
+                {props.paragraphe7}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe8}
+                {props.paragraphe8}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe9}
+                {props.paragraphe9}
             </div>
             <div class="page-communique-paragraphe">
-            {props.paragraphe10}
+                {props.paragraphe10}
             </div>
             <div class="page-communique-signatures">
                 <div class="page-communique-signature">
-                {props.signature1}
+                    {props.signature1}
                 </div>
                 <div class="page-communique-signature">
-                {props.signature2}
+                    {props.signature2}
                 </div>
             </div>
         </div>

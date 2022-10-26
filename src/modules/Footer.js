@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import '../design/commun/footer.css'
 
@@ -16,28 +16,31 @@ class Footer extends Component {
             <div class="module-footer">
 
                 <div class="module-footer-network">
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/assomiagebordeaux">
-                    <img class="module-footer-network-icon" src={Facebook} alt="Facebook"/>
-                </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/assomiagebordeaux/">
-                    <img class="module-footer-network-icon secondMore" src={Instagram} alt="Instagram"/>
-                </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://linkedin.com/company/amb-asso-miage-bordeaux">
-                    <img class="module-footer-network-icon secondMore" src={Linkedin} alt="Linkedin"/>
-                </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://m.me/assomiagebordeaux">
-                    <img class="module-footer-network-icon secondMore" src={Messenger} alt="Messenger"/>
-                </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/Ky9JU2mWpK">
-                    <img class="module-footer-network-icon secondMore" src={Discord} alt="Discord"/>
-                </a>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="mailto:asso@miagebordeaux.fr">
-                    <img class="module-footer-network-icon secondMore" src={Mail} alt="Mail"/>
-                </a>    
+                    <a target="_blank" rel="noopener noreferrer nofollow"
+                       href="https://www.facebook.com/assomiagebordeaux">
+                        <img class="module-footer-network-icon" src={Facebook} alt="Facebook"/>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer nofollow"
+                       href="https://www.instagram.com/assomiagebordeaux/">
+                        <img class="module-footer-network-icon secondMore" src={Instagram} alt="Instagram"/>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer nofollow"
+                       href="https://linkedin.com/company/amb-asso-miage-bordeaux">
+                        <img class="module-footer-network-icon secondMore" src={Linkedin} alt="Linkedin"/>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer nofollow" href="https://m.me/assomiagebordeaux">
+                        <img class="module-footer-network-icon secondMore" src={Messenger} alt="Messenger"/>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/Ky9JU2mWpK">
+                        <img class="module-footer-network-icon secondMore" src={Discord} alt="Discord"/>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer nofollow" href="mailto:asso@miagebordeaux.fr">
+                        <img class="module-footer-network-icon secondMore" src={Mail} alt="Mail"/>
+                    </a>
                 </div>
 
                 <div class="module-footer-mentions">
-                Copyright © 2021 Asso MIAGE Bordeaux. Tous droits réservés.
+                    Copyright © 2022 Asso MIAGE Bordeaux. Tous droits réservés.
                 </div>
 
                 <a target="_blank" rel="noopener noreferrer nofollow" href="https://miage.emi.u-bordeaux.fr">
