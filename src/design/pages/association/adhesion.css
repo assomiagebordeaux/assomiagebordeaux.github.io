@@ -5,14 +5,14 @@
         margin-right: 8%;
         margin-bottom: 8%;
     }
-    
+
     .page-adhesion-title {
         margin-top: 6%;
         margin-bottom: 6%;
         font-family: var(--page-title-font-family);
         font-size: var(--page-title-font-size);
     }
-    
+
     .page-adhesion-subtitle {
         font-family: var(--page-subtitle-font-family);
         font-size: var(--page-subtitle-font-size);
@@ -65,85 +65,85 @@
         font-size: var(--tuile-event-description-font-size);
         text-align: center;
     }
-    
-    }
-    
-    @media screen and (max-width: 699px) {
-    
-        .page-adhesion {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-        
-        .page-adhesion-title {
-            margin-top: 50px;
-            margin-bottom: 50px;
-            font-family: var(--page-title-font-family);
-            font-size: var(--page-title-font-size);
-            text-align: center;
-        }
-        
-        .page-adhesion-subtitle {
-            font-family: var(--page-subtitle-font-family);
-            font-size: var(--page-subtitle-font-size);
-            color: var(--page-subtitle-color);
-            text-transform: uppercase;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-    
-        .page-paragraphe {
-            font-family: var(--page-subtitle-font-family);
-            text-align: center;
-            line-height: 25px;
-        }
 
-        .page-paragraphe li {
-            text-align: left;
-        }
-    
-        .page-column {
-            display: flex;
-            flex-direction: column;
-            margin-top: 20px;
-        }
-    
-        .page-column-section {
-            width: inherit;
-            border: 3px solid var(--orange-AMB);
-            padding: 20px;
-        }
-    
-        .page-column-section-margin {
-            margin-bottom: 20px;
-        }
-    
-        .page-column-section-title {
-            font-family: var(--page-title-font-family);
-            font-size: var(--page-subtitle-font-size);
-            text-align: center;
-        }
-    
-        .page-column-section-paragraphe {
-            font-family: var(--page-subtitle-font-family);
-            font-size: var(--tuile-event-description-font-size);
-            text-align: center;
-        }
-    
-        .page-column-section-link {
-            margin-top: 20px;
-            text-align: center;
-        }
-    
-        .page-column-section-link a {
-            font-family: var(--page-subtitle-font-family);
-            font-size: var(--tuile-event-description-font-size);
-            text-align: center;
-        }
+}
 
-        .page-section-final {
-            margin-bottom: 50px;
-        }
-    
+@media screen and (max-width: 699px) {
+
+    .page-adhesion {
+        margin-left: 20px;
+        margin-right: 20px;
     }
+
+    .page-adhesion-title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: var(--page-title-font-family);
+        font-size: var(--page-title-font-size);
+        text-align: center;
+    }
+
+    .page-adhesion-subtitle {
+        font-family: var(--page-subtitle-font-family);
+        font-size: var(--page-subtitle-font-size);
+        color: var(--page-subtitle-color);
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .page-paragraphe {
+        font-family: var(--page-subtitle-font-family);
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .page-paragraphe li {
+        text-align: left;
+    }
+
+    .page-column {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .page-column-section {
+        width: inherit;
+        border: 3px solid var(--orange-AMB);
+        padding: 20px;
+    }
+
+    .page-column-section-margin {
+        margin-bottom: 20px;
+    }
+
+    .page-column-section-title {
+        font-family: var(--page-title-font-family);
+        font-size: var(--page-subtitle-font-size);
+        text-align: center;
+    }
+
+    .page-column-section-paragraphe {
+        font-family: var(--page-subtitle-font-family);
+        font-size: var(--tuile-event-description-font-size);
+        text-align: center;
+    }
+
+    .page-column-section-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-column-section-link a {
+        font-family: var(--page-subtitle-font-family);
+        font-size: var(--tuile-event-description-font-size);
+        text-align: center;
+    }
+
+    .page-section-final {
+        margin-bottom: 50px;
+    }
+
+}

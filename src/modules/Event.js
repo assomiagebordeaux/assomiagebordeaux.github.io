@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import '../design/commun/event.css';
 
@@ -10,9 +10,9 @@ import Calendar from '../icons/calendar.svg';
 
 export function Event(props) {
 
-    return(
+    return (
         <div class="module-event">
-            <div class="module-event-couverture" style ={{ backgroundImage: "url("+props.couvertureUrl+")" }}>
+            <div class="module-event-couverture" style={{backgroundImage: "url(" + props.couvertureUrl + ")"}}>
                 <div class="module-event-couverture-titre">{props.title}</div>
             </div>
             <div class="module-event-blocInfos">
@@ -23,9 +23,9 @@ export function Event(props) {
                     {props.resume}
                 </div>
                 <div class="module-event-blocInfos-express">
-                <div class="module-event-blocInfos-express-prix module-event-blocInfos-express-prix-MARGIN">
+                    <div class="module-event-blocInfos-express-prix module-event-blocInfos-express-prix-MARGIN">
                         <div class="module-event-blocInfos-express-prix-icon">
-                            <img src={Calendar} alt ="euro" />
+                            <img src={Calendar} alt="euro"/>
                         </div>
                         <div class="module-event-blocInfos-express-prix-infos">
                             <div class="module-event-blocInfos-express-prix-infos-principal">
@@ -38,10 +38,10 @@ export function Event(props) {
                                 {props.calendar3}
                             </div>
                         </div>
-                </div>
-                <div class="module-event-blocInfos-express-prix module-event-blocInfos-express-prix-MARGIN">
+                    </div>
+                    <div class="module-event-blocInfos-express-prix module-event-blocInfos-express-prix-MARGIN">
                         <div class="module-event-blocInfos-express-prix-icon">
-                            <img src={Location} alt ="euro" />
+                            <img src={Location} alt="euro"/>
                         </div>
                         <div class="module-event-blocInfos-express-prix-infos">
                             <div class="module-event-blocInfos-express-prix-infos-principal">
@@ -54,10 +54,10 @@ export function Event(props) {
                                 {props.lieu3}
                             </div>
                         </div>
-                </div>
-                <div class="module-event-blocInfos-express-prix">
+                    </div>
+                    <div class="module-event-blocInfos-express-prix">
                         <div class="module-event-blocInfos-express-prix-icon">
-                            <img src={Euro} alt ="euro" />
+                            <img src={Euro} alt="euro"/>
                         </div>
                         <div class="module-event-blocInfos-express-prix-infos">
                             <div class="module-event-blocInfos-express-prix-infos-principal">
@@ -70,58 +70,58 @@ export function Event(props) {
                                 {props.prix3}
                             </div>
                         </div>
+                    </div>
                 </div>
-                </div>
-                { props.siInscription === "true" ? 
-                <div class="module-event-blocInfos-inscription">
-                <Button
-                typeBouton="externe"  
-                color="bleuAMB"
-                link={props.linkInscription}
-                label="S'inscrire"
-                />
-                </div>
-                :
-                <div></div> 
+                {props.siInscription === "true" ?
+                    <div class="module-event-blocInfos-inscription">
+                        <Button
+                            typeBouton="externe"
+                            color="bleuAMB"
+                            link={props.linkInscription}
+                            label="S'inscrire"
+                        />
+                    </div>
+                    :
+                    <div></div>
                 }
-                { props.siInscriptionMiagiste === "true" ? 
-                <div class="module-event-blocInfos-inscription">
-                <Button
-                typeBouton="info" 
-                color="bleuAMB"
-                link=""
-                label="Inscription réservée aux miagistes pour l'instant"
-                />
-                </div>
-                :
-                <div></div> 
+                {props.siInscriptionMiagiste === "true" ?
+                    <div class="module-event-blocInfos-inscription">
+                        <Button
+                            typeBouton="info"
+                            color="bleuAMB"
+                            link=""
+                            label="Inscription réservée aux miagistes pour l'instant"
+                        />
+                    </div>
+                    :
+                    <div></div>
                 }
-                    <Deroulements 
+                <Deroulements
                     nombreDeroulements={props.nombreDeroulements}
                     deroulement1={props.deroulement1}
                     deroulement2={props.deroulement2}
                     deroulement3={props.deroulement3}
                     deroulement4={props.deroulement4}
                     deroulement5={props.deroulement5}
-                    />
-                    <Reductions
-                    nombreReductions={props.nombreReductions} 
+                />
+                <Reductions
+                    nombreReductions={props.nombreReductions}
                     reduction1={props.reduction1}
                     reduction2={props.reduction2}
                     reduction3={props.reduction3}
                     reduction4={props.reduction4}
                     reduction5={props.reduction5}
-                    />
+                />
                 <div class="module-event-blocInfos-section">
                     <div class="module-event-blocInfos-titre">Plan d'accès</div>
-                    <iframe 
-                    src={props.planAcces} 
-                    width="100%" 
-                    height="400px" 
-                    frameborder="0" 
-                    allowfullscreen="" 
-                    aria-hidden="false" 
-                    tabindex="0"></iframe>
+                    <iframe
+                        src={props.planAcces}
+                        width="100%"
+                        height="400px"
+                        frameborder="0"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"></iframe>
                 </div>
                 {/* <div class="module-event-blocInfos-section">
                     <div class="module-event-blocInfos-titre">Modalités</div>
@@ -136,78 +136,78 @@ export default Event;
 
 function Reductions(props) {
 
-    if(props.nombreReductions === "1") {
-        return(
+    if (props.nombreReductions === "1") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Réduction</div>
-                <Reduction 
-                reduction = {props.reduction1}
+                <Reduction
+                    reduction={props.reduction1}
                 />
             </div>
         );
-    } else if(props.nombreReductions === "2") {
-        return(
+    } else if (props.nombreReductions === "2") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Réductions</div>
-                <Reduction 
-                reduction = {props.reduction1}
+                <Reduction
+                    reduction={props.reduction1}
                 />
-                <Reduction 
-                reduction = {props.reduction2}
+                <Reduction
+                    reduction={props.reduction2}
                 />
             </div>
         );
-    } else if(props.nombreReductions === "3") {
-        return(
+    } else if (props.nombreReductions === "3") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Réductions</div>
-                <Reduction 
-                reduction = {props.reduction1}
+                <Reduction
+                    reduction={props.reduction1}
                 />
-                <Reduction 
-                reduction = {props.reduction2}
+                <Reduction
+                    reduction={props.reduction2}
                 />
-                <Reduction 
-                reduction = {props.reduction3}
+                <Reduction
+                    reduction={props.reduction3}
                 />
             </div>
         );
-    } else if(props.nombreReductions === "4") {
-        return(
+    } else if (props.nombreReductions === "4") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Réductions</div>
-                <Reduction 
-                reduction = {props.reduction1}
+                <Reduction
+                    reduction={props.reduction1}
                 />
-                <Reduction 
-                reduction = {props.reduction2}
+                <Reduction
+                    reduction={props.reduction2}
                 />
-                <Reduction 
-                reduction = {props.reduction3}
+                <Reduction
+                    reduction={props.reduction3}
                 />
-                <Reduction 
-                reduction = {props.reduction4}
+                <Reduction
+                    reduction={props.reduction4}
                 />
             </div>
         );
-    } else if(props.nombreReductions === "5") {
-        return(
+    } else if (props.nombreReductions === "5") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Réductions</div>
-                <Reduction 
-                reduction = {props.reduction1}
+                <Reduction
+                    reduction={props.reduction1}
                 />
-                <Reduction 
-                reduction = {props.reduction2}
+                <Reduction
+                    reduction={props.reduction2}
                 />
-                <Reduction 
-                reduction = {props.reduction3}
+                <Reduction
+                    reduction={props.reduction3}
                 />
-                <Reduction 
-                reduction = {props.reduction4}
+                <Reduction
+                    reduction={props.reduction4}
                 />
-                <Reduction 
-                reduction = {props.reduction5}
+                <Reduction
+                    reduction={props.reduction5}
                 />
             </div>
         );
@@ -217,95 +217,95 @@ function Reductions(props) {
 }
 
 function Reduction(props) {
-        return (
-            <div class="module-event-blocInfos-reduction">
-                <div class="module-event-blocInfos-reduction-nom">
-                    {props.reduction[0]}
-                </div>
-                <div class="module-event-blocInfos-reduction-prixNormal">
-                {props.reduction[1]}
-                </div>
-                <div class="module-event-blocInfos-reduction-prixReduction">
-                {props.reduction[2]}
-                </div>
+    return (
+        <div class="module-event-blocInfos-reduction">
+            <div class="module-event-blocInfos-reduction-nom">
+                {props.reduction[0]}
             </div>
-        );
+            <div class="module-event-blocInfos-reduction-prixNormal">
+                {props.reduction[1]}
+            </div>
+            <div class="module-event-blocInfos-reduction-prixReduction">
+                {props.reduction[2]}
+            </div>
+        </div>
+    );
 }
 
 function Deroulements(props) {
 
-    if(props.nombreDeroulements === "1") {
-        return(
+    if (props.nombreDeroulements === "1") {
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Déroulement</div>
-                <Deroulement 
-                deroulement={props.deroulement1}
+                <Deroulement
+                    deroulement={props.deroulement1}
                 />
             </div>
         );
     } else if (props.nombreDeroulements === "2") {
-        return(
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Déroulement</div>
-                <Deroulement 
-                deroulement={props.deroulement1}
+                <Deroulement
+                    deroulement={props.deroulement1}
                 />
-                <Deroulement 
-                deroulement={props.deroulement2}
+                <Deroulement
+                    deroulement={props.deroulement2}
                 />
             </div>
         );
     } else if (props.nombreDeroulements === "3") {
-        return(
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Déroulement</div>
-                <Deroulement 
-                deroulement={props.deroulement1}
+                <Deroulement
+                    deroulement={props.deroulement1}
                 />
-                <Deroulement 
-                deroulement={props.deroulement2}
+                <Deroulement
+                    deroulement={props.deroulement2}
                 />
-                <Deroulement 
-                deroulement={props.deroulement3}
+                <Deroulement
+                    deroulement={props.deroulement3}
                 />
             </div>
         );
     } else if (props.nombreDeroulements === "4") {
-        return(
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Déroulement</div>
-                <Deroulement 
-                deroulement={props.deroulement1}
+                <Deroulement
+                    deroulement={props.deroulement1}
                 />
-                <Deroulement 
-                deroulement={props.deroulement2}
+                <Deroulement
+                    deroulement={props.deroulement2}
                 />
-                <Deroulement 
-                deroulement={props.deroulement3}
+                <Deroulement
+                    deroulement={props.deroulement3}
                 />
-                <Deroulement 
-                deroulement={props.deroulement4}
+                <Deroulement
+                    deroulement={props.deroulement4}
                 />
             </div>
         );
     } else if (props.nombreDeroulements === "5") {
-        return(
+        return (
             <div class="module-event-blocInfos-section">
                 <div class="module-event-blocInfos-titre">Déroulement</div>
-                <Deroulement 
-                deroulement={props.deroulement1}
+                <Deroulement
+                    deroulement={props.deroulement1}
                 />
-                <Deroulement 
-                deroulement={props.deroulement2}
+                <Deroulement
+                    deroulement={props.deroulement2}
                 />
-                <Deroulement 
-                deroulement={props.deroulement3}
+                <Deroulement
+                    deroulement={props.deroulement3}
                 />
-                <Deroulement 
-                deroulement={props.deroulement4}
+                <Deroulement
+                    deroulement={props.deroulement4}
                 />
-                <Deroulement 
-                deroulement={props.deroulement5}
+                <Deroulement
+                    deroulement={props.deroulement5}
                 />
             </div>
         );
