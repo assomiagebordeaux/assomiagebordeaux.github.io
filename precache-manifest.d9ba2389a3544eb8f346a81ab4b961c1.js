@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4a537ada327fb0efa724877d1de63cd",
+    "revision": "6f5ca0b41ae0ae4780e8a03fdbfd5971",
     "url": "/index.html"
   },
   {
-    "revision": "41a4701ffa157d43ca14",
-    "url": "/static/css/main.213eef53.chunk.css"
+    "revision": "8b107236256e94854fdf",
+    "url": "/static/css/main.4a0ef356.chunk.css"
   },
   {
-    "revision": "c6365fd78436574dafe2",
-    "url": "/static/js/2.d5904448.chunk.js"
+    "revision": "eb33a21daac93abc69e9",
+    "url": "/static/js/2.6f6385f1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d5904448.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6f6385f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41a4701ffa157d43ca14",
-    "url": "/static/js/main.84caa162.chunk.js"
+    "revision": "8b107236256e94854fdf",
+    "url": "/static/js/main.5cfeea3e.chunk.js"
   },
   {
     "revision": "7f2b423e5b99f007c593",
@@ -156,18 +156,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LogoAMB.6f542d24.png"
   },
   {
-    "revision": "bd3a8f5e3c270e2fa61f5dc988293ee3",
-    "url": "/static/media/NuitEtudiant.bd3a8f5e.png"
-  },
-  {
-    "revision": "ec2dc840f3a8f62a24c95e56ca049753",
-    "url": "/static/media/Pull_Black.ec2dc840.png"
-  },
-  {
-    "revision": "1380007e995f2bd29005907da6163c9f",
-    "url": "/static/media/Pull_Blue.1380007e.png"
-  },
-  {
     "revision": "cc62602b9d9bc3bc9c0c42b41b79c287",
     "url": "/static/media/SI20182019_1.cc62602b.jpg"
   },
@@ -256,10 +244,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/WEI20192020_5.67eb6c0e.jpg"
   },
   {
-    "revision": "410789e80db1bbcdb96ceba1ea9b89c9",
-    "url": "/static/media/WEI2021.410789e8.png"
-  },
-  {
     "revision": "e6ce4c52af7594b4a9b83d8870609fe4",
     "url": "/static/media/WEI2021_1.e6ce4c52.jpg"
   },
@@ -280,8 +264,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/WEI2021_5.001f12dd.jpg"
   },
   {
-    "revision": "ef767d775f82d750cc0b7f0a0e4bab26",
-    "url": "/static/media/WEI_Aftermovie.ef767d77.png"
+    "revision": "09f1ba06d42665aab97652e618361d26",
+    "url": "/static/media/WEI2021_6.09f1ba06.png"
+  },
+  {
+    "revision": "95dc139d00c6ef860fb2f037e3b773e1",
+    "url": "/static/media/WEI2022.95dc139d.png"
+  },
+  {
+    "revision": "92e9f500b54d185d390fded17765846e",
+    "url": "/static/media/WEI2022_1.92e9f500.png"
+  },
+  {
+    "revision": "f7af1f22b3dfca327fb2fcb58498ad16",
+    "url": "/static/media/WEI2022_2.f7af1f22.png"
+  },
+  {
+    "revision": "37e55c377e87dbe304358a59e5b673f1",
+    "url": "/static/media/WEI2022_3.37e55c37.png"
+  },
+  {
+    "revision": "8db4a66b2efba7033ccb630e56a06716",
+    "url": "/static/media/WEI2022_4.8db4a66b.png"
+  },
+  {
+    "revision": "702fd7b229962256f8d9b0e80c12c43f",
+    "url": "/static/media/WEI2022_5.702fd7b2.png"
+  },
+  {
+    "revision": "3a4a3b2cbd8aed4adcd2c510a3ae2d4b",
+    "url": "/static/media/WEI2022_6.3a4a3b2c.png"
+  },
+  {
+    "revision": "47b87b9d638fe86d0cef632c4bef9a12",
+    "url": "/static/media/WEI_Aftermovie.47b87b9d.png"
   },
   {
     "revision": "5860475d70420b4353f07b49af0f00cb",
@@ -292,12 +308,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adhesion.12f910bc.jpg"
   },
   {
-    "revision": "7572c376d05b2b2c5b66b7b10098b2d6",
-    "url": "/static/media/calendar.7572c376.svg"
+    "revision": "43544a14d2c30063efb23f1cd36c50e2",
+    "url": "/static/media/calendar.43544a14.svg"
   },
   {
-    "revision": "12a8b42cd90c6dd17cc7f644662c51bd",
-    "url": "/static/media/euro.12a8b42c.svg"
+    "revision": "7a18724ae2a0e755db02ef2eb43dcb67",
+    "url": "/static/media/euro.7a18724a.svg"
   },
   {
     "revision": "8898693189fd813e7a6abd157f499560",
@@ -308,8 +324,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flasque-amb.4a1e1464.png"
   },
   {
-    "revision": "60d290478d4500b5d19ec4bb8251f0fb",
-    "url": "/static/media/location.60d29047.svg"
+    "revision": "5a969c84a7bdbd81472d89693e5ed130",
+    "url": "/static/media/location.5a969c84.svg"
   },
   {
     "revision": "f9095dca422df1df0925bac6315b9bbb",
@@ -324,7 +340,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/shop.83664c2a.jpg"
   },
   {
-    "revision": "b2b8d8457b0874a526a130ad20045c96",
-    "url": "/static/media/wei20212022.b2b8d845.png"
+    "revision": "4c50d3b1c75e955d25129c1441655c9f",
+    "url": "/static/media/wei20222023.4c50d3b1.png"
   }
 ]);
