@@ -42,7 +42,7 @@ class Accueil extends Component {
                     uptitle=""
                     titre1="Memories"
                     titre1FontFamily="Memories"
-                    titre2="Les souvenirs épiques du MIAGE Infinity WEI !!"
+                    titre2="Les souvenirs fabuleux du MIAGE WEI-LANTA !!"
                     titre2FontFamily="GothamBook"
                     titre3=""
                     nombreBoutons="1"
