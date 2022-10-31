@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {Tuile} from '../modules/Tuile';
 
 import EventsIllustration from '../images/events.jpg';
+import Afterw from '../images/Afterwork.jpg'
 import Afterwork from '../images/AW-0809.png';
 import AfterworkAlumnis from '../images/AW-1509.png';
 import WEI from '../images/wei20222023.png';
@@ -26,6 +27,24 @@ class Events extends Component {
                     {/* <div class="page-events-subtitle">Prochain event</div>
 
                 <div class="page-events-subtitle">Events à venir</div> */}
+
+                    <Tuile
+                        display="true"
+                        type="event"
+                        status=""
+                        imageEvent={Afterw}
+                        typeEvent=""
+                        title="Block'Out AMB"
+                        lieu="Block'Out"
+                        date="04 novembre 2022 20h00"
+                        description="Parce que pour une bonne bière, un Miagiste grimperait n’importe quel obstacle."
+                        typeBouton="externe"
+                        button1Color="bleuAMB"
+                        button1Label="En savoir plus"
+                        button1Link="https://fb.me/e/fknn5p6O6"
+                        isLast="true"
+                    />
+
                     <div class="page-events-subtitle">Events passés</div>
                     <Tuile
                         display="true"
