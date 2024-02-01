@@ -97,23 +97,23 @@ class Memories extends Component {
                             <Tuile
                                 display="true"
                                 type="memories"
-                                siVideo="true"
-                                nombreImages="5"
-                                img1={WEI20222023_1}
-                                img2={WEI20222023_2}
-                                img3={WEI20222023_3}
-                                img4={WEI20222023_4}
-                                img5={WEI20222023_5}
-                                titreGauche="MIAGE WEI-LANTA"
-                                titreDroite="1-2 oct."
+                                siVideo="true" // dégage
+                                nombreImages="5" // dégage
+                                img1={WEI20222023_1} // dégage
+                                img2={WEI20222023_2} // dégage
+                                img3={WEI20222023_3} // dégage
+                                img4={WEI20222023_4} // dégage
+                                img5={WEI20222023_5} // dégage
+                                titreGauche="MIAGE WEI-LANTA" // Titre principal 
+                                titreDroite="1-2 oct." // date (+ année) | En fonction de l'année -> Trie
                                 description=" Si toi aussi tu es un vrai aventurier, alors arbore ton plus beau bandana et sois le dernier à rester debout dans ce WEI-LANTA !"
                                 lien="https://photos.app.goo.gl/ZTiHth3f8XSvUjgv5"
                                 siNouveau="true"
-                                siDateDeDispo="false"
-                                jourDispo="10"
-                                moisDispo="octobre"
-                                anneeDispo="2022"
-                                siPremierListe="true"
+                                siDateDeDispo="false" // dégage
+                                jourDispo="10" // dégage
+                                moisDispo="octobre" // dégage
+                                anneeDispo="2022" // dégage
+                                siPremierListe="true" // En fonction de la date (pas pertinent)
                             />
                             <Tuile
                                 display="true"

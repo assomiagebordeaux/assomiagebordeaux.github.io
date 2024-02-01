@@ -31,22 +31,21 @@ class Events extends Component {
                     <Tuile
                         display="true"
                         type="event"
-                        status=""
+                        status="" // over = gris + button disparait
                         imageEvent={Moustache}
-                        typeEvent=""
+                        typeEvent="" // dégage
                         title="Movember M-TECH X AMB"
                         lieu="Joya - Talence"
                         date="24 novembre 2022 21h00"
                         description="Il va falloir ramener sa plus belle moustache !"
-                        typeBouton="externe"
-                        button1Color="bleuAMB"
-                        button1Label="En savoir plus"
-                        button1Link="https://fb.me/e/30sQJAY0o"
-                        isLast="true"
+                        typeBouton="externe" // A regrouper dans 1 des 4 tuiles
+                        button1Color="bleuAMB" // A regrouper dans 1 des 4 tuiles
+                        button1Label="En savoir plus" // A regrouper dans 1 des 4 tuiles
+                        button1Link="https://fb.me/e/30sQJAY0o" // A regrouper dans 1 des 4 tuiles
+                        isLast="true" // dégage
                     />
 
-                    <div class="page-events-subtitle">Events passés</div>
-
+                    <div class="page-events-subtitle">Events passés</div> /* A gérer dans le backend */
                     <Tuile
                         display="true"
                         type="event"

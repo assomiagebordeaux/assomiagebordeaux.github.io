@@ -31,10 +31,10 @@ class Shop extends Component {
                             type="shop"
                             imageProduit={FlasqueAMB}
                             nomProduit="La Flasque AMB"
-                            siNouveauProduit="false"
-                            siPrixExact="true"
-                            prix="8,60 €"
-                            etatProduit="Indisponible"
+                            siNouveauProduit="false" // dégage
+                            siPrixExact="true" // Dégage | Restera toujours à true
+                            prix="8,60 €" 
+                            etatProduit="Indisponible" // boolean
                             //lien={lienFlasque} rholeczy 19/10/22 : "Il faut vérifier le nombre de flasques"
                         />
                     </div>
