@@ -88,12 +88,12 @@ export function TuileSmooth(props) {
                         </div>
                         {props.siImage === "true" ?
                             <div class="module-tuileSmooth-infos-boutons margin-bottom-boutons">
-                                {props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                                {/* {props.nombreBoutons === "" || props.nombreBoutons === "0" ?
                                     <div></div>
                                     :
                                     <div></div>
-                                }
-                                {props.nombreBoutons === "1" ?
+                                } */}
+                                {/* {props.nombreBoutons === "1" ?
                                     <div class="module-tuileSmooth-infos-boutons-1">
                                         <Button
                                             typeBouton={props.bouton1Type}
@@ -104,8 +104,8 @@ export function TuileSmooth(props) {
                                     </div>
                                     :
                                     <div></div>
-                                }
-                                {props.nombreBoutons === "2" ?
+                                } */}
+                                {/* {props.nombreBoutons === "2" ?
                                     <div class="module-tuileSmooth-infos-boutons-2">
                                         <div class="module-tuileSmooth-infos-boutons-left">
                                             <Button
@@ -126,17 +126,17 @@ export function TuileSmooth(props) {
                                     </div>
                                     :
                                     <div></div>
-                                }
+                                } */}
 
                             </div>
                             :
                             <div class="module-tuileSmooth-infos-boutons">
-                                {props.nombreBoutons === "" || props.nombreBoutons === "0" ?
+                                {/* {props.nombreBoutons === "" || props.nombreBoutons === "0" ?
                                     <div></div>
                                     :
                                     <div></div>
-                                }
-                                {props.nombreBoutons === "1" ?
+                                } */}
+                                {/* {props.nombreBoutons === "1" ?
                                     <div class="module-tuileSmooth-infos-boutons-1">
                                         <Button
                                             typeBouton={props.bouton1Type}
@@ -147,8 +147,8 @@ export function TuileSmooth(props) {
                                     </div>
                                     :
                                     <div></div>
-                                }
-                                {props.nombreBoutons === "2" ?
+                                } */}
+                                {/* {props.nombreBoutons === "2" ?
                                     <div class="module-tuileSmooth-infos-boutons-2">
                                         <div class="module-tuileSmooth-infos-boutons-left">
                                             <Button
@@ -169,7 +169,7 @@ export function TuileSmooth(props) {
                                     </div>
                                     :
                                     <div></div>
-                                }
+                                } */}
 
                             </div>
                         }

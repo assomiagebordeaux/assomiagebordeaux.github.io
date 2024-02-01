@@ -45,32 +45,32 @@ export function TuileMemories(props) {
             break;
     }
 
-    const dateDispoAvecJour = "Disponible le " + props.jourDispo + " " + props.moisDispo + " " + props.anneeDispo + ".";
-    const dateDispoSansJour = "Disponible en " + props.moisDispo + " " + props.anneeDispo + ".";
+    // const dateDispoAvecJour = "Disponible le " + props.jourDispo + " " + props.moisDispo + " " + props.anneeDispo + ".";
+    // const dateDispoSansJour = "Disponible en " + props.moisDispo + " " + props.anneeDispo + ".";
 
     if (props.siDateDeDispo === "true") {
-        return (
-            <div class="module-tuileMemories" style={{marginLeft: marginLeftTuileMemories}}>
-                <div style={{backgroundImage: image}} class="module-tuileMemories-image">
-                </div>
-                <div class="module-tuileMemories-titres">
-                    <div class="module-tuileMemories-titreGauche">
-                        {props.titreGauche}
-                    </div>
-                    <div class="module-tuileMemories-titreDroite">
-                        {props.titreDroite}
-                    </div>
-                </div>
-                <div class="module-tuilesMemories-dateDispo">
-                    {props.jourDispo === ""
-                        ?
-                        dateDispoSansJour
-                        :
-                        dateDispoAvecJour
-                    }
-                </div>
-            </div>
-        );
+        // return (
+        //     <div class="module-tuileMemories" style={{marginLeft: marginLeftTuileMemories}}>
+        //         <div style={{backgroundImage: image}} class="module-tuileMemories-image">
+        //         </div>
+        //         <div class="module-tuileMemories-titres">
+        //             <div class="module-tuileMemories-titreGauche">
+        //                 {props.titreGauche}
+        //             </div>
+        //             <div class="module-tuileMemories-titreDroite">
+        //                 {props.titreDroite}
+        //             </div>
+        //         </div>
+        //         <div class="module-tuilesMemories-dateDispo">
+        //             {props.jourDispo === ""
+        //                 ?
+        //                 dateDispoSansJour
+        //                 :
+        //                 dateDispoAvecJour
+        //             }
+        //         </div>
+        //     </div>
+        // );
     } else {
         return (
             <div class="module-tuileMemories" style={{marginLeft: marginLeftTuileMemories}}>
@@ -85,14 +85,16 @@ export function TuileMemories(props) {
                         }
                     </div>
                 </a>
-                <div class="module-tuileMemories-titres">
-                    <div class="module-tuileMemories-titreGauche">
-                        {props.titreGauche}
-                    </div>
-                    <div class="module-tuileMemories-titreDroite">
-                        {props.titreDroite}
-                    </div>
+                <div class="module-tuileMemories-titre">
+                {/* <div class="module-tuileMemories-titreGauche"> */}
+                    {props.titreGauche}
                 </div>
+
+                <div class="module-tuileMemories-dateMemories">
+                    {props.dateMemories}
+                </div>
+                {/* </div> */}
+        
                 <div class="module-tuilesMemories-description">
                     {props.description}
                 </div>

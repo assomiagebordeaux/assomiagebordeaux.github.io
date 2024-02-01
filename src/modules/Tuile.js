@@ -73,7 +73,7 @@ export function Tuile(props) {
                     button1Link={props.button1Link}
                     button2Color={props.button2Color}
                     button2Label={props.button2Label}
-                    button2Link={props.button2Link}
+                    lien={props.lien}
                     isLast={props.isLast}
                 />
             );
@@ -93,21 +93,21 @@ export function Tuile(props) {
             return (
                 <TuileMemories
                     siVideo={props.siVideo}
-                    nombreImages={props.nombreImages}
+                    // nombreImages={props.nombreImages}
                     img1={props.img1}
-                    img2={props.img2}
-                    img3={props.img3}
-                    img4={props.img4}
-                    img5={props.img5}
+                    // img2={props.img2}
+                    // img3={props.img3}
+                    // img4={props.img4}
+                    // img5={props.img5}
                     titreGauche={props.titreGauche}
-                    titreDroite={props.titreDroite}
+                    dateMemories={props.dateMemories}
                     description={props.description}
                     lien={props.lien}
                     siNouveau={props.siNouveau}
-                    siDateDeDispo={props.siDateDeDispo}
-                    jourDispo={props.jourDispo}
-                    moisDispo={props.moisDispo}
-                    anneeDispo={props.anneeDispo}
+                    // siDateDeDispo={props.siDateDeDispo}
+                    // jourDispo={props.jourDispo}
+                    // moisDispo={props.moisDispo}
+                    // anneeDispo={props.anneeDispo}
                     siPremierListe={props.siPremierListe}
                 />
             );

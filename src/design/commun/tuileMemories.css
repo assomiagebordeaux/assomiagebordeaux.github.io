@@ -24,12 +24,16 @@
         width: fit-content;
     }
 
-    .module-tuileMemories-titres {
-        display: flex;
-        flex-direction: row;
+    .module-tuileMemories-titre {
+        display: flex; /* A modifer plus tard  */
+        /* flex-direction: row; */
         justify-content: space-between;
         margin-top: 10px;
         font-family: var(--page-title-font-family);
+    }
+
+    .module-tuileMemories-dateMemories {
+        /* Rajoutez le CSS pour la date*/
     }
 
     .module-tuilesMemories-description {

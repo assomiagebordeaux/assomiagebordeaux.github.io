@@ -120,7 +120,7 @@ export function TuileEvent(props) {
                                 typeBouton={props.typeBouton}
                                 color={props.button1Color}
                                 label={props.button1Label}
-                                link={props.button1Link}
+                                link={props.lien}
                             />
                         </div>
                     }

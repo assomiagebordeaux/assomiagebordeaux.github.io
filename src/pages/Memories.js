@@ -97,232 +97,36 @@ class Memories extends Component {
                             <Tuile
                                 display="true"
                                 type="memories"
-                                siVideo="true" // dégage
-                                nombreImages="5" // dégage
+                                // siVideo="true" // dégage
+                                // nombreImages="1" // dégage
                                 img1={WEI20222023_1} // dégage
-                                img2={WEI20222023_2} // dégage
-                                img3={WEI20222023_3} // dégage
-                                img4={WEI20222023_4} // dégage
-                                img5={WEI20222023_5} // dégage
+                                // img2={WEI20222023_2} // dégage
+                                // img3={WEI20222023_3} // dégage
+                                // img4={WEI20222023_4} // dégage
+                                // img5={WEI20222023_5} // dégage
                                 titreGauche="MIAGE WEI-LANTA" // Titre principal 
-                                titreDroite="1-2 oct." // date (+ année) | En fonction de l'année -> Trie
+                                dateMemories="1-2 oct." // date (+ année) | En fonction de l'année -> Trie
                                 description=" Si toi aussi tu es un vrai aventurier, alors arbore ton plus beau bandana et sois le dernier à rester debout dans ce WEI-LANTA !"
                                 lien="https://photos.app.goo.gl/ZTiHth3f8XSvUjgv5"
                                 siNouveau="true"
-                                siDateDeDispo="false" // dégage
-                                jourDispo="10" // dégage
-                                moisDispo="octobre" // dégage
-                                anneeDispo="2022" // dégage
-                                siPremierListe="true" // En fonction de la date (pas pertinent)
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                siVideo="true"
-                                nombreImages="1"
-                                img1={WEI20222023_6}
-                                titreGauche="MIAGE WEI-LANTA : Aftermovie"
-                                titreDroite="1-2 oct."
-                                description="WEI-LANTA Aftermovie disponible maintenant !"
-                                lien="https://photos.app.goo.gl/ivXVSUFXkNtAV4qt6"
-                                siNouveau="true"
-                                siDateDeDispo="false"
-                                jourDispo="10"
-                                moisDispo="octobre"
-                                anneeDispo="2022"
-                                siPremierListe="false"
+                                // siDateDeDispo="false" // dégage
+                                // jourDispo="10" // dégage
+                                // moisDispo="octobre" // dégage
+                                // anneeDispo="2022" // dégage
+                                // siPremierListe="true" // En fonction de la date (pas pertinent)
                             />
                         </section>
 
                         <div class="page-memories-content-title">2021/2022</div>
                         <section class="page-memories-content-tuiles">
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={AW20212022_1}
-                                img2={AW20212022_2}
-                                img3={AW20212022_3}
-                                img4={AW20212022_4}
-                                img5={AW20212022_5}
-                                titreGauche="Afterwork de rentrée"
-                                titreDroite="8 sept."
-                                description="Quoi de mieux pour accueillir les nouveaux miagistes bordelais qu'une soirée de rentrée au Carnaval Café ?"
-                                lien="https://photos.app.goo.gl/ZFY9KoQDHiNK9KxdA"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo="15"
-                                moisDispo="septembre"
-                                anneeDispo="2021"
-                                siPremierListe="true"
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                siVideo="true"
-                                nombreImages="5"
-                                img1={WEI20212022_1}
-                                img2={WEI20212022_2}
-                                img3={WEI20212022_3}
-                                img4={WEI20212022_4}
-                                img5={WEI20212022_5}
-                                titreGauche="MIAGE Infinity WEI"
-                                titreDroite="2-3 oct."
-                                description="Mettez votre armure et embarquez sur l'héliporteur pour le retour du WEI MIAGE Bordeaux."
-                                lien="https://photos.app.goo.gl/6z88S7tq7t5gRhLu9"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo="15"
-                                moisDispo="octobre"
-                                anneeDispo="2021"
-                                siPremierListe="false"
-                            />
-
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                siVideo="true"
-                                nombreImages="1"
-                                img1={WEI20212022_6}
-                                titreGauche="MIAGE Infinity WEI : Aftermovie"
-                                titreDroite="2-3 oct."
-                                description="Mieux qu'un Avengers !"
-                                lien="https://photos.app.goo.gl/G2fuiPqFaAceNGgh7"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo="15"
-                                moisDispo="octobre"
-                                anneeDispo="2021"
-                                siPremierListe="false"
-                            />
                         </section>
 
                         <div class="page-memories-content-title">2019/2020</div>
                         <section class="page-memories-content-tuiles">
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={SI20192020_1}
-                                img2={SI20192020_2}
-                                img3={SI20192020_3}
-                                img4={SI20192020_4}
-                                img5={SI20192020_5}
-                                titreGauche="Soirée d'intégration"
-                                titreDroite="11 sept."
-                                description="C'était l'ÉVÈNEMENT de la rentrée 2019 ! Venez (re)vivre la dernière soirée de l'été et l'intégration des nouveaux miagistes !"
-                                lien="https://photos.app.goo.gl/16uNVnuAiExH8x7L9"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo="15"
-                                moisDispo="novembre"
-                                anneeDispo="2020"
-                                siPremierListe="true"
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={WEI20192020_1}
-                                img2={WEI20192020_2}
-                                img3={WEI20192020_3}
-                                img4={WEI20192020_4}
-                                img5={WEI20192020_5}
-                                titreGauche="Captain Croch'WEI"
-                                titreDroite="5-6 oct."
-                                description="Embarquez moussaillons, fiers z'et hardis, avec le Captain Croch'WEI pour un week-end explosif !"
-                                lien="https://photos.app.goo.gl/55np4ZhsB6fuuHK19"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo="3"
-                                moisDispo="octobre"
-                                anneeDispo="2020"
-                                siPremierListe="false"
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={CP20192020_1}
-                                img2={CP20192020_2}
-                                img3={CP20192020_3}
-                                img4={CP20192020_4}
-                                img5={CP20192020_5}
-                                titreGauche="Christmas Party"
-                                titreDroite="20 dec."
-                                description="Sortez vos plus beaux pulls de Noël pour la soirée de fin d'année concoctée par vos cinq assos préférées !"
-                                lien="https://photos.app.goo.gl/e6vHKZ4yTc8gXTx77 "
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo=""
-                                moisDispo="décembre"
-                                anneeDispo="2020"
-                                siPremierListe="false"
-                            />
                         </section>
 
                         <div class="page-memories-content-title">2018/2019</div>
                         <section class="page-memories-content-tuiles">
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={SI20182019_1}
-                                img2={SI20182019_2}
-                                img3={SI20182019_3}
-                                img4={SI20182019_4}
-                                img5={SI20182019_5}
-                                titreGauche="Soirée d'intégration"
-                                titreDroite="12 sept."
-                                description="Redécouvrez l'évènement de cette fin d'été : la soirée d'intégration des nouveaux miagistes très très 'chillance' (ou pas) !"
-                                lien="https://photos.app.goo.gl/zoatuP4ARZVPH4ko7"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo=""
-                                moisDispo="décembre"
-                                anneeDispo="2020"
-                                siPremierListe="true"
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={WEI20182019_1}
-                                img2={WEI20182019_2}
-                                img3={WEI20182019_3}
-                                img4={WEI20182019_4}
-                                img5={WEI20182019_5}
-                                titreGauche="FarWEI'st"
-                                titreDroite="6-7 oct."
-                                description="Chevauchez vers le Grand Ouest, passez par le saloon (sans en repartir) ou le feu de camp (sans vous brûler) et proftez du FarWEI'st !"
-                                lien="https://photos.app.goo.gl/1Z8xusN4hfWon7JY6"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo=""
-                                moisDispo="décembre"
-                                anneeDispo="2020"
-                                siPremierListe="false"
-                            />
-                            <Tuile
-                                display="true"
-                                type="memories"
-                                nombreImages="5"
-                                img1={GALA20182019_1}
-                                img2={GALA20182019_2}
-                                img3={GALA20182019_3}
-                                img4={GALA20182019_4}
-                                img5={GALA20182019_5}
-                                titreGauche="Gala MIAGE"
-                                titreDroite="5 avr."
-                                description="Revivez la soirée de cette 11ème édition du Gala MIAGE placée sous le signe des contes traditionnels ! "
-                                lien="https://photos.app.goo.gl/DXjqLghCqJGuCxzd7"
-                                siNouveau="false"
-                                siDateDeDispo="false"
-                                jourDispo=""
-                                moisDispo="décembre"
-                                anneeDispo="2020"
-                                siPremierListe="false"
-                            />
                         </section>
 
                     </div>

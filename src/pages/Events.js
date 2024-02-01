@@ -33,7 +33,7 @@ class Events extends Component {
                         type="event"
                         status="" // over = gris + button disparait
                         imageEvent={Moustache}
-                        typeEvent="" // dégage
+                        // typeEvent="" // dégage
                         title="Movember M-TECH X AMB"
                         lieu="Joya - Talence"
                         date="24 novembre 2022 21h00"
@@ -41,8 +41,8 @@ class Events extends Component {
                         typeBouton="externe" // A regrouper dans 1 des 4 tuiles
                         button1Color="bleuAMB" // A regrouper dans 1 des 4 tuiles
                         button1Label="En savoir plus" // A regrouper dans 1 des 4 tuiles
-                        button1Link="https://fb.me/e/30sQJAY0o" // A regrouper dans 1 des 4 tuiles
-                        isLast="true" // dégage
+                        lien="https://fb.me/e/30sQJAY0o" // A regrouper dans 1 des 4 tuiles
+                        // isLast="true" // dégage
                     />
 
                     <div class="page-events-subtitle">Events passés</div> /* A gérer dans le backend */
@@ -60,38 +60,6 @@ class Events extends Component {
                         button1Color="bleuAMB"
                         button1Label="En savoir plus"
                         button1Link=""
-                        isLast="false"
-                    />
-                    <Tuile
-                        display="true"
-                        type="event"
-                        status="over"
-                        imageEvent={AfterworkAlumnis}
-                        typeEvent=""
-                        title="Afterwork Alumni by Alumni MIAGE Bordeaux - Septembre"
-                        lieu="HMS Victory"
-                        date="21 septembre 2022"
-                        description="Alors, prêts à rencontrer des Miagistes diplômés depuis quelques années ?"
-                        typeBouton="externe"
-                        button1Color="bleuAMB"
-                        button1Label="En savoir plus"
-                        button1Link=""
-                        isLast="false"
-                    />
-                    <Tuile
-                        display="true"
-                        type="event"
-                        status="over"
-                        imageEvent={Afterwork}
-                        typeEvent=""
-                        title="Afterwork de rentrée AMB"
-                        lieu="STARFISH"
-                        date="08 septembre 2022"
-                        description="Si tu es un ancien, viens retrouver tes copains autour d’une bière bien fraîche, si tu es un nouveau, viens nous rencontrer autour d’un verre. On te présentera la MIAGE de Bordeaux, ainsi que les deux Assos qui la composent."
-                        typeBouton="interne"
-                        button1Color="bleuAMB"
-                        button1Label="En savoir plus"
-                        button1Link="/events/afterwork-de-rentree-amb-jmc"
                         isLast="false"
                     />
                 </div>
