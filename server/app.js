@@ -1,12 +1,15 @@
-const http = require('http');
+const express = require('express');
+const path = require('path');
 
-const server = http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello, World!\n');
-});
-
+const app = express();
 const port = 3000;
 
-server.listen(port, () => {
+app.use(express.static(path.join(__dirname, '../build')));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build', 'index.html'));
+});
+
+app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}/`);
 });
