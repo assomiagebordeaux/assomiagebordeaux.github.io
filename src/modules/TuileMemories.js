@@ -1,9 +1,9 @@
 import React from 'react';
 
 import '../design/commun/tuileMemories.css';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
-import {Button} from './Button'
+// import {Button} from './Button'
 
 export function TuileMemories(props) {
 

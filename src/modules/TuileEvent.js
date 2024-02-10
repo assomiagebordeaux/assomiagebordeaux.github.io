@@ -2,16 +2,16 @@ import React from 'react';
 
 import '../design/commun/tuileEvent.css';
 
-import {Button} from './Button'
+// import {Button} from './Button'
 
 export function TuileEvent(props) {
 
-    const typeEvent = props.typeEvent;
+    // const typeEvent = props.typeEvent;
 
-    var marginbottom = "0%";
-    if (props.isLast === "false") {
-        marginbottom = "";
-    }
+    // var marginbottom = "0%";
+    // if (props.isLast === "false") {
+    //     marginbottom = "";
+    // }
 
     // return(
     //     <div class="module-tuileEvent2">
@@ -117,20 +117,7 @@ export function TuileEvent(props) {
                         :
                         <div class="module-tuileEvent-info-buttons-button1">
                             <a 
-                                href={props.lien} 
-                                style={{
-                                    backgroundColor: '#1c1f3d',
-                                    border: 'none',
-                                    color: 'white', /* Couleur du texte */
-                                    textAlign: 'center',
-                                    textDecoration: 'none',
-                                    display: 'inline-block',
-                                    fontSize: '16px',
-                                    margin: '4px 2px',
-                                    cursor: 'pointer',
-                                    padding: '10px 20px', /* Rembourrage */
-                                    borderRadius: '12px' /* Coins arrondis */
-                                }}
+                                href={props.lien} class="module-tuileEvent-info-buttons-button2"
                             >
                                 En savoir plus
                             </a>
