@@ -116,12 +116,24 @@ export function TuileEvent(props) {
                         <div></div>
                         :
                         <div class="module-tuileEvent-info-buttons-button1">
-                            <Button
-                                typeBouton={props.typeBouton}
-                                color={props.button1Color}
-                                label={props.button1Label}
-                                link={props.lien}
-                            />
+                            <a 
+                                href={props.lien} 
+                                style={{
+                                    backgroundColor: '#1c1f3d',
+                                    border: 'none',
+                                    color: 'white', /* Couleur du texte */
+                                    textAlign: 'center',
+                                    textDecoration: 'none',
+                                    display: 'inline-block',
+                                    fontSize: '16px',
+                                    margin: '4px 2px',
+                                    cursor: 'pointer',
+                                    padding: '10px 20px', /* Rembourrage */
+                                    borderRadius: '12px' /* Coins arrondis */
+                                }}
+                            >
+                                En savoir plus
+                            </a>
                         </div>
                     }
                 </div>

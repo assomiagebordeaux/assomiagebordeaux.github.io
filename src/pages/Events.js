@@ -38,9 +38,9 @@ class Events extends Component {
                         lieu="Joya - Talence"
                         date="24 novembre 2022 21h00"
                         description="Il va falloir ramener sa plus belle moustache !"
-                        typeBouton="externe" // A regrouper dans 1 des 4 tuiles
-                        button1Color="bleuAMB" // A regrouper dans 1 des 4 tuiles
-                        button1Label="En savoir plus" // A regrouper dans 1 des 4 tuiles
+                        // typeBouton="externe" // A regrouper dans 1 des 4 tuiles
+                        // button1Color="bleuAMB" // A regrouper dans 1 des 4 tuiles
+                        // button1Label="En savoir plus" // A regrouper dans 1 des 4 tuiles
                         lien="https://fb.me/e/30sQJAY0o" // A regrouper dans 1 des 4 tuiles
                         // isLast="true" // dégage
                     />

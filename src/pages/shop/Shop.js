@@ -31,7 +31,7 @@ class Shop extends Component {
                             type="shop"
                             imageProduit={FlasqueAMB}
                             nomProduit="La Flasque AMB"
-                            siNouveauProduit="false" // dégage
+                            // siNouveauProduit="false" // dégage
                             siPrixExact="true" // Dégage | Restera toujours à true
                             prix="8,60 €" 
                             etatProduit="Indisponible" // boolean

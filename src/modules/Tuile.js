@@ -1,8 +1,6 @@
 import React from 'react';
 
-import {TuileMix} from './TuileMix';
 import {TuileEvent} from './TuileEvent';
-import {TuileInfo} from './TuileInfo';
 import {TuileMemories} from './TuileMemories';
 import {TuileShop} from './TuileShop';
 import {TuileSmooth} from './TuileSmooth';
@@ -15,25 +13,26 @@ export function Tuile(props) {
     if (isDisplay === "false") {
         return (null);
     } else {
-        if (type === "mix") {
-            return (
-                <TuileMix
-                    typeMix={props.typeMix}
-                    status={props.status}
-                    imgurl={props.imgurl}
-                    linkGlobal={props.linkGlobal}
-                    title={props.title}
-                    description={props.description}
-                    date={props.date}
-                    typeBouton={props.typeBouton}
-                    numberButtons={props.numberButtons}
-                    buttonColor={props.buttonColor}
-                    buttonLabel={props.buttonLabel}
-                    buttonLink={props.buttonLink}
-                    last={props.last}
-                />
-            );
-        } else if (type === "smooth") {
+        // if (type === "mix") {
+        //     return (
+        //         <TuileMix
+        //             typeMix={props.typeMix}
+        //             status={props.status}
+        //             imgurl={props.imgurl}
+        //             linkGlobal={props.linkGlobal}
+        //             title={props.title}
+        //             description={props.description}
+        //             date={props.date}
+        //             typeBouton={props.typeBouton}
+        //             numberButtons={props.numberButtons}
+        //             buttonColor={props.buttonColor}
+        //             buttonLabel={props.buttonLabel}
+        //             buttonLink={props.buttonLink}
+        //             last={props.last}
+        //         />
+        //     );
+        // } else 
+        if (type === "smooth") {
             return (
                 <TuileSmooth
                     typeSmooth={props.typeSmooth}
@@ -77,18 +76,18 @@ export function Tuile(props) {
                     isLast={props.isLast}
                 />
             );
-        } else if (type === "info") {
-            return (
-                <TuileInfo
-                    texte={props.texte}
-                    typeInfo={props.typeInfo}
-                    siBouton={props.siBouton}
-                    typeBouton={props.typeBouton}
-                    buttonColor={props.buttonColor}
-                    buttonLink={props.buttonLink}
-                    buttonLabel={props.buttonLabel}
-                />
-            );
+        // } else if (type === "info") {
+        //     return (
+        //         <TuileInfo
+        //             texte={props.texte}
+        //             typeInfo={props.typeInfo}
+        //             siBouton={props.siBouton}
+        //             typeBouton={props.typeBouton}
+        //             buttonColor={props.buttonColor}
+        //             buttonLink={props.buttonLink}
+        //             buttonLabel={props.buttonLabel}
+        //         />
+        //     );
         } else if (type === "memories") {
             return (
                 <TuileMemories
