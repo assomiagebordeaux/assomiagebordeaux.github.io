@@ -1,10 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-import '../design/commun/articleShop.css';
+import '../../design/commun/articleShop.css';
 
-import {Button} from './Button';
-import IllustrationTop from '../images/shop.jpg';
+import IllustrationTop from '../../images/shop.jpg';
 
 export function ArticleShop(props) {
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {TuileEvent} from './TuileEvent';
-import {TuileMemories} from './TuileMemories';
-import {TuileShop} from './TuileShop';
+import {TuileEvent} from '../events/TuileEvent';
+import {TuileMemories} from '../memories/TuileMemories';
+import {TuileShop} from '../shop/TuileShop';
 import {TuileSmooth} from './TuileSmooth';
 
 export function Tuile(props) {

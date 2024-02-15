@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
-import {Tuile} from '../../modules/Tuile';
+import {Tuile} from '../../modules/utilitaires/Tuile';
 
-import ShopIllustration from '../../images/shop.jpg';
-import FlasqueAMB from '../../images/shop/flasque-amb.png';
+import ShopIllustration from '../../assets/images/shop.jpg';
+import FlasqueAMB from '../../assets/images/shop/flasque-amb.png';
 
-import '../../design/pages/shop.css';
+import '../../assets/design/pages/shop.css';
 
 class Shop extends Component {
 

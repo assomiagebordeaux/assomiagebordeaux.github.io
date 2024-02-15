@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import Button from '../modules/Button';
+import Button from '../../modules/utilitaires/Button';
 
-import '../design/pages/breviaire.css'
+import '../../assets/design/pages/breviaire.css'
 
-import BreviairePDF from '../docs/BreviaireV1.1.pdf';
+import BreviairePDF from '../../assets/docs/BreviaireV1.1.pdf';
 
-import Illustration from '../images/Breviaire-Illustration.jpg';
+import Illustration from '../../assets/images/Breviaire-Illustration.jpg';
 
 class Breviaire extends Component {
 

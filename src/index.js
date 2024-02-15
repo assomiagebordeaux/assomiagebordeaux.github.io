@@ -10,21 +10,20 @@ import {Redirect} from 'react-router-dom';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 // Liste des feuilles css necessaires
-import './design/root.css';
+import './assets/design/root.css';
 
 // Liste des modules/pages necessaires
 import Accueil from './pages/Accueil';
-import Navbar from './modules/Navbar';
-import Footer from './modules/Footer';
-import Page404 from './pages/Page404';
-import Memories from './pages/Memories';
+import Navbar from './modules/utilitaires/Navbar';
+import Footer from './modules/utilitaires/Footer';
+import Page404 from './pages/erreur/Page404';
+import Memories from './pages/memories/Memories';
 import Shop from './pages/shop/Shop';
 
-import Events from './pages/Events';
-import AWrentreeAMBJMC from './pages/events/AW-Rentree-2021';
-import Wordpress from './pages/Wordpress';
-import ScrollToTop from './pages/ScrollToTop';
-import Breviaire from './pages/Breviaire';
+import Events from './pages/events/Events';
+import Wordpress from './pages/utilitaires/Wordpress';
+import ScrollToTop from './pages/utilitaires/ScrollToTop';
+import Breviaire from './pages/association/Breviaire';
 
 // import Contact from './pages/Contact';
 import Adhesion from './pages/association/Adhesion';
@@ -37,7 +36,6 @@ const routing = (
             <Switch>
                 <Route exact path='/' component={Accueil}/>
                 <Route exact path='/events' component={Events}/>
-                <Route exact path='/events/afterwork-de-rentree-amb-jmc' component={AWrentreeAMBJMC}/>
                 <Route exact path='/memories' component={Memories}/>
                 <Route exact path='/shop' component={Shop}/>
                 <Route exact path='/breviaire' component={Breviaire}/>

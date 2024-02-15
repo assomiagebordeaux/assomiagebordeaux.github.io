@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../design/commun/tuileEvent.css';
+import '../../assets/design/commun/tuileEvent.css';
 
 // import {Button} from './Button'
 

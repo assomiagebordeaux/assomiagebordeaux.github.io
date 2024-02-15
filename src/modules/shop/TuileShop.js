@@ -1,9 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-import '../design/commun/tuileShop.css';
-
-import {Button} from './Button'
+import '../../assets/design/commun/tuileShop.css';
 
 export function TuileShop(props) {
 

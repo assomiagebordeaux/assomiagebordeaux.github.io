@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-import '../design/pages/accueil.css'
+import '../assets/design/pages/accueil.css'
 
-import {Tuile} from '../modules/Tuile';
+import {Tuile} from '../modules/utilitaires/Tuile';
 
-import SmoothMemories from '../images/SmoothMemories.png'
-import MemoriesWEI2022 from '../images/WEI2022.png';
-import WEI2022_Aftermovie from '../images/WEI_Aftermovie.png'
+import SmoothMemories from '../assets/images/SmoothMemories.png'
+import MemoriesWEI2022 from '../assets/images/WEI2022.png';
+import WEI2022_Aftermovie from '../assets/images/WEI_Aftermovie.png'
 
 class Accueil extends Component {
     render() {

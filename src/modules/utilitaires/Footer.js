@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-import '../design/commun/footer.css'
+import '../../assets/design/commun/footer.css'
 
-import Facebook from '../icons/facebook.png';
-import Instagram from '../icons/instagram.png';
-import Linkedin from '../icons/linkedin.png';
-import Messenger from '../icons/messenger.png';
-import Discord from '../icons/discord.png';
-import Mail from '../icons/mail.png';
-import LogoMiage from '../images/LOGO_MIAGE.png';
+import Facebook from '../../assets/icons/facebook.png';
+import Instagram from '../../assets/icons/instagram.png';
+import Linkedin from '../../assets/icons/linkedin.png';
+import Messenger from '../../assets/icons/messenger.png';
+import Discord from '../../assets/icons/discord.png';
+import Mail from '../../assets/icons/mail.png';
+import LogoMiage from '../../assets/images/LOGO_MIAGE.png';
 
 class Footer extends Component {
     render() {

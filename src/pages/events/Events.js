@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 
-import {Tuile} from '../modules/Tuile';
+import {Tuile} from '../../modules/utilitaires/Tuile';
 
-import EventsIllustration from '../images/events.jpg';
-import Moustache from '../images/moustache.png'
-import Afterwork from '../images/AW-0809.png';
-import AfterworkAlumnis from '../images/AW-1509.png';
-import WEI from '../images/wei20222023.png';
+import EventsIllustration from '../../assets/images/events.jpg';
+import Moustache from '../../assets/images/moustache.png'
+import WEI from '../../assets/images/wei20222023.png';
 
-import '../design/pages/events.css'
+import '../../assets/design/pages/events.css'
 
 class Events extends Component {
     render() {

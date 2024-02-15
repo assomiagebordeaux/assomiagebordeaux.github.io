@@ -1,8 +1,8 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
 
-import '../design/commun/tuileSmooth.css';
-import '../design/commun/button.css'
+import '../../assets/design/commun/tuileSmooth.css';
+import '../../assets/design/commun/button.css'
 
 import {Button} from './Button'
 

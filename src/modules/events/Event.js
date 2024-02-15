@@ -1,12 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-import '../design/commun/event.css';
+import '../../design/commun/event.css';
 
-import {Button} from './Button';
-import Euro from '../icons/euro.svg';
-import Location from '../icons/location.svg';
-import Calendar from '../icons/calendar.svg';
+import {Button} from '../utilitaires/Button';
+import Euro from '../../icons/euro.svg';
+import Location from '../../icons/location.svg';
+import Calendar from '../../icons/calendar.svg';
 
 export function Event(props) {
 

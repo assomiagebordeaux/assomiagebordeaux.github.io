@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-import '../design/pages/page404.css'
+import '../../assets/design/pages/page404.css'
 
-import {Button} from '../modules/Button'
+import {Button} from '../../modules/utilitaires/Button'
 
 class Page404 extends Component {
     render() {

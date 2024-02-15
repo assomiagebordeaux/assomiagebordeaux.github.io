@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import '../design/commun/button.css'
+import '../../assets/design/commun/button.css'
 
 export function Button(props) {
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import '../../design/pages/association/adhesion.css'
+import '../../assets/design/pages/association/adhesion.css'
 
 // import {Button} from "../../modules/Button"
 
